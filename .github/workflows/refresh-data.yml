@@ -7,6 +7,7 @@ on:
       - 'scripts/update-public-data.mjs'
       - 'scripts/update-subnational-ipc-all.mjs'
       - 'scripts/update-wfp-chirps-all.mjs'
+      - 'scripts/write-public-data-js.mjs'
       - '.github/workflows/refresh-data.yml'
   schedule:
     - cron: '17 5 * * *'
@@ -38,8 +39,10 @@ jobs:
         run: node scripts/update-public-data.mjs
       - name: Refresh regional IPC for all countries
         run: node scripts/update-subnational-ipc-all.mjs
-      - name: Refresh CHIRPS and regional climate UI for all countries
+      - name: Refresh CHIRPS for all countries
         run: node scripts/update-wfp-chirps-all.mjs
+      - name: Write browser data file
+        run: node scripts/write-public-data-js.mjs
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
