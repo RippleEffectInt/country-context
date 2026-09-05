@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-09-05T17:40:14.730Z",
+  "generatedAt": "2026-09-05T17:46:41.283Z",
   "previous": {
-    "generatedAt": "2026-09-05T17:32:09.409Z",
+    "generatedAt": "2026-09-05T17:40:14.730Z",
     "global": {
       "enso": {
         "latest": {
@@ -457,6 +457,13 @@ window.PUBLIC_COUNTRY_DATA = {
             "type": "WF",
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
+            "date": "2026-08-25T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031656&episodeid=2&eventtype=WF"
+          },
+          {
+            "type": "WF",
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
             "date": "2026-08-29T00:00:00",
             "url": "https://www.gdacs.org/report.aspx?eventid=1031636&episodeid=2&eventtype=WF"
           },
@@ -545,53 +552,53 @@ window.PUBLIC_COUNTRY_DATA = {
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:40:15.141Z"
+      "updatedAt": "2026-09-05T17:46:41.492Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:40:16.073Z"
+      "updatedAt": "2026-09-05T17:46:42.441Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:40:16.337Z"
+      "updatedAt": "2026-09-05T17:46:42.591Z"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:40:40.765Z"
+      "updatedAt": "2026-09-05T17:46:48.299Z"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:41:00.475Z"
+      "updatedAt": "2026-09-05T17:46:50.826Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:41:18.739Z"
+      "updatedAt": "2026-09-05T17:46:51.581Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:41:37.978Z"
+      "updatedAt": "2026-09-05T17:46:53.845Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:42:02.882Z"
+      "updatedAt": "2026-09-05T17:46:55.921Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:42:21.876Z"
+      "updatedAt": "2026-09-05T17:46:58.584Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:42:41.084Z"
+      "updatedAt": "2026-09-05T17:47:03.308Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-09-05T17:42:47.112Z",
-      "error": "429 Too Many Requests"
+      "lastAttempt": "2026-09-05T17:47:03.382Z",
+      "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:43:15.327Z",
+      "updatedAt": "2026-09-05T17:47:33.797Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -670,6 +677,152 @@ window.PUBLIC_COUNTRY_DATA = {
         "fundingPct": null,
         "appeals": 1,
         "referencePeriodEnd": "2028-12-31T23:59:59"
+      },
+      "subnational": {
+        "foodSecurity": [
+          {
+            "name": "Mandera",
+            "phase3Plus": 1007000
+          },
+          {
+            "name": "Turkana",
+            "phase3Plus": 644400
+          },
+          {
+            "name": "Kilifi",
+            "phase3Plus": 597940
+          },
+          {
+            "name": "Wajir",
+            "phase3Plus": 549000
+          },
+          {
+            "name": "Dadaab",
+            "phase3Plus": 486802
+          },
+          {
+            "name": "Garissa",
+            "phase3Plus": 485500
+          },
+          {
+            "name": "Meru",
+            "phase3Plus": 397600
+          },
+          {
+            "name": "Kwale",
+            "phase3Plus": 395200
+          },
+          {
+            "name": "Kitui",
+            "phase3Plus": 377700
+          },
+          {
+            "name": "Tana River",
+            "phase3Plus": 370000
+          },
+          {
+            "name": "Makueni",
+            "phase3Plus": 319500
+          },
+          {
+            "name": "Marsabit",
+            "phase3Plus": 269500
+          },
+          {
+            "name": "Kisumu",
+            "phase3Plus": 265310
+          },
+          {
+            "name": "Baringo",
+            "phase3Plus": 229200
+          },
+          {
+            "name": "Samburu",
+            "phase3Plus": 183500
+          },
+          {
+            "name": "West Pokot",
+            "phase3Plus": 141200
+          },
+          {
+            "name": "Narok",
+            "phase3Plus": 135500
+          },
+          {
+            "name": "Kajiado",
+            "phase3Plus": 132800
+          },
+          {
+            "name": "Isiolo",
+            "phase3Plus": 132000
+          },
+          {
+            "name": "Tharaka-Nithi",
+            "phase3Plus": 85410
+          },
+          {
+            "name": "Laikipia",
+            "phase3Plus": 58300
+          },
+          {
+            "name": "Lamu",
+            "phase3Plus": 52800
+          },
+          {
+            "name": "Taita Taveta",
+            "phase3Plus": 37300
+          },
+          {
+            "name": "Embu",
+            "phase3Plus": 29600
+          },
+          {
+            "name": "Nyeri",
+            "phase3Plus": 22350
+          }
+        ],
+        "rainfall": [
+          {
+            "name": null,
+            "code": "KE047",
+            "anomalyPct": 62.800144
+          },
+          {
+            "name": null,
+            "code": "KE023",
+            "anomalyPct": 69.78592
+          },
+          {
+            "name": null,
+            "code": "KE037",
+            "anomalyPct": 75.427155
+          },
+          {
+            "name": null,
+            "code": "KE019",
+            "anomalyPct": 78.360374
+          },
+          {
+            "name": null,
+            "code": "KE010",
+            "anomalyPct": 87.814735
+          },
+          {
+            "name": null,
+            "code": "KE043",
+            "anomalyPct": 92.30086000000001
+          },
+          {
+            "name": null,
+            "code": "KE008",
+            "anomalyPct": 99.787315
+          },
+          {
+            "name": null,
+            "code": "KE004",
+            "anomalyPct": 100.2572
+          }
+        ]
       }
     },
     "UGA": {
@@ -737,6 +890,31 @@ window.PUBLIC_COUNTRY_DATA = {
         "fundingPct": null,
         "appeals": 1,
         "referencePeriodEnd": "2028-12-31T23:59:59"
+      },
+      "subnational": {
+        "foodSecurity": [],
+        "rainfall": [
+          {
+            "name": null,
+            "code": "UG4",
+            "anomalyPct": 53.527054363034324
+          },
+          {
+            "name": null,
+            "code": "UG1",
+            "anomalyPct": 55.82896931254753
+          },
+          {
+            "name": null,
+            "code": "UG3",
+            "anomalyPct": 63.375077412686835
+          },
+          {
+            "name": null,
+            "code": "UG2",
+            "anomalyPct": 67.38370293131312
+          }
+        ]
       }
     },
     "RWA": {
@@ -795,6 +973,36 @@ window.PUBLIC_COUNTRY_DATA = {
         "fundingPct": null,
         "appeals": 1,
         "referencePeriodEnd": "2028-12-31T23:59:59"
+      },
+      "subnational": {
+        "foodSecurity": [],
+        "rainfall": [
+          {
+            "name": null,
+            "code": "RW1",
+            "anomalyPct": 30.207169
+          },
+          {
+            "name": null,
+            "code": "RW4",
+            "anomalyPct": 34.99555
+          },
+          {
+            "name": null,
+            "code": "RW5",
+            "anomalyPct": 41.688477
+          },
+          {
+            "name": null,
+            "code": "RW2",
+            "anomalyPct": 44.67594
+          },
+          {
+            "name": null,
+            "code": "RW3",
+            "anomalyPct": 47.041016
+          }
+        ]
       }
     },
     "BDI": {
@@ -862,6 +1070,106 @@ window.PUBLIC_COUNTRY_DATA = {
         "fundingPct": null,
         "appeals": 1,
         "referencePeriodEnd": "2028-12-31T23:59:59"
+      },
+      "subnational": {
+        "foodSecurity": [
+          {
+            "name": "Dépressions de l’est",
+            "phase3Plus": 3140356
+          }
+        ],
+        "rainfall": [
+          {
+            "name": null,
+            "code": "BDI008",
+            "anomalyPct": 51.74716
+          },
+          {
+            "name": null,
+            "code": "BDI014",
+            "anomalyPct": 52.263535
+          },
+          {
+            "name": null,
+            "code": "BDI007",
+            "anomalyPct": 55.729603
+          },
+          {
+            "name": null,
+            "code": "BDI012",
+            "anomalyPct": 56.021927
+          },
+          {
+            "name": null,
+            "code": "BDI011",
+            "anomalyPct": 57.279736
+          },
+          {
+            "name": null,
+            "code": "BDI005",
+            "anomalyPct": 57.35103999999999
+          },
+          {
+            "name": null,
+            "code": "BDI009",
+            "anomalyPct": 58.21727
+          },
+          {
+            "name": null,
+            "code": "BDI002",
+            "anomalyPct": 60.133278
+          },
+          {
+            "name": null,
+            "code": "BDI001",
+            "anomalyPct": 60.89443
+          },
+          {
+            "name": null,
+            "code": "BDI017",
+            "anomalyPct": 61.22449
+          },
+          {
+            "name": null,
+            "code": "BDI013",
+            "anomalyPct": 63.26604499999999
+          },
+          {
+            "name": null,
+            "code": "BDI006",
+            "anomalyPct": 63.71797
+          },
+          {
+            "name": null,
+            "code": "BDI004",
+            "anomalyPct": 63.96417000000001
+          },
+          {
+            "name": null,
+            "code": "BDI018",
+            "anomalyPct": 65.45686
+          },
+          {
+            "name": null,
+            "code": "BDI016",
+            "anomalyPct": 68.19193
+          },
+          {
+            "name": null,
+            "code": "BDI003",
+            "anomalyPct": 68.813416
+          },
+          {
+            "name": null,
+            "code": "BDI015",
+            "anomalyPct": 69.96127
+          },
+          {
+            "name": null,
+            "code": "BDI010",
+            "anomalyPct": 81.26009
+          }
+        ]
       }
     },
     "ETH": {
@@ -933,57 +1241,57 @@ window.PUBLIC_COUNTRY_DATA = {
       "subnational": {
         "rainfall": [
           {
-            "name": "ET02",
+            "name": null,
             "code": "ET02",
             "anomalyPct": 47.42158499999999
           },
           {
-            "name": "ET07",
+            "name": null,
             "code": "ET07",
             "anomalyPct": 60.968746
           },
           {
-            "name": "ET15",
+            "name": null,
             "code": "ET15",
             "anomalyPct": 62.871117000000005
           },
           {
-            "name": "ET12",
+            "name": null,
             "code": "ET12",
             "anomalyPct": 66.55214
           },
           {
-            "name": "ET13",
+            "name": null,
             "code": "ET13",
             "anomalyPct": 66.92806
           },
           {
-            "name": "ET01",
+            "name": null,
             "code": "ET01",
             "anomalyPct": 67.20681
           },
           {
-            "name": "ET14",
+            "name": null,
             "code": "ET14",
             "anomalyPct": 69.358215
           },
           {
-            "name": "ET05",
+            "name": null,
             "code": "ET05",
             "anomalyPct": 73.55903
           },
           {
-            "name": "ET03",
+            "name": null,
             "code": "ET03",
             "anomalyPct": 76.78505
           },
           {
-            "name": "ET04",
+            "name": null,
             "code": "ET04",
             "anomalyPct": 77.25155
           },
           {
-            "name": "ET06",
+            "name": null,
             "code": "ET06",
             "anomalyPct": 95.30734000000001
           }
@@ -1086,6 +1394,13 @@ window.PUBLIC_COUNTRY_DATA = {
           "alertLevel": "Green",
           "date": "2026-08-28T00:00:00",
           "url": "https://www.gdacs.org/report.aspx?eventid=1031590&episodeid=3&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-08-25T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031577&episodeid=3&eventtype=WF"
         },
         {
           "type": "WF",
@@ -1196,52 +1511,52 @@ window.PUBLIC_COUNTRY_DATA = {
       "subnational": {
         "rainfall": [
           {
-            "name": "ZM108",
+            "name": null,
             "code": "ZM108",
             "anomalyPct": 99.626465
           },
           {
-            "name": "ZM104",
+            "name": null,
             "code": "ZM104",
             "anomalyPct": 99.75807999999999
           },
           {
-            "name": "ZM107",
+            "name": null,
             "code": "ZM107",
             "anomalyPct": 99.88126
           },
           {
-            "name": "ZM102",
+            "name": null,
             "code": "ZM102",
             "anomalyPct": 99.903656
           },
           {
-            "name": "ZM105",
+            "name": null,
             "code": "ZM105",
             "anomalyPct": 99.99843
           },
           {
-            "name": "ZM109",
+            "name": null,
             "code": "ZM109",
             "anomalyPct": 99.99909
           },
           {
-            "name": "ZM106",
+            "name": null,
             "code": "ZM106",
             "anomalyPct": 100.01322
           },
           {
-            "name": "ZM101",
+            "name": null,
             "code": "ZM101",
             "anomalyPct": 100.02104
           },
           {
-            "name": "ZM103",
+            "name": null,
             "code": "ZM103",
             "anomalyPct": 100.095856
           },
           {
-            "name": "ZM110",
+            "name": null,
             "code": "ZM110",
             "anomalyPct": 100.24456
           }
@@ -1436,60 +1751,28 @@ window.PUBLIC_COUNTRY_DATA = {
 };
 
 (function(){
+  const COUNTRY_CODES=['KEN','UGA','RWA','BDI','ETH','ZMB'];
+  const fmt=n=>n==null?'—':Intl.NumberFormat('en-GB',{notation:'compact',maximumFractionDigits:1}).format(n);
+  const pct=n=>n==null?'—':`${n>=0?'+':''}${Number(n).toFixed(0)}%`;
+  const readable=x=>x&&x.name&&x.name!==x.code&&!/^[A-Z]{2,3}\d+$/i.test(x.name);
+  function helpHtml(){return '<details class="context-help"><summary>What do these figures mean?</summary><p><strong>Rainfall:</strong> percentages compare rainfall over the latest rolling one-month CHIRPS period with the long-term average. For example, <strong>+40%</strong> means about 40% more rainfall than usual; <strong>-20%</strong> means about 20% less.</p><p><strong>Regions/provinces:</strong> these are the main administrative areas within each country — for example counties in Kenya, regions in Ethiopia or provinces in Zambia. We only show rainfall results when the source provides a readable area name.</p><p><strong>IPC Phase 3+:</strong> the displayed value is the estimated <em>number of people</em> facing Crisis or worse food insecurity, not a percentage.</p><p><a href="https://www.chc.ucsb.edu/data/chirps3" target="_blank" rel="noreferrer">Learn more about CHIRPS rainfall data ↗</a><br><a href="https://www.ipcinfo.org/ipcinfo-website/ipc-overview-and-classification-system/en/" target="_blank" rel="noreferrer">Learn more about the IPC food insecurity scale ↗</a></p></details>'}
   function enhance(){
-    const style=document.createElement('style');
-    style.textContent='.metric-help{cursor:help;border-bottom:1px dotted #6b7280}.context-help{margin-top:10px;padding-top:8px;border-top:1px solid #e5e7eb;font-size:12px;color:#6b7280}.context-help summary{cursor:pointer;color:#2563eb;font-weight:700}.context-help p{margin:7px 0}.context-help strong{color:#18212b}';
+    if(document.getElementById('context-help-style'))return;
+    const style=document.createElement('style');style.id='context-help-style';
+    style.textContent='.metric-help{cursor:help;border-bottom:1px dotted #6b7280}.context-help{margin-top:10px;padding-top:8px;border-top:1px solid #e5e7eb;font-size:12px;color:#6b7280}.context-help summary{cursor:pointer;color:#2563eb;font-weight:700}.context-help p{margin:7px 0}.context-help strong{color:#18212b}.context-help a{color:#2563eb}.subgrid .small{margin-top:2px}';
     document.head.appendChild(style);
-    document.querySelectorAll('.country-card .detail p').forEach(p=>{if(p.textContent.trim().startsWith('Observed rainfall:'))p.innerHTML=p.innerHTML.replace(' vs normal',' vs long-term average <span class="small">(latest 1-month CHIRPS period)</span>')});
-    document.querySelectorAll('.country-card .subgrid').forEach(grid=>{
-      const cols=[...grid.children]; if(cols.length<3)return;
-      const defs=[
-        ['Lowest recent rainfall','The three Admin-1 areas with the lowest one-month CHIRPS rainfall anomaly. A positive value means wetter than the long-term average; a negative value means drier.'],
-        ['Highest recent rainfall','The three Admin-1 areas with the highest one-month CHIRPS rainfall anomaly. A positive value means wetter than the long-term average; a negative value means drier.'],
-        ['Most people in IPC Phase 3+','The three Admin-1 areas with the largest number of people assessed as IPC Phase 3 (Crisis), Phase 4 (Emergency) or Phase 5 (Catastrophe/Famine), where current comparable IPC data are available.']
-      ];
-      cols.forEach((col,i)=>{const b=col.querySelector('b');if(!b)return;b.textContent=defs[i][0]+' ⓘ';b.classList.add('metric-help');b.title=defs[i][1];b.setAttribute('aria-label',defs[i][0]+'. '+defs[i][1]);});
-      if(!grid.nextElementSibling?.classList?.contains('context-help')){
-        const d=document.createElement('details');d.className='context-help';d.innerHTML='<summary>What do these figures mean?</summary><p><strong>Rainfall:</strong> percentages compare rainfall over the latest rolling one-month CHIRPS period with the long-term average. For example, <strong>+40%</strong> means about 40% more rainfall than normal; <strong>-20%</strong> means about 20% less.</p><p><strong>Admin-1:</strong> the first administrative level below national level — for example a region or province. Codes such as ET02 or ZM108 are source-system administrative codes where the rainfall dataset does not include a readable name.</p><p><strong>IPC Phase 3+:</strong> the displayed value is the estimated <em>number of people</em> in Crisis or worse food insecurity, not a percentage.</p>';
-        grid.insertAdjacentElement('afterend',d);
-      }
+    document.querySelectorAll('.country-card').forEach((card,i)=>{
+      const code=COUNTRY_CODES[i],d=window.PUBLIC_COUNTRY_DATA?.countries?.[code]||{},sub=d.subnational||{},detail=card.querySelector('.detail');if(!detail)return;
+      const existing=detail.querySelector('.subgrid');if(existing)existing.remove();
+      const oldHelp=detail.querySelector('.context-help');if(oldHelp)oldHelp.remove();
+      const rain=(sub.rainfall||[]).filter(readable),dry=rain.slice(0,3),wet=rain.slice(-3).reverse(),ipc=(sub.foodSecurity||[]).slice(0,3);
+      const grid=document.createElement('div');grid.className='subgrid';
+      const rainEmpty='<div class="small">Named regional rainfall results are not available from this source.</div>';
+      const ipcEmpty='<div class="small">No current comparable named regional IPC Phase 3+ data are available.</div>';
+      grid.innerHTML='<div><b class="metric-help" title="The named regions, provinces or counties with the lowest rainfall compared with their long-term average over the latest one-month CHIRPS period.">Lowest recent rainfall ⓘ</b>'+ (dry.length?dry.map(x=>'<div class="small">'+x.name+': '+pct(x.anomalyPct)+'</div>').join(''):rainEmpty) +'</div><div><b class="metric-help" title="The named regions, provinces or counties with the highest rainfall compared with their long-term average over the latest one-month CHIRPS period.">Highest recent rainfall ⓘ</b>'+ (wet.length?wet.map(x=>'<div class="small">'+x.name+': '+pct(x.anomalyPct)+'</div>').join(''):rainEmpty) +'</div><div><b class="metric-help" title="The named regions, provinces or counties with the largest estimated number of people facing IPC Phase 3 Crisis, Phase 4 Emergency or Phase 5 Catastrophe/Famine.">Most people in IPC Phase 3+ ⓘ</b>'+ (ipc.length?ipc.map(x=>'<div class="small">'+x.name+': '+fmt(x.phase3Plus)+'</div>').join(''):ipcEmpty) +'</div>';
+      detail.appendChild(grid);detail.insertAdjacentHTML('beforeend',helpHtml());
+      const rainfallP=[...detail.querySelectorAll('p')].find(p=>p.textContent.trim().startsWith('Observed rainfall:'));if(rainfallP)rainfallP.innerHTML=rainfallP.innerHTML.replace(' vs normal',' vs long-term average <span class="small">(latest 1-month CHIRPS period)</span>');
     });
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',enhance);else setTimeout(enhance,0);
-})();
-
-/* country-context-help-links-v1 */
-(function(){
-  function applyHelp(){
-    document.querySelectorAll('.country-card .subgrid').forEach(grid=>{
-      const cols=[...grid.children];
-      if(cols.length<3)return;
-      for(const col of cols.slice(0,2)){
-        const rows=[...col.querySelectorAll('.small')];
-        let removed=0;
-        rows.forEach(row=>{
-          const t=row.textContent.trim();
-          if(/^[A-Z]{2}\d+\s*:/.test(t)){row.remove();removed++;}
-        });
-        if(removed && !col.querySelector('.small')){
-          const note=document.createElement('div');
-          note.className='small';
-          note.textContent='Regional names are not available in the source data, so code-only results are not shown.';
-          col.appendChild(note);
-        }
-      }
-      let d=grid.nextElementSibling;
-      if(!d || !d.classList.contains('context-help')){
-        d=document.createElement('details');
-        d.className='context-help';
-        grid.insertAdjacentElement('afterend',d);
-      }
-      d.innerHTML='<summary>What do these figures mean?</summary>' +
-        '<p><strong>Rainfall:</strong> percentages compare rainfall in the latest rolling one-month CHIRPS period with the long-term average. For example, <strong>+40%</strong> means about 40% more rainfall than average; <strong>-20%</strong> means about 20% less.</p>' +
-        '<p><strong>Regional rainfall:</strong> we only show subnational rainfall figures when the source provides a readable region/province name. Source codes such as ET02 or ZM108 are deliberately hidden because they are not meaningful to most users.</p>' +
-        '<p><strong>IPC Phase 3+:</strong> this is the estimated <em>number of people</em> in IPC Phase 3 (Crisis), Phase 4 (Emergency) or Phase 5 (Catastrophe/Famine), not a percentage.</p>' +
-        '<p><strong>Learn more:</strong> <a href="https://www.chc.ucsb.edu/data/chirps3" target="_blank" rel="noreferrer">About CHIRPS rainfall data ↗</a> · <a href="https://www.ipcinfo.org/ipcinfo-website/ipc-overview-and-classification-system/ipc-acute-food-insecurity/" target="_blank" rel="noreferrer">About the IPC food insecurity scale ↗</a> · <a href="https://www.ipcinfo.org/famine-facts/en/" target="_blank" rel="noreferrer">IPC Phase definitions ↗</a></p>';
-    });
-  }
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>setTimeout(applyHelp,0));else setTimeout(applyHelp,0);
 })();
