@@ -1,0 +1,26 @@
+name: Refresh country context data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * *'
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      HAPI_APP_IDENTIFIER: ${{ secrets.HAPI_APP_IDENTIFIER }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Refresh country context APIs
+        run: node scripts/update-public-data.mjs
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "chore: refresh country context data"
+          git push
