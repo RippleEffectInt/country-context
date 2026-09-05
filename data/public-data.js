@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-09-05T17:14:24.065Z",
+  "generatedAt": "2026-09-05T17:22:45.737Z",
   "previous": {
-    "generatedAt": "2026-09-05T17:09:20.419Z",
+    "generatedAt": "2026-09-05T17:14:24.065Z",
     "global": {
       "enso": {
         "latest": {
@@ -503,51 +503,55 @@ window.PUBLIC_COUNTRY_DATA = {
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:14:24.893Z"
+      "updatedAt": "2026-09-05T17:22:46.319Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:14:25.690Z"
+      "updatedAt": "2026-09-05T17:22:47.287Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:14:25.837Z"
+      "updatedAt": "2026-09-05T17:22:47.438Z"
     },
     "GDACS": {
-      "status": "stale",
-      "updatedAt": "2026-09-05T17:07:08.180Z",
-      "lastAttempt": "2026-09-05T17:16:03.267Z",
-      "error": "400 Bad Request"
+      "status": "ok",
+      "updatedAt": "2026-09-05T17:23:29.080Z"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:16:23.231Z"
+      "updatedAt": "2026-09-05T17:23:49.234Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:16:42.052Z"
+      "updatedAt": "2026-09-05T17:24:08.174Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:17:01.926Z"
+      "updatedAt": "2026-09-05T17:24:10.492Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:17:07.276Z"
+      "updatedAt": "2026-09-05T17:24:12.330Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:17:11.596Z"
+      "updatedAt": "2026-09-05T17:24:15.789Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:17:13.391Z"
+      "updatedAt": "2026-09-05T17:24:17.932Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-09-05T17:17:13.428Z",
+      "lastAttempt": "2026-09-05T17:24:17.974Z",
       "error": "404 Not Found"
+    },
+    "WFP CHIRPS via HDX": {
+      "status": "ok",
+      "updatedAt": "2026-09-05T17:24:40.578Z",
+      "note": "WFP pre-computed CHIRPS rainfall metrics downloaded directly from HDX.",
+      "datasetUrl": "https://data.humdata.org/dataset/rwa-rainfall-subnational"
     }
   },
   "countries": {
@@ -712,7 +716,14 @@ window.PUBLIC_COUNTRY_DATA = {
         "copingCapacity": 5,
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
-      "rainfall": null,
+      "rainfall": {
+        "anomalyPct": 15.413240266687817,
+        "referencePeriodStart": null,
+        "referencePeriodEnd": "2026-08-21",
+        "aggregationPeriod": null,
+        "adminUnits": 35,
+        "source": "WFP CHIRPS via HDX"
+      },
       "foodSecurity": null,
       "idps": null,
       "conflict": {
@@ -948,7 +959,7 @@ window.PUBLIC_COUNTRY_DATA = {
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
           "date": "2026-08-27T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=6&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=7&eventtype=WF"
         },
         {
           "type": "WF",
