@@ -8,6 +8,8 @@ on:
       - 'scripts/update-subnational-ipc-all.mjs'
       - 'scripts/update-wfp-chirps-all.mjs'
       - 'scripts/update-gdacs-strict.mjs'
+      - 'scripts/update-enso-anomaly.mjs'
+      - 'scripts/update-history.mjs'
       - 'scripts/write-public-data-js.mjs'
       - '.github/workflows/refresh-data.yml'
   schedule:
@@ -38,12 +40,16 @@ jobs:
         run: sed -i 's#https://hapi.humdata.org/api/v1#https://hapi.humdata.org/api/v2#' scripts/update-public-data.mjs
       - name: Refresh country context APIs
         run: node scripts/update-public-data.mjs
+      - name: Correct NOAA ENSO to Niño 3.4 anomaly
+        run: node scripts/update-enso-anomaly.mjs
       - name: Refresh regional IPC for all countries
         run: node scripts/update-subnational-ipc-all.mjs
       - name: Refresh CHIRPS for all countries
         run: node scripts/update-wfp-chirps-all.mjs
       - name: Rebuild GDACS alerts with strict country matching
         run: node scripts/update-gdacs-strict.mjs
+      - name: Update source-period trend history
+        run: node scripts/update-history.mjs
       - name: Write browser data file
         run: node scripts/write-public-data-js.mjs
       - name: Commit refreshed data
