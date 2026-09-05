@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T17:22:45.737Z",
+  "generatedAt": "2026-09-05T17:28:35.023Z",
   "previous": {
-    "generatedAt": "2026-09-05T17:14:24.065Z",
+    "generatedAt": "2026-09-05T17:22:45.737Z",
     "global": {
       "enso": {
         "latest": {
@@ -236,7 +236,14 @@
         "gdacs": []
       },
       "RWA": {
-        "rainfall": null,
+        "rainfall": {
+          "anomalyPct": 15.413240266687817,
+          "referencePeriodStart": null,
+          "referencePeriodEnd": "2026-08-21",
+          "aggregationPeriod": null,
+          "adminUnits": 35,
+          "source": "WFP CHIRPS via HDX"
+        },
         "inform": {
           "overallRisk": 4.3,
           "riskClass": 3,
@@ -437,7 +444,7 @@
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
             "date": "2026-08-27T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=6&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=7&eventtype=WF"
           },
           {
             "type": "WF",
@@ -503,55 +510,55 @@
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:22:46.319Z"
+      "updatedAt": "2026-09-05T17:28:35.533Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:22:47.287Z"
+      "updatedAt": "2026-09-05T17:28:36.505Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:22:47.438Z"
+      "updatedAt": "2026-09-05T17:28:36.650Z"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:23:29.080Z"
+      "updatedAt": "2026-09-05T17:28:39.316Z"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:23:49.234Z"
+      "updatedAt": "2026-09-05T17:28:41.477Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:24:08.174Z"
+      "updatedAt": "2026-09-05T17:28:42.092Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:24:10.492Z"
+      "updatedAt": "2026-09-05T17:28:44.384Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:24:12.330Z"
+      "updatedAt": "2026-09-05T17:28:46.215Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:24:15.789Z"
+      "updatedAt": "2026-09-05T17:28:48.105Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:24:17.932Z"
+      "updatedAt": "2026-09-05T17:28:49.877Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-09-05T17:24:17.974Z",
+      "lastAttempt": "2026-09-05T17:28:49.928Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:24:40.578Z",
-      "note": "WFP pre-computed CHIRPS rainfall metrics downloaded directly from HDX.",
-      "datasetUrl": "https://data.humdata.org/dataset/rwa-rainfall-subnational"
+      "updatedAt": "2026-09-05T17:29:11.914Z",
+      "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
+      "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
   },
   "countries": {
@@ -596,7 +603,14 @@
         "copingCapacity": 5.7,
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
-      "rainfall": null,
+      "rainfall": {
+        "anomalyPct": 86.51339463834375,
+        "referencePeriodStart": null,
+        "referencePeriodEnd": "2026-08-21",
+        "aggregationPeriod": "one_month",
+        "adminUnits": 8,
+        "source": "WFP CHIRPS via HDX"
+      },
       "foodSecurity": {
         "phase3Plus": 7405412,
         "referencePeriodStart": "2026-01-01T00:00:00",
@@ -656,7 +670,14 @@
         "copingCapacity": 6.7,
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
-      "rainfall": null,
+      "rainfall": {
+        "anomalyPct": 60.04937176747653,
+        "referencePeriodStart": null,
+        "referencePeriodEnd": "2026-08-21",
+        "aggregationPeriod": "one_month",
+        "adminUnits": 4,
+        "source": "WFP CHIRPS via HDX"
+      },
       "foodSecurity": {
         "phase3Plus": 946736,
         "referencePeriodStart": "2026-03-01T00:00:00",
@@ -717,11 +738,11 @@
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
       "rainfall": {
-        "anomalyPct": 15.413240266687817,
+        "anomalyPct": 42.260340370558374,
         "referencePeriodStart": null,
         "referencePeriodEnd": "2026-08-21",
-        "aggregationPeriod": null,
-        "adminUnits": 35,
+        "aggregationPeriod": "one_month",
+        "adminUnits": 5,
         "source": "WFP CHIRPS via HDX"
       },
       "foodSecurity": null,
@@ -774,7 +795,14 @@
         "copingCapacity": 6.3,
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
-      "rainfall": null,
+      "rainfall": {
+        "anomalyPct": 62.82787531965173,
+        "referencePeriodStart": null,
+        "referencePeriodEnd": "2026-08-21",
+        "aggregationPeriod": "one_month",
+        "adminUnits": 18,
+        "source": "WFP CHIRPS via HDX"
+      },
       "foodSecurity": {
         "phase3Plus": 3531034,
         "referencePeriodStart": "2026-04-01T00:00:00",
@@ -834,7 +862,14 @@
         "copingCapacity": 7.1,
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
-      "rainfall": null,
+      "rainfall": {
+        "anomalyPct": 72.0763565965207,
+        "referencePeriodStart": null,
+        "referencePeriodEnd": "2026-08-21",
+        "aggregationPeriod": "one_month",
+        "adminUnits": 11,
+        "source": "WFP CHIRPS via HDX"
+      },
       "foodSecurity": {
         "phase3Plus": 33512691,
         "referencePeriodStart": "2021-05-01T00:00:00",
@@ -861,7 +896,63 @@
         "referencePeriodEnd": "2028-12-31T23:59:59"
       },
       "subnational": {
-        "rainfall": [],
+        "rainfall": [
+          {
+            "name": "ET02",
+            "code": "ET02",
+            "anomalyPct": 47.42158499999999
+          },
+          {
+            "name": "ET07",
+            "code": "ET07",
+            "anomalyPct": 60.968746
+          },
+          {
+            "name": "ET15",
+            "code": "ET15",
+            "anomalyPct": 62.871117000000005
+          },
+          {
+            "name": "ET12",
+            "code": "ET12",
+            "anomalyPct": 66.55214
+          },
+          {
+            "name": "ET13",
+            "code": "ET13",
+            "anomalyPct": 66.92806
+          },
+          {
+            "name": "ET01",
+            "code": "ET01",
+            "anomalyPct": 67.20681
+          },
+          {
+            "name": "ET14",
+            "code": "ET14",
+            "anomalyPct": 69.358215
+          },
+          {
+            "name": "ET05",
+            "code": "ET05",
+            "anomalyPct": 73.55903
+          },
+          {
+            "name": "ET03",
+            "code": "ET03",
+            "anomalyPct": 76.78505
+          },
+          {
+            "name": "ET04",
+            "code": "ET04",
+            "anomalyPct": 77.25155
+          },
+          {
+            "name": "ET06",
+            "code": "ET06",
+            "anomalyPct": 95.30734000000001
+          }
+        ],
         "foodSecurity": [
           {
             "name": "Oromia",
@@ -986,6 +1077,13 @@
           "type": "WF",
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
+          "date": "2026-08-26T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031522&episodeid=4&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
           "date": "2026-08-28T00:00:00",
           "url": "https://www.gdacs.org/report.aspx?eventid=1031511&episodeid=5&eventtype=WF"
         },
@@ -1009,13 +1107,6 @@
           "alertLevel": "Green",
           "date": "2026-08-28T00:00:00",
           "url": "https://www.gdacs.org/report.aspx?eventid=1031433&episodeid=8&eventtype=WF"
-        },
-        {
-          "type": "WF",
-          "name": "Forest fires in Zambia",
-          "alertLevel": "Green",
-          "date": "2026-08-27T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031391&episodeid=10&eventtype=WF"
         }
       ],
       "inform": {
@@ -1027,7 +1118,14 @@
         "copingCapacity": 6.6,
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
-      "rainfall": null,
+      "rainfall": {
+        "anomalyPct": 99.96009595746405,
+        "referencePeriodStart": null,
+        "referencePeriodEnd": "2026-08-21",
+        "aggregationPeriod": "one_month",
+        "adminUnits": 10,
+        "source": "WFP CHIRPS via HDX"
+      },
       "foodSecurity": {
         "phase3Plus": 1395618,
         "referencePeriodStart": "2026-04-01T00:00:00",
@@ -1054,7 +1152,58 @@
         "referencePeriodEnd": "2027-12-31T23:59:59"
       },
       "subnational": {
-        "rainfall": [],
+        "rainfall": [
+          {
+            "name": "ZM108",
+            "code": "ZM108",
+            "anomalyPct": 99.626465
+          },
+          {
+            "name": "ZM104",
+            "code": "ZM104",
+            "anomalyPct": 99.75807999999999
+          },
+          {
+            "name": "ZM107",
+            "code": "ZM107",
+            "anomalyPct": 99.88126
+          },
+          {
+            "name": "ZM102",
+            "code": "ZM102",
+            "anomalyPct": 99.903656
+          },
+          {
+            "name": "ZM105",
+            "code": "ZM105",
+            "anomalyPct": 99.99843
+          },
+          {
+            "name": "ZM109",
+            "code": "ZM109",
+            "anomalyPct": 99.99909
+          },
+          {
+            "name": "ZM106",
+            "code": "ZM106",
+            "anomalyPct": 100.01322
+          },
+          {
+            "name": "ZM101",
+            "code": "ZM101",
+            "anomalyPct": 100.02104
+          },
+          {
+            "name": "ZM103",
+            "code": "ZM103",
+            "anomalyPct": 100.095856
+          },
+          {
+            "name": "ZM110",
+            "code": "ZM110",
+            "anomalyPct": 100.24456
+          }
+        ],
         "foodSecurity": [
           {
             "name": "Western",
