@@ -16,9 +16,11 @@ const metricHelp={
 'Population':['The latest total population estimate available from the World Bank.',links.worldbank],
 'Rural population':['The share of the population living in areas classified as rural.',links.worldbank],
 'Employment in agriculture':['The share of employed people whose main work is in agriculture.',links.worldbank],
-'Current disaster alerts':['Recent disaster alerts from GDACS. These can include floods, cyclones, earthquakes and other hazards. An alert means an event is being tracked; it does not necessarily mean Ripple Effect areas are affected.',links.gdacs]
+'Current disaster alerts':['Recent disaster alerts from GDACS. These can include floods, cyclones, earthquakes, wildfires and other hazards. Click an alert name to open the detailed GDACS event report when one is available.',links.gdacs]
 };
 function info(title){const x=metricHelp[title];if(!x)return'';return `<details class="info-details"><summary>What does this mean?</summary><div class="info-box"><p>${x[0]}</p><p><a href="${x[1]}" target="_blank" rel="noreferrer">Learn more ↗</a></p></div></details>`}
+function alertDate(v){if(!v)return'';const d=new Date(v);return Number.isNaN(d.getTime())?'':d.toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})}
+function alertHtml(code,x){const country=COUNTRIES.find(c=>c[0]===code),fallback=(country?.[3]||'index.html')+'#alerts',href=x?.url||fallback,external=Boolean(x?.url),meta=[x?.alertLevel?`${x.alertLevel} alert`:null,alertDate(x?.date)].filter(Boolean).join(' · ');return `<div class="alert-item"><a class="alert-link value" href="${href}" ${external?'target="_blank" rel="noreferrer"':''}>${x?.name||'GDACS alert'}${external?' ↗':''}</a>${meta?`<div class="small">${meta}</div>`:''}</div>`}
 const rows=[
 ['Climate','Climate outlook concern',c=>`<a href="#climate-${c}" data-climate-code="${c}" class="value climate-jump status-${OUTLOOK[c].rating.toLowerCase()}">${OUTLOOK[c].rating}</a>`],
 ['Climate','Rainfall compared with normal',c=>D.countries?.[c]?.rainfall?.anomalyPct!=null?`<span class="value">${pct(D.countries[c].rainfall.anomalyPct)}</span>`:'No current value'],
@@ -31,7 +33,7 @@ const rows=[
 ['Context','Population',c=>D.countries?.[c]?.worldBank?.population?.value!=null?`<span class="value">${fmt(D.countries[c].worldBank.population.value)}</span><div class="small">${D.countries[c].worldBank.population.year||''}</div>`:'No current value'],
 ['Context','Rural population',c=>D.countries?.[c]?.worldBank?.ruralPopulationPct?.value!=null?`${Number(D.countries[c].worldBank.ruralPopulationPct.value).toFixed(0)}%`:'No current value'],
 ['Context','Employment in agriculture',c=>D.countries?.[c]?.worldBank?.agricultureEmploymentPct?.value!=null?`${Number(D.countries[c].worldBank.agricultureEmploymentPct.value).toFixed(0)}%`:'No current value'],
-['Climate','Current disaster alerts',c=>Array.isArray(D.countries?.[c]?.gdacs)&&D.countries[c].gdacs.length?D.countries[c].gdacs.slice(0,2).map(x=>`<span class="value">${x.name}</span>`).join('<br>'):'No current alerts']
+['Climate','Current disaster alerts',c=>Array.isArray(D.countries?.[c]?.gdacs)&&D.countries[c].gdacs.length?D.countries[c].gdacs.slice(0,2).map(x=>alertHtml(c,x)).join(''):'No current alerts']
 ];
 function renderRows(cat='All'){document.getElementById('metrics').innerHTML=rows.filter(r=>cat==='All'||r[0]===cat).map(r=>`<tr><td class="metric">${r[1]}${info(r[1])}</td>${COUNTRIES.map(c=>`<td>${r[2](c[0])}</td>`).join('')}</tr>`).join('')}
 function named(x){return x&&x.name&&x.name!==x.code&&!/^[A-Z]{2,3}\d+$/i.test(x.name)}
