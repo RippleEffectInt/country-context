@@ -1,64 +1,305 @@
 {
-  "generatedAt": "2026-09-05T12:41:09.649Z",
+  "generatedAt": "2026-09-05T16:49:17.601Z",
   "previous": {
-    "generatedAt": null,
+    "generatedAt": "2026-09-05T12:41:09.649Z",
     "global": {
-      "enso": null
+      "enso": {
+        "latest": {
+          "year": 2026,
+          "month": 8,
+          "value": 29.38
+        },
+        "previous": {
+          "year": 2026,
+          "month": 7,
+          "value": 29.45
+        },
+        "signal": "Warm / El Niño signal",
+        "trend": "Weakening",
+        "series": [
+          {
+            "year": 2024,
+            "month": 9,
+            "value": 27.33
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "value": 27.38
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "value": 27.29
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "value": 26.72
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "value": 26.53
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "value": 26.83
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "value": 27.65
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "value": 27.96
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "value": 28.25
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "value": 28.18
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "value": 27.87
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "value": 27.34
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "value": 27.11
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "value": 26.97
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "value": 26.79
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "value": 26.85
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "value": 26.77
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "value": 27.23
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "value": 27.84
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "value": 28.75
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "value": 29.27
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "value": 29.61
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "value": 29.45
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "value": 29.38
+          }
+        ]
+      }
     },
     "countries": {
-      "KEN": {},
-      "UGA": {},
-      "RWA": {},
-      "BDI": {},
-      "ETH": {},
-      "ZMB": {}
+      "KEN": {
+        "unhcr": {
+          "year": 2025,
+          "refugees": 617125,
+          "asylumSeekers": 218646
+        },
+        "gdacs": []
+      },
+      "UGA": {
+        "unhcr": {
+          "year": 2025,
+          "refugees": 1936719,
+          "asylumSeekers": 35249
+        },
+        "gdacs": []
+      },
+      "RWA": {
+        "unhcr": {
+          "year": 2025,
+          "refugees": 115794,
+          "asylumSeekers": 15251
+        },
+        "gdacs": []
+      },
+      "BDI": {
+        "unhcr": {
+          "year": 2025,
+          "refugees": 110800,
+          "asylumSeekers": 1466
+        },
+        "gdacs": []
+      },
+      "ETH": {
+        "unhcr": {
+          "year": 2025,
+          "refugees": 1010466,
+          "asylumSeekers": 112987
+        },
+        "gdacs": []
+      },
+      "ZMB": {
+        "unhcr": {
+          "year": 2025,
+          "refugees": 83225,
+          "asylumSeekers": 12906
+        },
+        "gdacs": [
+          {
+            "type": "WF",
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-30T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031678&episodeid=2&eventtype=WF"
+          },
+          {
+            "type": "WF",
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-26T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031523&episodeid=4&eventtype=WF"
+          },
+          {
+            "type": "WF",
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-31T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031562&episodeid=3&eventtype=WF"
+          },
+          {
+            "type": "WF",
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-27T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=6&eventtype=WF"
+          },
+          {
+            "type": "WF",
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-27T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031391&episodeid=10&eventtype=WF"
+          },
+          {
+            "type": "WF",
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-25T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031467&episodeid=8&eventtype=WF"
+          },
+          {
+            "type": "WF",
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-24T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031362&episodeid=10&eventtype=WF"
+          },
+          {
+            "type": "WF",
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-23T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031364&episodeid=7&eventtype=WF"
+          }
+        ]
+      }
     }
   },
-  "changes": [],
+  "changes": [
+    {
+      "scope": "Kenya",
+      "metric": "Disaster alert",
+      "text": "New GDACS alert: Forest fires in Kenya.",
+      "severity": "high"
+    }
+  ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-05T12:41:10.456Z"
+      "updatedAt": "2026-09-05T16:49:18.342Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-05T12:41:11.548Z"
+      "updatedAt": "2026-09-05T16:49:19.219Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-05T12:41:11.726Z"
+      "updatedAt": "2026-09-05T16:49:19.312Z"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T12:41:29.521Z"
+      "updatedAt": "2026-09-05T16:49:22.224Z"
     },
     "HDX HAPI · INFORM": {
-      "status": "not-configured",
-      "note": "Add repository secret HAPI_APP_IDENTIFIER"
+      "status": "ok",
+      "updatedAt": "2026-09-05T16:49:22.967Z"
     },
     "HDX HAPI · CHIRPS": {
-      "status": "not-configured",
-      "note": "Add repository secret HAPI_APP_IDENTIFIER"
+      "status": "ok",
+      "updatedAt": "2026-09-05T16:49:23.225Z"
     },
     "HDX HAPI · IPC": {
-      "status": "not-configured",
-      "note": "Add repository secret HAPI_APP_IDENTIFIER"
+      "status": "ok",
+      "updatedAt": "2026-09-05T16:49:23.846Z"
     },
     "HDX HAPI · IDPs": {
-      "status": "not-configured",
-      "note": "Add repository secret HAPI_APP_IDENTIFIER"
+      "status": "ok",
+      "updatedAt": "2026-09-05T16:49:24.787Z"
     },
     "HDX HAPI · ACLED aggregate": {
-      "status": "not-configured",
-      "note": "Add repository secret HAPI_APP_IDENTIFIER"
+      "status": "ok",
+      "updatedAt": "2026-09-05T16:49:28.698Z"
     },
     "HDX HAPI · OCHA FTS": {
-      "status": "not-configured",
-      "note": "Add repository secret HAPI_APP_IDENTIFIER"
+      "status": "ok",
+      "updatedAt": "2026-09-05T16:49:28.983Z"
     },
     "HDX HAPI · subnational": {
-      "status": "not-configured",
-      "note": "Add repository secret HAPI_APP_IDENTIFIER"
+      "status": "ok",
+      "updatedAt": "2026-09-05T16:49:29.247Z"
     }
   },
   "countries": {
@@ -85,7 +326,50 @@
         "refugees": 617125,
         "asylumSeekers": 218646
       },
-      "gdacs": []
+      "gdacs": [
+        {
+          "type": "WF",
+          "name": "Forest fires in Kenya",
+          "alertLevel": "Green",
+          "date": "2026-09-02T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031684&episodeid=1&eventtype=WF"
+        }
+      ],
+      "inform": {
+        "overallRisk": 6,
+        "riskClass": 4,
+        "globalRank": 23,
+        "hazardExposure": 6.1,
+        "vulnerability": 6.1,
+        "copingCapacity": 5.7,
+        "referencePeriodEnd": "2025-12-31T23:59:59.999999"
+      },
+      "rainfall": null,
+      "foodSecurity": {
+        "phase3Plus": 7405412,
+        "referencePeriodStart": "2026-01-01T00:00:00",
+        "referencePeriodEnd": "2026-03-31T23:59:59",
+        "level": 0
+      },
+      "idps": {
+        "population": 102801,
+        "referencePeriodEnd": "2024-12-31T23:59:59",
+        "level": 0
+      },
+      "conflict": {
+        "events3m": 492,
+        "previous3m": 464,
+        "changePct": 6.0344827586206895,
+        "periodStart": "2026-06",
+        "periodEnd": "2026-08"
+      },
+      "funding": {
+        "requirementsUsd": null,
+        "fundingUsd": 1721232,
+        "fundingPct": null,
+        "appeals": 1,
+        "referencePeriodEnd": "2028-12-31T23:59:59"
+      }
     },
     "UGA": {
       "worldBank": {
@@ -110,7 +394,42 @@
         "refugees": 1936719,
         "asylumSeekers": 35249
       },
-      "gdacs": []
+      "gdacs": [],
+      "inform": {
+        "overallRisk": 5.7,
+        "riskClass": 4,
+        "globalRank": 30,
+        "hazardExposure": 4.1,
+        "vulnerability": 6.9,
+        "copingCapacity": 6.7,
+        "referencePeriodEnd": "2025-12-31T23:59:59.999999"
+      },
+      "rainfall": null,
+      "foodSecurity": {
+        "phase3Plus": 946736,
+        "referencePeriodStart": "2026-03-01T00:00:00",
+        "referencePeriodEnd": "2026-07-31T23:59:59",
+        "level": 0
+      },
+      "idps": {
+        "population": 1611,
+        "referencePeriodEnd": "2025-05-31T23:59:59",
+        "level": 0
+      },
+      "conflict": {
+        "events3m": 107,
+        "previous3m": 98,
+        "changePct": 9.183673469387756,
+        "periodStart": "2026-06",
+        "periodEnd": "2026-08"
+      },
+      "funding": {
+        "requirementsUsd": null,
+        "fundingUsd": 1779851,
+        "fundingPct": null,
+        "appeals": 1,
+        "referencePeriodEnd": "2028-12-31T23:59:59"
+      }
     },
     "RWA": {
       "worldBank": {
@@ -135,7 +454,33 @@
         "refugees": 115794,
         "asylumSeekers": 15251
       },
-      "gdacs": []
+      "gdacs": [],
+      "inform": {
+        "overallRisk": 4.3,
+        "riskClass": 3,
+        "globalRank": 68,
+        "hazardExposure": 2.7,
+        "vulnerability": 5.7,
+        "copingCapacity": 5,
+        "referencePeriodEnd": "2025-12-31T23:59:59.999999"
+      },
+      "rainfall": null,
+      "foodSecurity": null,
+      "idps": null,
+      "conflict": {
+        "events3m": 0,
+        "previous3m": null,
+        "changePct": null,
+        "periodStart": "2026-06",
+        "periodEnd": "2026-08"
+      },
+      "funding": {
+        "requirementsUsd": null,
+        "fundingUsd": 3257055,
+        "fundingPct": null,
+        "appeals": 1,
+        "referencePeriodEnd": "2028-12-31T23:59:59"
+      }
     },
     "BDI": {
       "worldBank": {
@@ -160,7 +505,42 @@
         "refugees": 110800,
         "asylumSeekers": 1466
       },
-      "gdacs": []
+      "gdacs": [],
+      "inform": {
+        "overallRisk": 5.9,
+        "riskClass": 4,
+        "globalRank": 26,
+        "hazardExposure": 5.2,
+        "vulnerability": 6.4,
+        "copingCapacity": 6.3,
+        "referencePeriodEnd": "2025-12-31T23:59:59.999999"
+      },
+      "rainfall": null,
+      "foodSecurity": {
+        "phase3Plus": 3531034,
+        "referencePeriodStart": "2026-04-01T00:00:00",
+        "referencePeriodEnd": "2026-05-31T23:59:59",
+        "level": 0
+      },
+      "idps": {
+        "population": 89114,
+        "referencePeriodEnd": "2025-07-31T23:59:59",
+        "level": 0
+      },
+      "conflict": {
+        "events3m": 4,
+        "previous3m": 6,
+        "changePct": -33.33333333333333,
+        "periodStart": "2026-06",
+        "periodEnd": "2026-08"
+      },
+      "funding": {
+        "requirementsUsd": null,
+        "fundingUsd": 237639,
+        "fundingPct": null,
+        "appeals": 1,
+        "referencePeriodEnd": "2028-12-31T23:59:59"
+      }
     },
     "ETH": {
       "worldBank": {
@@ -185,7 +565,76 @@
         "refugees": 1010466,
         "asylumSeekers": 112987
       },
-      "gdacs": []
+      "gdacs": [],
+      "inform": {
+        "overallRisk": 7.1,
+        "riskClass": 5,
+        "globalRank": 13,
+        "hazardExposure": 7.8,
+        "vulnerability": 6.6,
+        "copingCapacity": 7.1,
+        "referencePeriodEnd": "2025-12-31T23:59:59.999999"
+      },
+      "rainfall": null,
+      "foodSecurity": {
+        "phase3Plus": 33512691,
+        "referencePeriodStart": "2021-05-01T00:00:00",
+        "referencePeriodEnd": "2021-06-30T23:59:59",
+        "level": 0
+      },
+      "idps": {
+        "population": 1919993,
+        "referencePeriodEnd": "2024-08-31T23:59:59",
+        "level": 0
+      },
+      "conflict": {
+        "events3m": 54,
+        "previous3m": 39,
+        "changePct": 38.46153846153847,
+        "periodStart": "2026-06",
+        "periodEnd": "2026-08"
+      },
+      "funding": {
+        "requirementsUsd": null,
+        "fundingUsd": 2359500,
+        "fundingPct": null,
+        "appeals": 1,
+        "referencePeriodEnd": "2028-12-31T23:59:59"
+      },
+      "subnational": {
+        "rainfall": [],
+        "foodSecurity": [
+          {
+            "name": "Oromia",
+            "phase3Plus": 9703570
+          },
+          {
+            "name": "Tigray",
+            "phase3Plus": 8122974
+          },
+          {
+            "name": "SNNP",
+            "phase3Plus": 4677920
+          },
+          {
+            "name": "Amhara",
+            "phase3Plus": 4631311
+          },
+          {
+            "name": "Somali",
+            "phase3Plus": 3956898
+          },
+          {
+            "name": "Afar",
+            "phase3Plus": 1698504
+          },
+          {
+            "name": "Sidama",
+            "phase3Plus": 721516
+          }
+        ],
+        "conflict": []
+      }
     },
     "ZMB": {
       "worldBank": {
@@ -216,21 +665,35 @@
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
           "date": "2026-08-30T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031686&episodeid=1&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-08-30T00:00:00",
           "url": "https://www.gdacs.org/report.aspx?eventid=1031678&episodeid=2&eventtype=WF"
         },
         {
           "type": "WF",
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-08-26T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031523&episodeid=4&eventtype=WF"
+          "date": "2026-08-29T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031636&episodeid=2&eventtype=WF"
         },
         {
           "type": "WF",
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-08-31T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031562&episodeid=3&eventtype=WF"
+          "date": "2026-09-01T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031596&episodeid=3&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-08-28T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031590&episodeid=3&eventtype=WF"
         },
         {
           "type": "WF",
@@ -243,8 +706,29 @@
           "type": "WF",
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-08-27T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031391&episodeid=10&eventtype=WF"
+          "date": "2026-08-30T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031568&episodeid=3&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-08-31T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031562&episodeid=3&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-08-26T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031523&episodeid=4&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-08-29T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031491&episodeid=5&eventtype=WF"
         },
         {
           "type": "WF",
@@ -257,17 +741,50 @@
           "type": "WF",
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-08-24T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031362&episodeid=10&eventtype=WF"
-        },
-        {
-          "type": "WF",
-          "name": "Forest fires in Zambia",
-          "alertLevel": "Green",
-          "date": "2026-08-23T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031364&episodeid=7&eventtype=WF"
+          "date": "2026-08-27T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031391&episodeid=10&eventtype=WF"
         }
-      ]
+      ],
+      "inform": {
+        "overallRisk": 4.6,
+        "riskClass": 3,
+        "globalRank": 59,
+        "hazardExposure": 2.3,
+        "vulnerability": 6.6,
+        "copingCapacity": 6.6,
+        "referencePeriodEnd": "2025-12-31T23:59:59.999999"
+      },
+      "rainfall": null,
+      "foodSecurity": {
+        "phase3Plus": 1395618,
+        "referencePeriodStart": "2026-04-01T00:00:00",
+        "referencePeriodEnd": "2026-09-30T23:59:59",
+        "level": 0
+      },
+      "idps": {
+        "population": 140261,
+        "referencePeriodEnd": "2024-12-31T23:59:59",
+        "level": 0
+      },
+      "conflict": {
+        "events3m": 15,
+        "previous3m": 15,
+        "changePct": 0,
+        "periodStart": "2026-06",
+        "periodEnd": "2026-08"
+      },
+      "funding": {
+        "requirementsUsd": null,
+        "fundingUsd": 1609644,
+        "fundingPct": null,
+        "appeals": 1,
+        "referencePeriodEnd": "2027-12-31T23:59:59"
+      },
+      "subnational": {
+        "rainfall": [],
+        "foodSecurity": [],
+        "conflict": []
+      }
     }
   },
   "global": {
