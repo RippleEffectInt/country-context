@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-09-05T20:34:47.879Z",
+  "generatedAt": "2026-09-05T20:46:59.813Z",
   "previous": {
-    "generatedAt": "2026-09-05T20:26:18.881Z",
+    "generatedAt": "2026-09-05T20:34:47.879Z",
     "global": {
       "enso": {
         "latest": {
@@ -534,18 +534,6 @@ window.PUBLIC_COUNTRY_DATA = {
           },
           {
             "type": "WF",
-            "eventId": 1031610,
-            "episodeId": 3,
-            "name": "Forest fires in Zambia",
-            "alertLevel": "Green",
-            "date": "2026-08-31T00:00:00",
-            "toDate": "2026-09-05T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031610&episodeid=3&eventtype=WF",
-            "country": "Zambia",
-            "iso3": "ZMB"
-          },
-          {
-            "type": "WF",
             "eventId": 1031686,
             "episodeId": 2,
             "name": "Forest fires in Zambia",
@@ -606,13 +594,25 @@ window.PUBLIC_COUNTRY_DATA = {
           },
           {
             "type": "WF",
+            "eventId": 1031719,
+            "episodeId": 1,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-26T00:00:00",
+            "toDate": "2026-09-05T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031719&episodeid=1&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
             "eventId": 1031656,
-            "episodeId": 2,
+            "episodeId": 3,
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
             "date": "2026-08-25T00:00:00",
             "toDate": "2026-09-05T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031656&episodeid=2&eventtype=WF",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031656&episodeid=3&eventtype=WF",
             "country": "Zambia",
             "iso3": "ZMB"
           },
@@ -643,55 +643,55 @@ window.PUBLIC_COUNTRY_DATA = {
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:34:48.350Z"
+      "updatedAt": "2026-09-05T20:47:00.018Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:34:49.387Z"
+      "updatedAt": "2026-09-05T20:47:01.033Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:35:04.137Z",
+      "updatedAt": "2026-09-05T20:48:51.629Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:35:41.156Z",
+      "updatedAt": "2026-09-05T20:49:32.874Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:34:53.173Z"
+      "updatedAt": "2026-09-05T20:47:55.833Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:34:53.525Z"
+      "updatedAt": "2026-09-05T20:48:15.368Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:34:55.469Z"
+      "updatedAt": "2026-09-05T20:48:17.648Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:34:57.344Z"
+      "updatedAt": "2026-09-05T20:48:19.790Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:34:59.227Z"
+      "updatedAt": "2026-09-05T20:48:21.878Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:35:03.866Z"
+      "updatedAt": "2026-09-05T20:48:45.095Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-09-05T20:35:03.901Z",
-      "error": "404 Not Found"
+      "lastAttempt": "2026-09-05T20:48:51.380Z",
+      "error": "429 Too Many Requests"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:35:30.830Z",
+      "updatedAt": "2026-09-05T20:49:30.727Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -1172,7 +1172,7 @@ window.PUBLIC_COUNTRY_DATA = {
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Dépressions de l’est",
+            "name": "Plateaux humides",
             "phase3Plus": 3140356
           }
         ],
