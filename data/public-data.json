@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T16:58:05.384Z",
+  "generatedAt": "2026-09-05T17:06:39.637Z",
   "previous": {
-    "generatedAt": "2026-09-05T16:49:17.601Z",
+    "generatedAt": "2026-09-05T16:58:05.384Z",
     "global": {
       "enso": {
         "latest": {
@@ -384,13 +384,7 @@
           "periodStart": "2026-06",
           "periodEnd": "2026-08"
         },
-        "funding": {
-          "requirementsUsd": null,
-          "fundingUsd": 1609644,
-          "fundingPct": null,
-          "appeals": 1,
-          "referencePeriodEnd": "2027-12-31T23:59:59"
-        },
+        "funding": null,
         "unhcr": {
           "year": 2025,
           "refugees": 83225,
@@ -464,6 +458,13 @@
             "type": "WF",
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
+            "date": "2026-08-28T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031511&episodeid=5&eventtype=WF"
+          },
+          {
+            "type": "WF",
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
             "date": "2026-08-29T00:00:00",
             "url": "https://www.gdacs.org/report.aspx?eventid=1031491&episodeid=5&eventtype=WF"
           },
@@ -473,6 +474,13 @@
             "alertLevel": "Green",
             "date": "2026-08-25T00:00:00",
             "url": "https://www.gdacs.org/report.aspx?eventid=1031467&episodeid=8&eventtype=WF"
+          },
+          {
+            "type": "WF",
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-28T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031433&episodeid=8&eventtype=WF"
           },
           {
             "type": "WF",
@@ -489,47 +497,49 @@
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-05T16:58:06.655Z"
+      "updatedAt": "2026-09-05T17:06:39.904Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-05T16:58:07.734Z"
+      "updatedAt": "2026-09-05T17:06:40.624Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-05T16:58:07.886Z"
+      "updatedAt": "2026-09-05T17:06:40.810Z"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T16:58:54.404Z"
+      "updatedAt": "2026-09-05T17:07:08.180Z"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-05T16:58:55.053Z"
+      "updatedAt": "2026-09-05T17:07:10.413Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T16:58:58.954Z"
+      "updatedAt": "2026-09-05T17:07:10.684Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-05T16:58:55.558Z"
+      "updatedAt": "2026-09-05T17:07:11.017Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-05T16:58:56.329Z"
+      "updatedAt": "2026-09-05T17:07:13.056Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-05T16:58:57.978Z"
+      "updatedAt": "2026-09-05T17:07:13.237Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T16:58:58.229Z"
+      "updatedAt": "2026-09-05T17:07:19.203Z"
     },
     "HDX HAPI · subnational": {
-      "status": "ok",
-      "updatedAt": "2026-09-05T16:58:58.389Z"
+      "status": "stale",
+      "updatedAt": "2026-09-05T16:58:58.389Z",
+      "lastAttempt": "2026-09-05T17:07:19.219Z",
+      "error": "404 Not Found"
     }
   },
   "countries": {
@@ -988,7 +998,13 @@
         "periodStart": "2026-06",
         "periodEnd": "2026-08"
       },
-      "funding": null,
+      "funding": {
+        "requirementsUsd": null,
+        "fundingUsd": 1609644,
+        "fundingPct": null,
+        "appeals": 1,
+        "referencePeriodEnd": "2027-12-31T23:59:59"
+      },
       "subnational": {
         "rainfall": [],
         "foodSecurity": [],
