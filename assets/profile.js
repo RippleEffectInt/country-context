@@ -6,12 +6,13 @@ const fmt=n=>n==null?'—':Intl.NumberFormat('en-GB',{notation:'compact',maximum
 const card=(label,value,sub='')=>`<div class="card kpi"><div class="label">${label}</div><div class="big">${value}</div>${sub?`<div class="small">${sub}</div>`:''}</div>`;
 function named(x){return x&&x.name&&x.name!==x.code&&!/^[A-Z]{2,3}\d+$/i.test(x.name)}
 
-const topNav=document.querySelector('header nav');
+if(!document.querySelector('link[href="../assets/header-nav.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='../assets/header-nav.css';document.head.appendChild(css)}
+const topNav=document.querySelector('header .head nav');
 if(topNav)topNav.innerHTML='<a href="../index.html">Overview</a><a href="../index.html#climate">Climate &amp; El Niño</a><a href="../index.html#sources">Data sources</a>';
 const main=document.querySelector('main');
 const oldBack=main?.querySelector('.back')?.closest('p');if(oldBack)oldBack.remove();
 const selector=document.createElement('nav');selector.className='country-subnav';selector.setAttribute('aria-label','Country profiles');selector.innerHTML='<span class="country-subnav-label">Countries</span>'+Object.entries(META).map(([c,x])=>`<a class="${c===code?'active':''}" href="${FILES[c]}.html">${x.flag} ${x.name}</a>`).join('');
-if(main)main.insertBefore(selector,main.firstChild);
+const row=document.createElement('div');row.className='country-header-row';row.appendChild(selector);const header=document.querySelector('header');if(header)header.appendChild(row);
 const oldOther=document.getElementById('otherCountries');if(oldOther?.closest('.section'))oldOther.closest('.section').remove();
 
 document.title=`${m.name} · Ripple Effect Country Context`;document.getElementById('countryName').textContent=m.name;document.getElementById('countryFlag').textContent=m.flag;document.getElementById('countryIntro').textContent=`External country context for ${m.name}, bringing climate, humanitarian and structural indicators together in one place.`;document.getElementById('fresh').textContent=D.generatedAt?'Last refreshed '+new Date(D.generatedAt).toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short'}):'Latest available snapshot';
