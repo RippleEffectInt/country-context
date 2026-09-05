@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-09-05T17:32:09.409Z",
+  "generatedAt": "2026-09-05T17:40:14.730Z",
   "previous": {
-    "generatedAt": "2026-09-05T17:28:35.023Z",
+    "generatedAt": "2026-09-05T17:32:09.409Z",
     "global": {
       "enso": {
         "latest": {
@@ -545,53 +545,53 @@ window.PUBLIC_COUNTRY_DATA = {
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:32:09.843Z"
+      "updatedAt": "2026-09-05T17:40:15.141Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:32:10.715Z"
+      "updatedAt": "2026-09-05T17:40:16.073Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:32:10.911Z"
+      "updatedAt": "2026-09-05T17:40:16.337Z"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:34:30.871Z"
+      "updatedAt": "2026-09-05T17:40:40.765Z"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:34:33.182Z"
+      "updatedAt": "2026-09-05T17:41:00.475Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:34:33.560Z"
+      "updatedAt": "2026-09-05T17:41:18.739Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:34:35.623Z"
+      "updatedAt": "2026-09-05T17:41:37.978Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:34:37.508Z"
+      "updatedAt": "2026-09-05T17:42:02.882Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:34:43.052Z"
+      "updatedAt": "2026-09-05T17:42:21.876Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:34:44.735Z"
+      "updatedAt": "2026-09-05T17:42:41.084Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-09-05T17:34:44.766Z",
-      "error": "404 Not Found"
+      "lastAttempt": "2026-09-05T17:42:47.112Z",
+      "error": "429 Too Many Requests"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:35:08.612Z",
+      "updatedAt": "2026-09-05T17:43:15.327Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -1063,6 +1063,13 @@ window.PUBLIC_COUNTRY_DATA = {
           "type": "WF",
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
+          "date": "2026-08-25T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031656&episodeid=2&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
           "date": "2026-08-29T00:00:00",
           "url": "https://www.gdacs.org/report.aspx?eventid=1031636&episodeid=2&eventtype=WF"
         },
@@ -1449,4 +1456,40 @@ window.PUBLIC_COUNTRY_DATA = {
     });
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',enhance);else setTimeout(enhance,0);
+})();
+
+/* country-context-help-links-v1 */
+(function(){
+  function applyHelp(){
+    document.querySelectorAll('.country-card .subgrid').forEach(grid=>{
+      const cols=[...grid.children];
+      if(cols.length<3)return;
+      for(const col of cols.slice(0,2)){
+        const rows=[...col.querySelectorAll('.small')];
+        let removed=0;
+        rows.forEach(row=>{
+          const t=row.textContent.trim();
+          if(/^[A-Z]{2}\d+\s*:/.test(t)){row.remove();removed++;}
+        });
+        if(removed && !col.querySelector('.small')){
+          const note=document.createElement('div');
+          note.className='small';
+          note.textContent='Regional names are not available in the source data, so code-only results are not shown.';
+          col.appendChild(note);
+        }
+      }
+      let d=grid.nextElementSibling;
+      if(!d || !d.classList.contains('context-help')){
+        d=document.createElement('details');
+        d.className='context-help';
+        grid.insertAdjacentElement('afterend',d);
+      }
+      d.innerHTML='<summary>What do these figures mean?</summary>' +
+        '<p><strong>Rainfall:</strong> percentages compare rainfall in the latest rolling one-month CHIRPS period with the long-term average. For example, <strong>+40%</strong> means about 40% more rainfall than average; <strong>-20%</strong> means about 20% less.</p>' +
+        '<p><strong>Regional rainfall:</strong> we only show subnational rainfall figures when the source provides a readable region/province name. Source codes such as ET02 or ZM108 are deliberately hidden because they are not meaningful to most users.</p>' +
+        '<p><strong>IPC Phase 3+:</strong> this is the estimated <em>number of people</em> in IPC Phase 3 (Crisis), Phase 4 (Emergency) or Phase 5 (Catastrophe/Famine), not a percentage.</p>' +
+        '<p><strong>Learn more:</strong> <a href="https://www.chc.ucsb.edu/data/chirps3" target="_blank" rel="noreferrer">About CHIRPS rainfall data ↗</a> · <a href="https://www.ipcinfo.org/ipcinfo-website/ipc-overview-and-classification-system/ipc-acute-food-insecurity/" target="_blank" rel="noreferrer">About the IPC food insecurity scale ↗</a> · <a href="https://www.ipcinfo.org/famine-facts/en/" target="_blank" rel="noreferrer">IPC Phase definitions ↗</a></p>';
+    });
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>setTimeout(applyHelp,0));else setTimeout(applyHelp,0);
 })();
