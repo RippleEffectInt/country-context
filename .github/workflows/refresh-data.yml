@@ -5,9 +5,8 @@ on:
     branches: [main]
     paths:
       - 'scripts/update-public-data.mjs'
-      - 'scripts/update-subnational-ipc.mjs'
-      - 'scripts/update-wfp-chirps.mjs'
-      - 'scripts/update-ui-help.mjs'
+      - 'scripts/update-subnational-ipc-all.mjs'
+      - 'scripts/update-wfp-chirps-all.mjs'
       - '.github/workflows/refresh-data.yml'
   schedule:
     - cron: '17 5 * * *'
@@ -37,12 +36,10 @@ jobs:
         run: sed -i 's#https://hapi.humdata.org/api/v1#https://hapi.humdata.org/api/v2#' scripts/update-public-data.mjs
       - name: Refresh country context APIs
         run: node scripts/update-public-data.mjs
-      - name: Refresh subnational IPC independently
-        run: node scripts/update-subnational-ipc.mjs
-      - name: Refresh CHIRPS directly from WFP HDX
-        run: node scripts/update-wfp-chirps.mjs
-      - name: Add climate help links and hide unresolved codes
-        run: node scripts/update-ui-help.mjs
+      - name: Refresh regional IPC for all countries
+        run: node scripts/update-subnational-ipc-all.mjs
+      - name: Refresh CHIRPS and regional climate UI for all countries
+        run: node scripts/update-wfp-chirps-all.mjs
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
