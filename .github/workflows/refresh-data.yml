@@ -6,6 +6,7 @@ on:
     paths:
       - 'scripts/update-public-data.mjs'
       - 'scripts/update-subnational-ipc.mjs'
+      - 'scripts/update-wfp-chirps.mjs'
       - '.github/workflows/refresh-data.yml'
   schedule:
     - cron: '17 5 * * *'
@@ -37,6 +38,8 @@ jobs:
         run: node scripts/update-public-data.mjs
       - name: Refresh subnational IPC independently
         run: node scripts/update-subnational-ipc.mjs
+      - name: Refresh CHIRPS directly from WFP HDX
+        run: node scripts/update-wfp-chirps.mjs
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
