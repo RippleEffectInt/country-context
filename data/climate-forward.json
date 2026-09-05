@@ -1,47 +1,54 @@
 {
-  "generatedAt": "2026-09-05T20:27:42.405Z",
+  "generatedAt": "2026-09-05T20:35:53.824Z",
   "sources": {
     "ICPAC weekly forecast": {
       "status": "ok",
       "period": "01 - 08 September 2026",
       "url": "https://www.icpac.net/weekly-forecast/",
-      "updatedAt": "2026-09-05T20:27:30.262Z"
+      "updatedAt": "2026-09-05T20:35:42.562Z"
     },
     "ICPAC seasonal forecast": {
       "status": "ok",
       "period": "September - November 2026",
       "url": "https://www.icpac.net/seasonal-forecast/",
-      "updatedAt": "2026-09-05T20:27:33.014Z"
+      "updatedAt": "2026-09-05T20:35:44.810Z"
     },
     "East Africa Drought Watch": {
       "status": "stale",
       "period": "11 August 2026",
       "url": "https://droughtwatch.icpac.net/report-v2/",
-      "updatedAt": "2026-09-05T20:27:41.263Z",
+      "updatedAt": "2026-09-05T20:35:52.698Z",
       "error": "502 Bad Gateway"
     },
     "SADC / SARCOF-33": {
       "status": "ok",
       "period": "August 27, 2026",
       "url": "https://www.sadc.int/latest-news/sadc-outlook-favours-drier-conditions-across-much-southern-africa-during-202627-rainy",
-      "updatedAt": "2026-09-05T20:27:42.405Z"
+      "updatedAt": "2026-09-05T20:35:53.824Z"
     }
   },
   "countries": {
     "KEN": {
       "weekly": {
         "period": "01 - 08 September 2026",
-        "rainfall": "Less than usual rainfall expected over central to southern regions of Sudan, most parts of South Sudan, central parts of Ethiopia, isolated areas over northern coastal Somalia, Uganda and western regions of Kenya.",
+        "rainfall": "Western regions of Kenya — less than usual rainfall expected.",
+        "rainfallScope": "country-or-subnational",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
-        "heavyRain": "No country-specific exceptional-rainfall signal is highlighted for Kenya in the latest ICPAC weekly bulletin.",
-        "heatStress": "No country-specific severe heat-stress signal is highlighted for Kenya in the latest ICPAC weekly bulletin.",
-        "flood": "No country-specific flood update is listed for Kenya in the latest ICPAC weekly bulletin. This does not mean there is no local flood risk.",
+        "temperatureScope": "regional",
+        "heavyRain": "No specific exceptional-rainfall signal is highlighted for Kenya in the latest ICPAC bulletin.",
+        "heavyRainScope": "none",
+        "heatStress": "No specific severe heat-stress signal is highlighted for Kenya in the latest ICPAC bulletin.",
+        "heatStressScope": "none",
+        "flood": "No specific flood update is listed for Kenya in the latest ICPAC bulletin. This does not mean there is no local flood risk.",
+        "floodScope": "none",
         "url": "https://www.icpac.net/weekly-forecast/"
       },
       "seasonal": {
         "period": "September - November 2026",
-        "rainfall": "Above normal rainfall is expected over most parts of the region including parts of Ethiopia, South Sudan, Somalia, Djibouti, Kenya, Uganda, Rwanda, Burundi, and northern Tanzania.",
+        "rainfall": "Kenya — above normal rainfall expected.",
+        "rainfallScope": "country-or-subnational",
         "temperature": "Above normal temperatures are expected over the region with the highest probabilities indicated over northern and central areas of the regions.",
+        "temperatureScope": "regional",
         "url": "https://www.icpac.net/seasonal-forecast/"
       },
       "drought": {
@@ -57,17 +64,24 @@
     "UGA": {
       "weekly": {
         "period": "01 - 08 September 2026",
-        "rainfall": "Less than usual rainfall expected over central to southern regions of Sudan, most parts of South Sudan, central parts of Ethiopia, isolated areas over northern coastal Somalia, Uganda and western regions of Kenya.",
+        "rainfall": "Uganda — less than usual rainfall expected.",
+        "rainfallScope": "country-or-subnational",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
-        "heavyRain": "No country-specific exceptional-rainfall signal is highlighted for Uganda in the latest ICPAC weekly bulletin.",
-        "heatStress": "No country-specific severe heat-stress signal is highlighted for Uganda in the latest ICPAC weekly bulletin.",
-        "flood": "No country-specific flood update is listed for Uganda in the latest ICPAC weekly bulletin. This does not mean there is no local flood risk.",
+        "temperatureScope": "regional",
+        "heavyRain": "No specific exceptional-rainfall signal is highlighted for Uganda in the latest ICPAC bulletin.",
+        "heavyRainScope": "none",
+        "heatStress": "No specific severe heat-stress signal is highlighted for Uganda in the latest ICPAC bulletin.",
+        "heatStressScope": "none",
+        "flood": "No specific flood update is listed for Uganda in the latest ICPAC bulletin. This does not mean there is no local flood risk.",
+        "floodScope": "none",
         "url": "https://www.icpac.net/weekly-forecast/"
       },
       "seasonal": {
         "period": "September - November 2026",
-        "rainfall": "Above normal rainfall is expected over most parts of the region including parts of Ethiopia, South Sudan, Somalia, Djibouti, Kenya, Uganda, Rwanda, Burundi, and northern Tanzania.",
+        "rainfall": "Uganda — above normal rainfall expected.",
+        "rainfallScope": "country-or-subnational",
         "temperature": "Above normal temperatures are expected over the region with the highest probabilities indicated over northern and central areas of the regions.",
+        "temperatureScope": "regional",
         "url": "https://www.icpac.net/seasonal-forecast/"
       },
       "drought": {
@@ -83,17 +97,24 @@
     "RWA": {
       "weekly": {
         "period": "01 - 08 September 2026",
-        "rainfall": "No country-specific rainfall anomaly is highlighted for Rwanda in the latest ICPAC weekly bulletin.",
+        "rainfall": "No specific weekly rainfall anomaly is highlighted for Rwanda in the latest ICPAC bulletin.",
+        "rainfallScope": "none",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
-        "heavyRain": "No country-specific exceptional-rainfall signal is highlighted for Rwanda in the latest ICPAC weekly bulletin.",
-        "heatStress": "No country-specific severe heat-stress signal is highlighted for Rwanda in the latest ICPAC weekly bulletin.",
-        "flood": "No country-specific flood update is listed for Rwanda in the latest ICPAC weekly bulletin. This does not mean there is no local flood risk.",
+        "temperatureScope": "regional",
+        "heavyRain": "No specific exceptional-rainfall signal is highlighted for Rwanda in the latest ICPAC bulletin.",
+        "heavyRainScope": "none",
+        "heatStress": "No specific severe heat-stress signal is highlighted for Rwanda in the latest ICPAC bulletin.",
+        "heatStressScope": "none",
+        "flood": "No specific flood update is listed for Rwanda in the latest ICPAC bulletin. This does not mean there is no local flood risk.",
+        "floodScope": "none",
         "url": "https://www.icpac.net/weekly-forecast/"
       },
       "seasonal": {
         "period": "September - November 2026",
-        "rainfall": "Above normal rainfall is expected over most parts of the region including parts of Ethiopia, South Sudan, Somalia, Djibouti, Kenya, Uganda, Rwanda, Burundi, and northern Tanzania.",
+        "rainfall": "Rwanda — above normal rainfall expected.",
+        "rainfallScope": "country-or-subnational",
         "temperature": "Above normal temperatures are expected over the region with the highest probabilities indicated over northern and central areas of the regions.",
+        "temperatureScope": "regional",
         "url": "https://www.icpac.net/seasonal-forecast/"
       },
       "drought": {
@@ -109,17 +130,24 @@
     "BDI": {
       "weekly": {
         "period": "01 - 08 September 2026",
-        "rainfall": "No country-specific rainfall anomaly is highlighted for Burundi in the latest ICPAC weekly bulletin.",
+        "rainfall": "No specific weekly rainfall anomaly is highlighted for Burundi in the latest ICPAC bulletin.",
+        "rainfallScope": "none",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
-        "heavyRain": "No country-specific exceptional-rainfall signal is highlighted for Burundi in the latest ICPAC weekly bulletin.",
-        "heatStress": "No country-specific severe heat-stress signal is highlighted for Burundi in the latest ICPAC weekly bulletin.",
-        "flood": "No country-specific flood update is listed for Burundi in the latest ICPAC weekly bulletin. This does not mean there is no local flood risk.",
+        "temperatureScope": "regional",
+        "heavyRain": "No specific exceptional-rainfall signal is highlighted for Burundi in the latest ICPAC bulletin.",
+        "heavyRainScope": "none",
+        "heatStress": "No specific severe heat-stress signal is highlighted for Burundi in the latest ICPAC bulletin.",
+        "heatStressScope": "none",
+        "flood": "No specific flood update is listed for Burundi in the latest ICPAC bulletin. This does not mean there is no local flood risk.",
+        "floodScope": "none",
         "url": "https://www.icpac.net/weekly-forecast/"
       },
       "seasonal": {
         "period": "September - November 2026",
-        "rainfall": "Above normal rainfall is expected over most parts of the region including parts of Ethiopia, South Sudan, Somalia, Djibouti, Kenya, Uganda, Rwanda, Burundi, and northern Tanzania.",
+        "rainfall": "Burundi — above normal rainfall expected.",
+        "rainfallScope": "country-or-subnational",
         "temperature": "Above normal temperatures are expected over the region with the highest probabilities indicated over northern and central areas of the regions.",
+        "temperatureScope": "regional",
         "url": "https://www.icpac.net/seasonal-forecast/"
       },
       "drought": {
@@ -135,17 +163,24 @@
     "ETH": {
       "weekly": {
         "period": "01 - 08 September 2026",
-        "rainfall": "More than usual rainfall expected over northern parts of Ethiopia, isolated parts of western Eritrea and isolated parts of western South Sudan. Less than usual rainfall expected over central to southern regions of Sudan, most parts of South Sudan, central parts of Ethiopia, isolated areas over northern coastal Somalia, Uganda and western regions of Kenya.",
+        "rainfall": "Northern parts of Ethiopia — more than usual rainfall expected. Central parts of Ethiopia — less than usual rainfall expected.",
+        "rainfallScope": "country-or-subnational",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
-        "heavyRain": "Rainfall exceeding the 90th percentile expected over isolated areas in western to northern Ethiopia and isolated areas in northwestern South Sudan. Heavy rainfall (greater than 200 mm) expected over isolated parts of western Ethiopia.",
-        "heatStress": "Elevated heat stress within the ‘Extreme Caution’ category expected over most parts of South Sudan, Sudan, Eritrea, Djibouti, central to northern Somalia and north-eastern regions of Ethiopia. Elevated heat stress within the ‘Danger’ category expected over parts of the Afar region in Ethiopia extending into parts of central Eritrea, isolated areas along the coastline of Eritrea and a few pockets over northern Sudan.",
-        "flood": "No country-specific flood update is listed for Ethiopia in the latest ICPAC weekly bulletin. This does not mean there is no local flood risk.",
+        "temperatureScope": "regional",
+        "heavyRain": "Isolated areas in western to northern Ethiopia — rainfall exceeding the 90th percentile expected. Isolated parts of western Ethiopia — heavy rainfall (greater than 200 mm) expected.",
+        "heavyRainScope": "country-or-subnational",
+        "heatStress": "North-eastern regions of Ethiopia — elevated heat stress within the ‘extreme caution’ category expected. Parts of the Afar region in Ethiopia extending into parts of central Eritrea — elevated heat stress within the ‘danger’ category expected.",
+        "heatStressScope": "country-or-subnational",
+        "flood": "No specific flood update is listed for Ethiopia in the latest ICPAC bulletin. This does not mean there is no local flood risk.",
+        "floodScope": "none",
         "url": "https://www.icpac.net/weekly-forecast/"
       },
       "seasonal": {
         "period": "September - November 2026",
-        "rainfall": "Above normal rainfall is expected over most parts of the region including parts of Ethiopia, South Sudan, Somalia, Djibouti, Kenya, Uganda, Rwanda, Burundi, and northern Tanzania. Below normal rainfall is expected over parts of central to north-eastern South Sudan, central and western Ethiopia, as well as central to southern Sudan.",
+        "rainfall": "Most parts of the region including parts of Ethiopia — above normal rainfall expected. Central and western Ethiopia — below normal rainfall expected.",
+        "rainfallScope": "country-or-subnational",
         "temperature": "Above normal temperatures are expected over the region with the highest probabilities indicated over northern and central areas of the regions.",
+        "temperatureScope": "regional",
         "url": "https://www.icpac.net/seasonal-forecast/"
       },
       "drought": {
@@ -162,16 +197,23 @@
       "weekly": {
         "period": "Current",
         "rainfall": "ICPAC's weekly forecast does not cover Zambia. Shorter-range information should come from Zambia Meteorological Department or SADC services.",
+        "rainfallScope": "not-covered",
         "temperature": "ICPAC's weekly forecast does not cover Zambia.",
+        "temperatureScope": "not-covered",
         "heavyRain": "No ICPAC weekly product is applied to Zambia.",
+        "heavyRainScope": "not-covered",
         "heatStress": "No ICPAC weekly product is applied to Zambia.",
+        "heatStressScope": "not-covered",
         "flood": "No ICPAC weekly flood product is applied to Zambia.",
+        "floodScope": "not-covered",
         "url": "https://zmd.gov.zm/"
       },
       "seasonal": {
         "period": "2026/27 rainy season",
         "rainfall": "For October–November–December (OND) 2026 , below-normal rainfall is favoured across much of Angola, southern Zambia, Zimbabwe, Mozambique, Namibia, Botswana, most of South Africa, Eswatini and Lesotho. Normal to above-normal rainfall is favoured over parts of the northern region, while above-normal rainfall is expected over eastern DRC, most of Tanzania, the extreme northern parts of Malawi and Zambia, and Seychelles. During January–February–March (JFM) 2027 , below-normal rainfall remains favoured across much of Angola, Namibia, Botswana, Zimbabwe, Zambia and parts of South Africa.",
+        "rainfallScope": "country-or-subnational",
         "temperature": "The temperature outlook indicates an increased likelihood of above-average temperatures across most of the SADC region, except over some central areas where cooler-than-usual conditions are expected.",
+        "temperatureScope": "regional",
         "url": "https://www.sadc.int/latest-news/sadc-outlook-favours-drier-conditions-across-much-southern-africa-during-202627-rainy"
       },
       "drought": {
