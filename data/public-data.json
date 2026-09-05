@@ -1,11 +1,414 @@
 {
-  "generatedAt": null,
-  "sources": {
-    "World Bank": {"status":"awaiting-first-refresh"},
-    "UNHCR": {"status":"awaiting-first-refresh"},
-    "NOAA Niño 3.4": {"status":"awaiting-first-refresh"},
-    "GDACS": {"status":"awaiting-first-refresh"}
+  "generatedAt": "2026-09-05T12:41:09.649Z",
+  "previous": {
+    "generatedAt": null,
+    "global": {
+      "enso": null
+    },
+    "countries": {
+      "KEN": {},
+      "UGA": {},
+      "RWA": {},
+      "BDI": {},
+      "ETH": {},
+      "ZMB": {}
+    }
   },
-  "countries": {},
-  "global": {}
+  "changes": [],
+  "sources": {
+    "World Bank": {
+      "status": "ok",
+      "updatedAt": "2026-09-05T12:41:10.456Z"
+    },
+    "UNHCR": {
+      "status": "ok",
+      "updatedAt": "2026-09-05T12:41:11.548Z"
+    },
+    "NOAA Niño 3.4": {
+      "status": "ok",
+      "updatedAt": "2026-09-05T12:41:11.726Z"
+    },
+    "GDACS": {
+      "status": "ok",
+      "updatedAt": "2026-09-05T12:41:29.521Z"
+    },
+    "HDX HAPI · INFORM": {
+      "status": "not-configured",
+      "note": "Add repository secret HAPI_APP_IDENTIFIER"
+    },
+    "HDX HAPI · CHIRPS": {
+      "status": "not-configured",
+      "note": "Add repository secret HAPI_APP_IDENTIFIER"
+    },
+    "HDX HAPI · IPC": {
+      "status": "not-configured",
+      "note": "Add repository secret HAPI_APP_IDENTIFIER"
+    },
+    "HDX HAPI · IDPs": {
+      "status": "not-configured",
+      "note": "Add repository secret HAPI_APP_IDENTIFIER"
+    },
+    "HDX HAPI · ACLED aggregate": {
+      "status": "not-configured",
+      "note": "Add repository secret HAPI_APP_IDENTIFIER"
+    },
+    "HDX HAPI · OCHA FTS": {
+      "status": "not-configured",
+      "note": "Add repository secret HAPI_APP_IDENTIFIER"
+    },
+    "HDX HAPI · subnational": {
+      "status": "not-configured",
+      "note": "Add repository secret HAPI_APP_IDENTIFIER"
+    }
+  },
+  "countries": {
+    "KEN": {
+      "worldBank": {
+        "population": {
+          "value": 57532493,
+          "year": 2025,
+          "indicator": "SP.POP.TOTL"
+        },
+        "ruralPopulationPct": {
+          "value": 67.7878807128255,
+          "year": 2025,
+          "indicator": "SP.RUR.TOTL.ZS"
+        },
+        "agricultureEmploymentPct": {
+          "value": 45.7884267176803,
+          "year": 2025,
+          "indicator": "SL.AGR.EMPL.ZS"
+        }
+      },
+      "unhcr": {
+        "year": 2025,
+        "refugees": 617125,
+        "asylumSeekers": 218646
+      },
+      "gdacs": []
+    },
+    "UGA": {
+      "worldBank": {
+        "population": {
+          "value": 51384894,
+          "year": 2025,
+          "indicator": "SP.POP.TOTL"
+        },
+        "ruralPopulationPct": {
+          "value": 68.0600442463383,
+          "year": 2025,
+          "indicator": "SP.RUR.TOTL.ZS"
+        },
+        "agricultureEmploymentPct": {
+          "value": 64.8536445563912,
+          "year": 2025,
+          "indicator": "SL.AGR.EMPL.ZS"
+        }
+      },
+      "unhcr": {
+        "year": 2025,
+        "refugees": 1936719,
+        "asylumSeekers": 35249
+      },
+      "gdacs": []
+    },
+    "RWA": {
+      "worldBank": {
+        "population": {
+          "value": 14569341,
+          "year": 2025,
+          "indicator": "SP.POP.TOTL"
+        },
+        "ruralPopulationPct": {
+          "value": 69.0866159071838,
+          "year": 2025,
+          "indicator": "SP.RUR.TOTL.ZS"
+        },
+        "agricultureEmploymentPct": {
+          "value": 35.0513644642127,
+          "year": 2025,
+          "indicator": "SL.AGR.EMPL.ZS"
+        }
+      },
+      "unhcr": {
+        "year": 2025,
+        "refugees": 115794,
+        "asylumSeekers": 15251
+      },
+      "gdacs": []
+    },
+    "BDI": {
+      "worldBank": {
+        "population": {
+          "value": 14390003,
+          "year": 2025,
+          "indicator": "SP.POP.TOTL"
+        },
+        "ruralPopulationPct": {
+          "value": 74.3129815318337,
+          "year": 2025,
+          "indicator": "SP.RUR.TOTL.ZS"
+        },
+        "agricultureEmploymentPct": {
+          "value": 85.3410580900747,
+          "year": 2025,
+          "indicator": "SL.AGR.EMPL.ZS"
+        }
+      },
+      "unhcr": {
+        "year": 2025,
+        "refugees": 110800,
+        "asylumSeekers": 1466
+      },
+      "gdacs": []
+    },
+    "ETH": {
+      "worldBank": {
+        "population": {
+          "value": 135472051,
+          "year": 2025,
+          "indicator": "SP.POP.TOTL"
+        },
+        "ruralPopulationPct": {
+          "value": 75.8903047911054,
+          "year": 2025,
+          "indicator": "SP.RUR.TOTL.ZS"
+        },
+        "agricultureEmploymentPct": {
+          "value": 60.1432419652977,
+          "year": 2025,
+          "indicator": "SL.AGR.EMPL.ZS"
+        }
+      },
+      "unhcr": {
+        "year": 2025,
+        "refugees": 1010466,
+        "asylumSeekers": 112987
+      },
+      "gdacs": []
+    },
+    "ZMB": {
+      "worldBank": {
+        "population": {
+          "value": 21913874,
+          "year": 2025,
+          "indicator": "SP.POP.TOTL"
+        },
+        "ruralPopulationPct": {
+          "value": 54.0828489838539,
+          "year": 2025,
+          "indicator": "SP.RUR.TOTL.ZS"
+        },
+        "agricultureEmploymentPct": {
+          "value": 54.5286060377699,
+          "year": 2025,
+          "indicator": "SL.AGR.EMPL.ZS"
+        }
+      },
+      "unhcr": {
+        "year": 2025,
+        "refugees": 83225,
+        "asylumSeekers": 12906
+      },
+      "gdacs": [
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-08-30T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031678&episodeid=2&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-08-26T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031523&episodeid=4&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-08-31T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031562&episodeid=3&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-08-27T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=6&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-08-27T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031391&episodeid=10&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-08-25T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031467&episodeid=8&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-08-24T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031362&episodeid=10&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-08-23T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031364&episodeid=7&eventtype=WF"
+        }
+      ]
+    }
+  },
+  "global": {
+    "enso": {
+      "latest": {
+        "year": 2026,
+        "month": 8,
+        "value": 29.38
+      },
+      "previous": {
+        "year": 2026,
+        "month": 7,
+        "value": 29.45
+      },
+      "signal": "Warm / El Niño signal",
+      "trend": "Weakening",
+      "series": [
+        {
+          "year": 2024,
+          "month": 9,
+          "value": 27.33
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "value": 27.38
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "value": 27.29
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "value": 26.72
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "value": 26.53
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "value": 26.83
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "value": 27.65
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "value": 27.96
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "value": 28.25
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "value": 28.18
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "value": 27.87
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "value": 27.34
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "value": 27.11
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "value": 26.97
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "value": 26.79
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "value": 26.85
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "value": 26.77
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "value": 27.23
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "value": 27.84
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "value": 28.75
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "value": 29.27
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "value": 29.61
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "value": 29.45
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "value": 29.38
+        }
+      ]
+    },
+    "gdacs": {
+      "eventCount": 100
+    }
+  }
 }
