@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T17:46:41.283Z",
+  "generatedAt": "2026-09-05T18:31:23.348Z",
   "previous": {
-    "generatedAt": "2026-09-05T17:40:14.730Z",
+    "generatedAt": "2026-09-05T17:46:41.283Z",
     "global": {
       "enso": {
         "latest": {
@@ -485,6 +485,13 @@
             "type": "WF",
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
+            "date": "2026-08-25T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031577&episodeid=3&eventtype=WF"
+          },
+          {
+            "type": "WF",
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
             "date": "2026-08-27T00:00:00",
             "url": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=7&eventtype=WF"
           },
@@ -548,57 +555,64 @@
       }
     }
   },
-  "changes": [],
+  "changes": [
+    {
+      "scope": "Uganda",
+      "metric": "Disaster alert",
+      "text": "New GDACS alert: Forest fires in Uganda.",
+      "severity": "high"
+    }
+  ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:41.492Z"
+      "updatedAt": "2026-09-05T18:31:23.817Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:42.441Z"
+      "updatedAt": "2026-09-05T18:31:24.944Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:42.591Z"
+      "updatedAt": "2026-09-05T18:31:25.077Z"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:48.299Z"
+      "updatedAt": "2026-09-05T18:31:38.916Z"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:50.826Z"
+      "updatedAt": "2026-09-05T18:32:00.414Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:51.581Z"
+      "updatedAt": "2026-09-05T18:32:20.394Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:53.845Z"
+      "updatedAt": "2026-09-05T18:32:41.370Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:55.921Z"
+      "updatedAt": "2026-09-05T18:32:46.786Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:58.584Z"
+      "updatedAt": "2026-09-05T18:32:51.774Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:47:03.308Z"
+      "updatedAt": "2026-09-05T18:32:54.845Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-09-05T17:47:03.382Z",
+      "lastAttempt": "2026-09-05T18:32:54.923Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:47:33.797Z",
+      "updatedAt": "2026-09-05T18:33:26.942Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -848,7 +862,15 @@
         "refugees": 1936719,
         "asylumSeekers": 35249
       },
-      "gdacs": [],
+      "gdacs": [
+        {
+          "type": "WF",
+          "name": "Forest fires in Uganda",
+          "alertLevel": "Green",
+          "date": "2026-08-23T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031497&episodeid=5&eventtype=WF"
+        }
+      ],
       "inform": {
         "overallRisk": 5.7,
         "riskClass": 4,
@@ -1074,7 +1096,7 @@
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Dépressions de l’est",
+            "name": "Plateaux secs de l'est",
             "phase3Plus": 3140356
           }
         ],
@@ -1371,6 +1393,13 @@
           "type": "WF",
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
+          "date": "2026-08-23T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031661&episodeid=3&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
           "date": "2026-08-25T00:00:00",
           "url": "https://www.gdacs.org/report.aspx?eventid=1031656&episodeid=2&eventtype=WF"
         },
@@ -1450,20 +1479,6 @@
           "alertLevel": "Green",
           "date": "2026-08-29T00:00:00",
           "url": "https://www.gdacs.org/report.aspx?eventid=1031491&episodeid=5&eventtype=WF"
-        },
-        {
-          "type": "WF",
-          "name": "Forest fires in Zambia",
-          "alertLevel": "Green",
-          "date": "2026-08-25T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031467&episodeid=8&eventtype=WF"
-        },
-        {
-          "type": "WF",
-          "name": "Forest fires in Zambia",
-          "alertLevel": "Green",
-          "date": "2026-08-28T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031433&episodeid=8&eventtype=WF"
         }
       ],
       "inform": {

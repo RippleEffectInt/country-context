@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-09-05T17:46:41.283Z",
+  "generatedAt": "2026-09-05T18:31:23.348Z",
   "previous": {
-    "generatedAt": "2026-09-05T17:40:14.730Z",
+    "generatedAt": "2026-09-05T17:46:41.283Z",
     "global": {
       "enso": {
         "latest": {
@@ -485,6 +485,13 @@ window.PUBLIC_COUNTRY_DATA = {
             "type": "WF",
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
+            "date": "2026-08-25T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031577&episodeid=3&eventtype=WF"
+          },
+          {
+            "type": "WF",
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
             "date": "2026-08-27T00:00:00",
             "url": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=7&eventtype=WF"
           },
@@ -548,57 +555,64 @@ window.PUBLIC_COUNTRY_DATA = {
       }
     }
   },
-  "changes": [],
+  "changes": [
+    {
+      "scope": "Uganda",
+      "metric": "Disaster alert",
+      "text": "New GDACS alert: Forest fires in Uganda.",
+      "severity": "high"
+    }
+  ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:41.492Z"
+      "updatedAt": "2026-09-05T18:31:23.817Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:42.441Z"
+      "updatedAt": "2026-09-05T18:31:24.944Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:42.591Z"
+      "updatedAt": "2026-09-05T18:31:25.077Z"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:48.299Z"
+      "updatedAt": "2026-09-05T18:31:38.916Z"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:50.826Z"
+      "updatedAt": "2026-09-05T18:32:00.414Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:51.581Z"
+      "updatedAt": "2026-09-05T18:32:20.394Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:53.845Z"
+      "updatedAt": "2026-09-05T18:32:41.370Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:55.921Z"
+      "updatedAt": "2026-09-05T18:32:46.786Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:46:58.584Z"
+      "updatedAt": "2026-09-05T18:32:51.774Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:47:03.308Z"
+      "updatedAt": "2026-09-05T18:32:54.845Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-09-05T17:47:03.382Z",
+      "lastAttempt": "2026-09-05T18:32:54.923Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:47:33.797Z",
+      "updatedAt": "2026-09-05T18:33:26.942Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -848,7 +862,15 @@ window.PUBLIC_COUNTRY_DATA = {
         "refugees": 1936719,
         "asylumSeekers": 35249
       },
-      "gdacs": [],
+      "gdacs": [
+        {
+          "type": "WF",
+          "name": "Forest fires in Uganda",
+          "alertLevel": "Green",
+          "date": "2026-08-23T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031497&episodeid=5&eventtype=WF"
+        }
+      ],
       "inform": {
         "overallRisk": 5.7,
         "riskClass": 4,
@@ -1074,7 +1096,7 @@ window.PUBLIC_COUNTRY_DATA = {
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Dépressions de l’est",
+            "name": "Plateaux secs de l'est",
             "phase3Plus": 3140356
           }
         ],
@@ -1371,6 +1393,13 @@ window.PUBLIC_COUNTRY_DATA = {
           "type": "WF",
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
+          "date": "2026-08-23T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031661&episodeid=3&eventtype=WF"
+        },
+        {
+          "type": "WF",
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
           "date": "2026-08-25T00:00:00",
           "url": "https://www.gdacs.org/report.aspx?eventid=1031656&episodeid=2&eventtype=WF"
         },
@@ -1450,20 +1479,6 @@ window.PUBLIC_COUNTRY_DATA = {
           "alertLevel": "Green",
           "date": "2026-08-29T00:00:00",
           "url": "https://www.gdacs.org/report.aspx?eventid=1031491&episodeid=5&eventtype=WF"
-        },
-        {
-          "type": "WF",
-          "name": "Forest fires in Zambia",
-          "alertLevel": "Green",
-          "date": "2026-08-25T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031467&episodeid=8&eventtype=WF"
-        },
-        {
-          "type": "WF",
-          "name": "Forest fires in Zambia",
-          "alertLevel": "Green",
-          "date": "2026-08-28T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031433&episodeid=8&eventtype=WF"
         }
       ],
       "inform": {
@@ -1749,30 +1764,3 @@ window.PUBLIC_COUNTRY_DATA = {
     }
   }
 };
-
-(function(){
-  const COUNTRY_CODES=['KEN','UGA','RWA','BDI','ETH','ZMB'];
-  const fmt=n=>n==null?'—':Intl.NumberFormat('en-GB',{notation:'compact',maximumFractionDigits:1}).format(n);
-  const pct=n=>n==null?'—':`${n>=0?'+':''}${Number(n).toFixed(0)}%`;
-  const readable=x=>x&&x.name&&x.name!==x.code&&!/^[A-Z]{2,3}\d+$/i.test(x.name);
-  function helpHtml(){return '<details class="context-help"><summary>What do these figures mean?</summary><p><strong>Rainfall:</strong> percentages compare rainfall over the latest rolling one-month CHIRPS period with the long-term average. For example, <strong>+40%</strong> means about 40% more rainfall than usual; <strong>-20%</strong> means about 20% less.</p><p><strong>Regions/provinces:</strong> these are the main administrative areas within each country — for example counties in Kenya, regions in Ethiopia or provinces in Zambia. We only show rainfall results when the source provides a readable area name.</p><p><strong>IPC Phase 3+:</strong> the displayed value is the estimated <em>number of people</em> facing Crisis or worse food insecurity, not a percentage.</p><p><a href="https://www.chc.ucsb.edu/data/chirps3" target="_blank" rel="noreferrer">Learn more about CHIRPS rainfall data ↗</a><br><a href="https://www.ipcinfo.org/ipcinfo-website/ipc-overview-and-classification-system/en/" target="_blank" rel="noreferrer">Learn more about the IPC food insecurity scale ↗</a></p></details>'}
-  function enhance(){
-    if(document.getElementById('context-help-style'))return;
-    const style=document.createElement('style');style.id='context-help-style';
-    style.textContent='.metric-help{cursor:help;border-bottom:1px dotted #6b7280}.context-help{margin-top:10px;padding-top:8px;border-top:1px solid #e5e7eb;font-size:12px;color:#6b7280}.context-help summary{cursor:pointer;color:#2563eb;font-weight:700}.context-help p{margin:7px 0}.context-help strong{color:#18212b}.context-help a{color:#2563eb}.subgrid .small{margin-top:2px}';
-    document.head.appendChild(style);
-    document.querySelectorAll('.country-card').forEach((card,i)=>{
-      const code=COUNTRY_CODES[i],d=window.PUBLIC_COUNTRY_DATA?.countries?.[code]||{},sub=d.subnational||{},detail=card.querySelector('.detail');if(!detail)return;
-      const existing=detail.querySelector('.subgrid');if(existing)existing.remove();
-      const oldHelp=detail.querySelector('.context-help');if(oldHelp)oldHelp.remove();
-      const rain=(sub.rainfall||[]).filter(readable),dry=rain.slice(0,3),wet=rain.slice(-3).reverse(),ipc=(sub.foodSecurity||[]).slice(0,3);
-      const grid=document.createElement('div');grid.className='subgrid';
-      const rainEmpty='<div class="small">Named regional rainfall results are not available from this source.</div>';
-      const ipcEmpty='<div class="small">No current comparable named regional IPC Phase 3+ data are available.</div>';
-      grid.innerHTML='<div><b class="metric-help" title="The named regions, provinces or counties with the lowest rainfall compared with their long-term average over the latest one-month CHIRPS period.">Lowest recent rainfall ⓘ</b>'+ (dry.length?dry.map(x=>'<div class="small">'+x.name+': '+pct(x.anomalyPct)+'</div>').join(''):rainEmpty) +'</div><div><b class="metric-help" title="The named regions, provinces or counties with the highest rainfall compared with their long-term average over the latest one-month CHIRPS period.">Highest recent rainfall ⓘ</b>'+ (wet.length?wet.map(x=>'<div class="small">'+x.name+': '+pct(x.anomalyPct)+'</div>').join(''):rainEmpty) +'</div><div><b class="metric-help" title="The named regions, provinces or counties with the largest estimated number of people facing IPC Phase 3 Crisis, Phase 4 Emergency or Phase 5 Catastrophe/Famine.">Most people in IPC Phase 3+ ⓘ</b>'+ (ipc.length?ipc.map(x=>'<div class="small">'+x.name+': '+fmt(x.phase3Plus)+'</div>').join(''):ipcEmpty) +'</div>';
-      detail.appendChild(grid);detail.insertAdjacentHTML('beforeend',helpHtml());
-      const rainfallP=[...detail.querySelectorAll('p')].find(p=>p.textContent.trim().startsWith('Observed rainfall:'));if(rainfallP)rainfallP.innerHTML=rainfallP.innerHTML.replace(' vs normal',' vs long-term average <span class="small">(latest 1-month CHIRPS period)</span>');
-    });
-  }
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',enhance);else setTimeout(enhance,0);
-})();
