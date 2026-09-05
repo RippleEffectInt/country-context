@@ -30,6 +30,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Use proven HAPI v2 endpoints
+        run: sed -i 's#https://hapi.humdata.org/api/v1#https://hapi.humdata.org/api/v2#' scripts/update-public-data.mjs
       - name: Refresh country context APIs
         run: node scripts/update-public-data.mjs
       - name: Commit refreshed data
