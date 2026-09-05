@@ -10,6 +10,7 @@ on:
       - 'scripts/update-gdacs-strict.mjs'
       - 'scripts/update-enso-anomaly.mjs'
       - 'scripts/update-history.mjs'
+      - 'scripts/update-climate-forward.mjs'
       - 'scripts/write-public-data-js.mjs'
       - '.github/workflows/refresh-data.yml'
   schedule:
@@ -48,6 +49,8 @@ jobs:
         run: node scripts/update-wfp-chirps-all.mjs
       - name: Rebuild GDACS alerts with strict country matching
         run: node scripts/update-gdacs-strict.mjs
+      - name: Refresh current and upcoming climate outlooks
+        run: node scripts/update-climate-forward.mjs
       - name: Update source-period trend history
         run: node scripts/update-history.mjs
       - name: Write browser data file
