@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T20:20:05.181Z",
+  "generatedAt": "2026-09-05T20:26:18.881Z",
   "previous": {
-    "generatedAt": "2026-09-05T20:17:11.877Z",
+    "generatedAt": "2026-09-05T20:20:05.181Z",
     "global": {
       "enso": {
         "latest": {
@@ -643,55 +643,55 @@
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:20:05.571Z"
+      "updatedAt": "2026-09-05T20:26:19.327Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:20:06.768Z"
+      "updatedAt": "2026-09-05T20:26:20.301Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:21:35.542Z",
+      "updatedAt": "2026-09-05T20:26:47.923Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:22:07.621Z",
+      "updatedAt": "2026-09-05T20:27:28.466Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:20:37.250Z"
+      "updatedAt": "2026-09-05T20:26:34.811Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:20:55.894Z"
+      "updatedAt": "2026-09-05T20:26:35.437Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:21:15.193Z"
+      "updatedAt": "2026-09-05T20:26:37.587Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:21:28.727Z"
+      "updatedAt": "2026-09-05T20:26:40.241Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:21:30.661Z"
+      "updatedAt": "2026-09-05T20:26:45.716Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:21:35.178Z"
+      "updatedAt": "2026-09-05T20:26:47.588Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-09-05T20:21:35.206Z",
+      "lastAttempt": "2026-09-05T20:26:47.647Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-09-05T20:22:01.494Z",
+      "updatedAt": "2026-09-05T20:27:24.378Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -1172,7 +1172,7 @@
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Dépressions de l’est",
+            "name": "Plateaux humides",
             "phase3Plus": 3140356
           }
         ],
