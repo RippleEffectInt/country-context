@@ -1,50 +1,49 @@
 {
-  "generatedAt": "2026-09-05T20:50:13.950Z",
+  "generatedAt": "2026-09-05T20:54:41.964Z",
   "sources": {
     "ICPAC weekly forecast": {
       "status": "ok",
       "period": "01 - 08 September 2026",
       "url": "https://www.icpac.net/weekly-forecast/",
-      "updatedAt": "2026-09-05T20:49:34.528Z"
+      "updatedAt": "2026-09-05T20:54:09.596Z"
     },
     "ICPAC seasonal forecast": {
       "status": "ok",
       "period": "September - November 2026",
       "url": "https://www.icpac.net/seasonal-forecast/",
-      "updatedAt": "2026-09-05T20:49:36.834Z"
+      "updatedAt": "2026-09-05T20:54:12.007Z"
     },
     "East Africa Drought Watch": {
       "status": "stale",
       "period": "11 August 2026",
       "url": "https://droughtwatch.icpac.net/report-v2/",
-      "updatedAt": "2026-09-05T20:49:45.505Z",
+      "updatedAt": "2026-09-05T20:54:19.905Z",
       "error": "502 Bad Gateway"
     },
     "SADC / SARCOF-33": {
       "status": "ok",
       "period": "August 27, 2026",
       "url": "https://www.sadc.int/latest-news/sadc-outlook-favours-drier-conditions-across-much-southern-africa-during-202627-rainy",
-      "updatedAt": "2026-09-05T20:49:46.683Z"
-    },
-    "ICPAC Geoportal boundaries": {
-      "status": "stale",
-      "url": "https://geoportal.icpac.net/geoserver/geonode/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=geonode:afr_g2014_2013_0&outputFormat=application%2Fjson",
-      "period": "current",
-      "updatedAt": "2026-09-05T20:50:05.726Z",
-      "error": "502 Bad Gateway"
+      "updatedAt": "2026-09-05T20:54:20.945Z"
     },
     "NOAA GFS spatial forecast": {
       "status": "ok",
       "url": "https://open-meteo.com/en/docs/gfs-api",
       "period": "2026-09-05 to 2026-09-11",
-      "updatedAt": "2026-09-05T20:50:13.950Z"
+      "updatedAt": "2026-09-05T20:54:41.964Z"
     },
     "ECMWF EC46 subseasonal outlook": {
-      "status": "stale",
+      "status": "ok",
       "url": "https://open-meteo.com/en/docs/seasonal-forecast-api",
-      "period": "days 8–28",
-      "updatedAt": "2026-09-05T20:50:13.950Z",
-      "error": "Updated 0/6 countries"
+      "period": "2026-09-14 to 2026-10-04",
+      "updatedAt": "2026-09-05T20:54:41.964Z"
+    },
+    "Country boundary geometry": {
+      "status": "cached",
+      "url": "https://github.com/johan/world.geo.json",
+      "period": "current",
+      "updatedAt": "2026-09-05T20:54:39.236Z",
+      "error": "502 Bad Gateway"
     }
   },
   "countries": {
@@ -85,23 +84,44 @@
         "periodEnd": "2026-09-11",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
-        "sampleCount": 35,
+        "sampleCount": 22,
+        "boundaryMode": "cached country polygons",
         "rainfall": {
           "medianMm": 0,
           "meanMm": 1.1,
           "minMm": 0,
-          "maxMm": 11.4,
+          "maxMm": 12.8,
           "drySharePct": 91,
           "heavySharePct": 0,
           "veryHeavySharePct": 0,
           "wettestZone": "southern-eastern"
         },
         "temperature": {
-          "meanDailyMaxC": 32.2,
-          "hotSharePct": 11,
+          "meanDailyMaxC": 32.6,
+          "hotSharePct": 18,
           "hottestZone": "northern-western"
         },
-        "method": "GFS forecast sampled across land grid points inside the country boundary; statistics describe sampled area, not population."
+        "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
+      },
+      "subseasonal": {
+        "periodStart": "2026-09-14",
+        "periodEnd": "2026-10-04",
+        "model": "ECMWF EC46 ensemble mean",
+        "resolution": "about 36 km",
+        "sampleCount": 11,
+        "boundaryMode": "cached country polygons",
+        "rainfall": {
+          "medianAnomalyMm": 2,
+          "wetterSharePct": 36,
+          "drierSharePct": 36,
+          "wettestZone": "eastern"
+        },
+        "temperature": {
+          "medianAnomalyC": 0.6,
+          "warmerSharePct": 73,
+          "coolerSharePct": 0
+        },
+        "method": "EC46 weekly ensemble-mean anomalies sampled inside a real country polygon (cached country polygons) for roughly days 8–28. This is a broad area outlook, not a local weather forecast."
       }
     },
     "UGA": {
@@ -141,23 +161,44 @@
         "periodEnd": "2026-09-11",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
-        "sampleCount": 36,
+        "sampleCount": 26,
+        "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianMm": 1.8,
-          "meanMm": 5.2,
+          "medianMm": 0.9,
+          "meanMm": 2.1,
           "minMm": 0,
-          "maxMm": 54.5,
-          "drySharePct": 81,
-          "heavySharePct": 3,
+          "maxMm": 8.5,
+          "drySharePct": 88,
+          "heavySharePct": 0,
           "veryHeavySharePct": 0,
-          "wettestZone": "northern-western"
+          "wettestZone": "northern"
         },
         "temperature": {
           "meanDailyMaxC": 31.9,
-          "hotSharePct": 25,
+          "hotSharePct": 31,
           "hottestZone": "northern"
         },
-        "method": "GFS forecast sampled across land grid points inside the country boundary; statistics describe sampled area, not population."
+        "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
+      },
+      "subseasonal": {
+        "periodStart": "2026-09-14",
+        "periodEnd": "2026-10-04",
+        "model": "ECMWF EC46 ensemble mean",
+        "resolution": "about 36 km",
+        "sampleCount": 13,
+        "boundaryMode": "cached country polygons",
+        "rainfall": {
+          "medianAnomalyMm": -18.2,
+          "wetterSharePct": 0,
+          "drierSharePct": 92,
+          "wettestZone": "southern"
+        },
+        "temperature": {
+          "medianAnomalyC": 2,
+          "warmerSharePct": 100,
+          "coolerSharePct": 0
+        },
+        "method": "EC46 weekly ensemble-mean anomalies sampled inside a real country polygon (cached country polygons) for roughly days 8–28. This is a broad area outlook, not a local weather forecast."
       }
     },
     "RWA": {
@@ -197,23 +238,44 @@
         "periodEnd": "2026-09-11",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
-        "sampleCount": 36,
+        "sampleCount": 21,
+        "boundaryMode": "cached country polygons",
         "rainfall": {
           "medianMm": 0,
-          "meanMm": 0.1,
+          "meanMm": 0,
           "minMm": 0,
-          "maxMm": 1,
+          "maxMm": 0.3,
           "drySharePct": 100,
           "heavySharePct": 0,
           "veryHeavySharePct": 0,
-          "wettestZone": "northern-western"
+          "wettestZone": "northern-eastern"
         },
         "temperature": {
-          "meanDailyMaxC": 30.7,
-          "hotSharePct": 6,
+          "meanDailyMaxC": 29.6,
+          "hotSharePct": 0,
           "hottestZone": "northern-eastern"
         },
-        "method": "GFS forecast sampled across land grid points inside the country boundary; statistics describe sampled area, not population."
+        "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
+      },
+      "subseasonal": {
+        "periodStart": "2026-09-14",
+        "periodEnd": "2026-10-04",
+        "model": "ECMWF EC46 ensemble mean",
+        "resolution": "about 36 km",
+        "sampleCount": 11,
+        "boundaryMode": "cached country polygons",
+        "rainfall": {
+          "medianAnomalyMm": -15.2,
+          "wetterSharePct": 0,
+          "drierSharePct": 91,
+          "wettestZone": "northern-eastern"
+        },
+        "temperature": {
+          "medianAnomalyC": 2.1,
+          "warmerSharePct": 100,
+          "coolerSharePct": 0
+        },
+        "method": "EC46 weekly ensemble-mean anomalies sampled inside a real country polygon (cached country polygons) for roughly days 8–28. This is a broad area outlook, not a local weather forecast."
       }
     },
     "BDI": {
@@ -253,23 +315,44 @@
         "periodEnd": "2026-09-11",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
-        "sampleCount": 36,
+        "sampleCount": 21,
+        "boundaryMode": "cached country polygons",
         "rainfall": {
           "medianMm": 0,
-          "meanMm": 0.1,
+          "meanMm": 0,
           "minMm": 0,
-          "maxMm": 0.4,
+          "maxMm": 0.3,
           "drySharePct": 100,
           "heavySharePct": 0,
           "veryHeavySharePct": 0,
-          "wettestZone": "southern"
+          "wettestZone": "western"
         },
         "temperature": {
-          "meanDailyMaxC": 32.1,
-          "hotSharePct": 25,
-          "hottestZone": "southern-eastern"
+          "meanDailyMaxC": 31.5,
+          "hotSharePct": 5,
+          "hottestZone": "eastern"
         },
-        "method": "GFS forecast sampled across land grid points inside the country boundary; statistics describe sampled area, not population."
+        "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
+      },
+      "subseasonal": {
+        "periodStart": "2026-09-14",
+        "periodEnd": "2026-10-04",
+        "model": "ECMWF EC46 ensemble mean",
+        "resolution": "about 36 km",
+        "sampleCount": 11,
+        "boundaryMode": "cached country polygons",
+        "rainfall": {
+          "medianAnomalyMm": -23.4,
+          "wetterSharePct": 0,
+          "drierSharePct": 100,
+          "wettestZone": "northern-eastern"
+        },
+        "temperature": {
+          "medianAnomalyC": 2.2,
+          "warmerSharePct": 100,
+          "coolerSharePct": 0
+        },
+        "method": "EC46 weekly ensemble-mean anomalies sampled inside a real country polygon (cached country polygons) for roughly days 8–28. This is a broad area outlook, not a local weather forecast."
       }
     },
     "ETH": {
@@ -309,23 +392,44 @@
         "periodEnd": "2026-09-11",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
-        "sampleCount": 35,
+        "sampleCount": 20,
+        "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianMm": 1.5,
-          "meanMm": 16.3,
+          "medianMm": 8.4,
+          "meanMm": 21.1,
           "minMm": 0,
-          "maxMm": 115,
-          "drySharePct": 57,
-          "heavySharePct": 11,
-          "veryHeavySharePct": 3,
+          "maxMm": 98.8,
+          "drySharePct": 40,
+          "heavySharePct": 20,
+          "veryHeavySharePct": 0,
           "wettestZone": "northern-western"
         },
         "temperature": {
-          "meanDailyMaxC": 32.5,
-          "hotSharePct": 37,
+          "meanDailyMaxC": 30.4,
+          "hotSharePct": 15,
           "hottestZone": "southern-western"
         },
-        "method": "GFS forecast sampled across land grid points inside the country boundary; statistics describe sampled area, not population."
+        "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
+      },
+      "subseasonal": {
+        "periodStart": "2026-09-14",
+        "periodEnd": "2026-10-04",
+        "model": "ECMWF EC46 ensemble mean",
+        "resolution": "about 36 km",
+        "sampleCount": 10,
+        "boundaryMode": "cached country polygons",
+        "rainfall": {
+          "medianAnomalyMm": -9.8,
+          "wetterSharePct": 20,
+          "drierSharePct": 60,
+          "wettestZone": "southern-eastern"
+        },
+        "temperature": {
+          "medianAnomalyC": 1.2,
+          "warmerSharePct": 80,
+          "coolerSharePct": 0
+        },
+        "method": "EC46 weekly ensemble-mean anomalies sampled inside a real country polygon (cached country polygons) for roughly days 8–28. This is a broad area outlook, not a local weather forecast."
       }
     },
     "ZMB": {
@@ -362,23 +466,44 @@
         "periodEnd": "2026-09-11",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
-        "sampleCount": 42,
+        "sampleCount": 19,
+        "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianMm": 0.6,
-          "meanMm": 1.6,
+          "medianMm": 0.9,
+          "meanMm": 2.2,
           "minMm": 0,
-          "maxMm": 10.9,
-          "drySharePct": 93,
+          "maxMm": 11.4,
+          "drySharePct": 84,
           "heavySharePct": 0,
           "veryHeavySharePct": 0,
           "wettestZone": "western"
         },
         "temperature": {
-          "meanDailyMaxC": 32.7,
-          "hotSharePct": 24,
-          "hottestZone": "northern"
+          "meanDailyMaxC": 32.8,
+          "hotSharePct": 16,
+          "hottestZone": "southern-western"
         },
-        "method": "GFS forecast sampled across land grid points inside the country boundary; statistics describe sampled area, not population."
+        "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
+      },
+      "subseasonal": {
+        "periodStart": "2026-09-14",
+        "periodEnd": "2026-10-04",
+        "model": "ECMWF EC46 ensemble mean",
+        "resolution": "about 36 km",
+        "sampleCount": 10,
+        "boundaryMode": "cached country polygons",
+        "rainfall": {
+          "medianAnomalyMm": 4.1,
+          "wetterSharePct": 30,
+          "drierSharePct": 0,
+          "wettestZone": "western"
+        },
+        "temperature": {
+          "medianAnomalyC": -0.1,
+          "warmerSharePct": 0,
+          "coolerSharePct": 30
+        },
+        "method": "EC46 weekly ensemble-mean anomalies sampled inside a real country polygon (cached country polygons) for roughly days 8–28. This is a broad area outlook, not a local weather forecast."
       }
     }
   }
