@@ -11,21 +11,23 @@ const EA=[['KEN','Kenya'],['UGA','Uganda'],['RWA','Rwanda'],['BDI','Burundi'],['
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 async function get(url){let last;for(let i=0;i<4;i++){try{const r=await fetch(url,{headers:{'User-Agent':'Ripple-Effect-Country-Context/2.0','Accept':'text/html,application/xhtml+xml'}});if(r.ok)return await r.text();last=new Error(`${r.status} ${r.statusText}`);if((r.status===429||r.status>=500)&&i<3){await sleep(1200*(i+1));continue}throw last}catch(e){last=e;if(i<3){await sleep(1200*(i+1));continue}}}throw last}
 function decode(s){return s.replace(/&nbsp;/gi,' ').replace(/&amp;/gi,'&').replace(/&ndash;|&#8211;/gi,'–').replace(/&mdash;|&#8212;/gi,'—').replace(/&deg;/gi,'°').replace(/&#(\d+);/g,(_,n)=>String.fromCharCode(+n));}
-function text(html){return decode(html.replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ').replace(/<\/(li|p|h[1-6]|div|section|article|tr|td)>/gi,'. ').replace(/<br\s*\/?>/gi,'. ').replace(/<[^>]+>/g,' ')).replace(/\s+/g,' ').replace(/\.\s*\./g,'. ').trim()}
-function top(t,marker){const i=t.toLowerCase().indexOf(marker.toLowerCase());return i>0?t.slice(0,i):t}
+function text(html){return decode(html.replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ').replace(/<\/(li|p|h[1-6]|div|section|article|tr)>/gi,'. ').replace(/<br\s*\/?>/gi,'. ').replace(/<[^>]+>/g,' ')).replace(/\s+/g,' ').replace(/\.\s*\./g,'. ').trim()}
 function sentences(t){return [...new Set(t.split(/(?<=[.!?])\s+/).map(x=>x.trim()).filter(x=>x.length>18))]}
 function mentions(s,name){return new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}\\b`,'i').test(s)}
 function pick(ss,name,test){return ss.filter(s=>mentions(s,name)&&test(s));}
 function combine(a,fallback){return a.length?a.join(' '):fallback}
-function periodWeekly(t){return t.match(/\b\d{1,2}\s*[-–]\s*\d{1,2}\s+[A-Za-z]+\s+20\d{2}\b/)?.[0]||'Latest weekly forecast'}
-function periodSeasonal(t){return t.match(/\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s*[-–]\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+20\d{2}\b/i)?.[0]||'Latest seasonal forecast'}
+const WEEK_RE=/\b\d{1,2}\s*[-–]\s*\d{1,2}\s+[A-Za-z]+\s+20\d{2}\b/i;
+const SEASON_RE=/\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s*[-–]\s*(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+20\d{2}\b/i;
+function currentBlock(t,re,endMarkers){const m=re.exec(t);if(!m)return t;const start=m.index;let end=t.length;for(const marker of endMarkers){const i=t.toLowerCase().indexOf(marker.toLowerCase(),start+m[0].length);if(i>start&&i<end)end=i}return t.slice(start,end)}
+function periodWeekly(t){return t.match(WEEK_RE)?.[0]||'Latest weekly forecast'}
+function periodSeasonal(t){return t.match(SEASON_RE)?.[0]||'Latest seasonal forecast'}
 async function readOld(){try{return JSON.parse(await fs.readFile(FILE,'utf8'))}catch{return{generatedAt:null,sources:{},countries:{}}}}
 function source(out,key,status,url,period,error){out.sources[key]={...(out.sources[key]||{}),status,url,period:period||out.sources[key]?.period||null,updatedAt:new Date().toISOString(),...(error?{error:String(error)}:{})}}
 
 const out=await readOld();out.sources||={};out.countries||={};for(const[c]of [...EA,['ZMB','Zambia']])out.countries[c]||={};
 
 try{
-  const raw=await get(WEEKLY),t=top(text(raw),'Weekly Forecasts'),ss=sentences(t),period=periodWeekly(t);
+  const raw=await get(WEEKLY),all=text(raw),t=currentBlock(all,WEEK_RE,['Filter by Region','Filter by Year','Showing ']),ss=sentences(t),period=periodWeekly(t);
   const regionalTemp=ss.find(s=>/warmer than usual|cooler than usual|temperature anomalies/i.test(s)&&/GHA|Greater Horn|region|most parts/i.test(s));
   for(const[c,name]of EA){
     const rain=pick(ss,name,s=>/rainfall/i.test(s)&&/(more than usual|less than usual|wetter than usual|drier than usual|rainfall anomal)/i.test(s));
@@ -38,7 +40,7 @@ try{
 }catch(e){source(out,'ICPAC weekly forecast','stale',WEEKLY,null,e.message);console.warn('ICPAC weekly stale:',e.message)}
 
 try{
-  const raw=await get(SEASONAL),t=top(text(raw),'Seasonal forecasts'),ss=sentences(t),period=periodSeasonal(t);
+  const raw=await get(SEASONAL),all=text(raw),t=currentBlock(all,SEASON_RE,['Filter by Product Type','Filter by Region','Showing ']),ss=sentences(t),period=periodSeasonal(t);
   const regionalTemp=ss.find(s=>/above normal temperatures|warmer than usual|below normal temperatures|cooler than usual/i.test(s)&&/region/i.test(s));
   for(const[c,name]of EA){
     const rain=pick(ss,name,s=>/rainfall/i.test(s)&&/(above normal|below normal|wetter than usual|drier than usual)/i.test(s));
@@ -50,10 +52,12 @@ try{
 
 try{
   const raw=await get(DROUGHT),t=text(raw),date=t.match(/Date of Analysis:\s*([^.]*(?:20\d{2}))/i)?.[1]?.trim()||'Latest analysis';
-  const val=label=>{const m=t.match(new RegExp(`${label}[\\s.|:;-]*[\\d,]+\\s*\\(([\\d.]+)%\\)`,'i'));return m?Number(m[1]):null};
+  const val=label=>{const m=t.match(new RegExp(`${label}\\s+[\\d,]+\\s*\\(([\\d.]+)%\\)`,'i'));return m?Number(m[1]):null};
   const alertPct=val('Alert'),warningPct=val('Warning'),watchPct=val('Watch');
+  if(alertPct==null&&warningPct==null&&watchPct==null)throw new Error('Drought Watch page loaded but CDI percentages were not parseable');
   const bits=[];if(alertPct!=null)bits.push(`${alertPct.toFixed(2)}% Alert`);if(warningPct!=null)bits.push(`${warningPct.toFixed(2)}% Warning`);if(watchPct!=null)bits.push(`${watchPct.toFixed(2)}% Watch`);
-  for(const[c]of EA){const old=out.countries[c].drought||{},a=alertPct??old.alertPct??null,w=warningPct??old.warningPct??null,wa=watchPct??old.watchPct??null,oldBits=[];if(a!=null)oldBits.push(`${Number(a).toFixed(2)}% Alert`);if(w!=null)oldBits.push(`${Number(w).toFixed(2)}% Warning`);if(wa!=null)oldBits.push(`${Number(wa).toFixed(2)}% Watch`);const narrative=bits.length?`Latest East Africa regional CDI analysis: ${bits.join(', ')} of the population. Open Drought Watch for country and local-area inspection.`:oldBits.length?`Latest retained East Africa regional CDI figures: ${oldBits.join(', ')} of the population. Open Drought Watch for the newest country and local-area analysis.`:(old.text||'Open East Africa Drought Watch for the latest Combined Drought Indicator and country/local-area inspection.');out.countries[c].drought={scope:'regional',period:date||old.period||'Latest analysis',text:narrative,alertPct:a,warningPct:w,watchPct:wa,url:DROUGHT};}
+  const narrative=`Latest East Africa regional CDI analysis: ${bits.join(', ')} of the population. Open Drought Watch for country and local-area inspection.`;
+  for(const[c]of EA)out.countries[c].drought={scope:'regional',period:date,text:narrative,alertPct,warningPct,watchPct,url:DROUGHT};
   source(out,'East Africa Drought Watch','ok',DROUGHT,date);
 }catch(e){source(out,'East Africa Drought Watch','stale',DROUGHT,null,e.message);console.warn('EADW stale:',e.message)}
 
