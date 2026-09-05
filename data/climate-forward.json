@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-09-05T20:19:54.421Z",
+  "generatedAt": "2026-09-05T20:22:20.316Z",
   "sources": {
     "ICPAC weekly forecast": {
       "status": "ok",
       "period": "Latest weekly forecast",
       "url": "https://www.icpac.net/weekly-forecast/",
-      "updatedAt": "2026-09-05T20:19:42.600Z"
+      "updatedAt": "2026-09-05T20:22:09.072Z"
     },
     "ICPAC seasonal forecast": {
       "status": "ok",
       "period": "Latest seasonal forecast",
       "url": "https://www.icpac.net/seasonal-forecast/",
-      "updatedAt": "2026-09-05T20:19:44.938Z"
+      "updatedAt": "2026-09-05T20:22:11.420Z"
     },
     "East Africa Drought Watch": {
       "status": "stale",
       "period": "11 August 2026",
       "url": "https://droughtwatch.icpac.net/report-v2/",
-      "updatedAt": "2026-09-05T20:19:53.175Z",
+      "updatedAt": "2026-09-05T20:22:19.269Z",
       "error": "502 Bad Gateway"
     },
     "SADC / SARCOF-33": {
       "status": "ok",
       "period": "August 27, 2026",
       "url": "https://www.sadc.int/latest-news/sadc-outlook-favours-drier-conditions-across-much-southern-africa-during-202627-rainy",
-      "updatedAt": "2026-09-05T20:19:54.421Z"
+      "updatedAt": "2026-09-05T20:22:20.316Z"
     }
   },
   "countries": {
