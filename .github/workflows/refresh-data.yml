@@ -56,6 +56,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # update-public-data.mjs is temporarily edited above only for this run.
+          # Restore it before rebasing so the working tree is clean.
+          git restore scripts/update-public-data.mjs
           git add data/
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh country context data"
