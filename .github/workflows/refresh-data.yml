@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/update-public-data.mjs'
+      - 'scripts/update-rainfall.mjs'
       - '.github/workflows/refresh-data.yml'
   schedule:
     - cron: '17 5 * * *'
@@ -32,6 +33,8 @@ jobs:
           node-version: '22'
       - name: Refresh country context APIs
         run: node scripts/update-public-data.mjs
+      - name: Refresh CHIRPS rainfall aggregation
+        run: node scripts/update-rainfall.mjs
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
