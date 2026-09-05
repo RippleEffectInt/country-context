@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-09-05T17:28:35.023Z",
+  "generatedAt": "2026-09-05T17:32:09.409Z",
   "previous": {
-    "generatedAt": "2026-09-05T17:22:45.737Z",
+    "generatedAt": "2026-09-05T17:28:35.023Z",
     "global": {
       "enso": {
         "latest": {
@@ -142,7 +142,14 @@ window.PUBLIC_COUNTRY_DATA = {
     },
     "countries": {
       "KEN": {
-        "rainfall": null,
+        "rainfall": {
+          "anomalyPct": 86.51339463834375,
+          "referencePeriodStart": null,
+          "referencePeriodEnd": "2026-08-21",
+          "aggregationPeriod": "one_month",
+          "adminUnits": 8,
+          "source": "WFP CHIRPS via HDX"
+        },
         "inform": {
           "overallRisk": 6,
           "riskClass": 4,
@@ -193,7 +200,14 @@ window.PUBLIC_COUNTRY_DATA = {
         ]
       },
       "UGA": {
-        "rainfall": null,
+        "rainfall": {
+          "anomalyPct": 60.04937176747653,
+          "referencePeriodStart": null,
+          "referencePeriodEnd": "2026-08-21",
+          "aggregationPeriod": "one_month",
+          "adminUnits": 4,
+          "source": "WFP CHIRPS via HDX"
+        },
         "inform": {
           "overallRisk": 5.7,
           "riskClass": 4,
@@ -237,11 +251,11 @@ window.PUBLIC_COUNTRY_DATA = {
       },
       "RWA": {
         "rainfall": {
-          "anomalyPct": 15.413240266687817,
+          "anomalyPct": 42.260340370558374,
           "referencePeriodStart": null,
           "referencePeriodEnd": "2026-08-21",
-          "aggregationPeriod": null,
-          "adminUnits": 35,
+          "aggregationPeriod": "one_month",
+          "adminUnits": 5,
           "source": "WFP CHIRPS via HDX"
         },
         "inform": {
@@ -277,7 +291,14 @@ window.PUBLIC_COUNTRY_DATA = {
         "gdacs": []
       },
       "BDI": {
-        "rainfall": null,
+        "rainfall": {
+          "anomalyPct": 62.82787531965173,
+          "referencePeriodStart": null,
+          "referencePeriodEnd": "2026-08-21",
+          "aggregationPeriod": "one_month",
+          "adminUnits": 18,
+          "source": "WFP CHIRPS via HDX"
+        },
         "inform": {
           "overallRisk": 5.9,
           "riskClass": 4,
@@ -320,7 +341,14 @@ window.PUBLIC_COUNTRY_DATA = {
         "gdacs": []
       },
       "ETH": {
-        "rainfall": null,
+        "rainfall": {
+          "anomalyPct": 72.0763565965207,
+          "referencePeriodStart": null,
+          "referencePeriodEnd": "2026-08-21",
+          "aggregationPeriod": "one_month",
+          "adminUnits": 11,
+          "source": "WFP CHIRPS via HDX"
+        },
         "inform": {
           "overallRisk": 7.1,
           "riskClass": 5,
@@ -363,7 +391,14 @@ window.PUBLIC_COUNTRY_DATA = {
         "gdacs": []
       },
       "ZMB": {
-        "rainfall": null,
+        "rainfall": {
+          "anomalyPct": 99.96009595746405,
+          "referencePeriodStart": null,
+          "referencePeriodEnd": "2026-08-21",
+          "aggregationPeriod": "one_month",
+          "adminUnits": 10,
+          "source": "WFP CHIRPS via HDX"
+        },
         "inform": {
           "overallRisk": 4.6,
           "riskClass": 3,
@@ -471,6 +506,13 @@ window.PUBLIC_COUNTRY_DATA = {
             "type": "WF",
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
+            "date": "2026-08-26T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031522&episodeid=4&eventtype=WF"
+          },
+          {
+            "type": "WF",
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
             "date": "2026-08-28T00:00:00",
             "url": "https://www.gdacs.org/report.aspx?eventid=1031511&episodeid=5&eventtype=WF"
           },
@@ -494,13 +536,6 @@ window.PUBLIC_COUNTRY_DATA = {
             "alertLevel": "Green",
             "date": "2026-08-28T00:00:00",
             "url": "https://www.gdacs.org/report.aspx?eventid=1031433&episodeid=8&eventtype=WF"
-          },
-          {
-            "type": "WF",
-            "name": "Forest fires in Zambia",
-            "alertLevel": "Green",
-            "date": "2026-08-27T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031391&episodeid=10&eventtype=WF"
           }
         ]
       }
@@ -510,53 +545,53 @@ window.PUBLIC_COUNTRY_DATA = {
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:28:35.533Z"
+      "updatedAt": "2026-09-05T17:32:09.843Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:28:36.505Z"
+      "updatedAt": "2026-09-05T17:32:10.715Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:28:36.650Z"
+      "updatedAt": "2026-09-05T17:32:10.911Z"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:28:39.316Z"
+      "updatedAt": "2026-09-05T17:34:30.871Z"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:28:41.477Z"
+      "updatedAt": "2026-09-05T17:34:33.182Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:28:42.092Z"
+      "updatedAt": "2026-09-05T17:34:33.560Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:28:44.384Z"
+      "updatedAt": "2026-09-05T17:34:35.623Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:28:46.215Z"
+      "updatedAt": "2026-09-05T17:34:37.508Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:28:48.105Z"
+      "updatedAt": "2026-09-05T17:34:43.052Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:28:49.877Z"
+      "updatedAt": "2026-09-05T17:34:44.735Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-09-05T17:28:49.928Z",
+      "lastAttempt": "2026-09-05T17:34:44.766Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:29:11.914Z",
+      "updatedAt": "2026-09-05T17:35:08.612Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -1392,3 +1427,26 @@ window.PUBLIC_COUNTRY_DATA = {
     }
   }
 };
+
+(function(){
+  function enhance(){
+    const style=document.createElement('style');
+    style.textContent='.metric-help{cursor:help;border-bottom:1px dotted #6b7280}.context-help{margin-top:10px;padding-top:8px;border-top:1px solid #e5e7eb;font-size:12px;color:#6b7280}.context-help summary{cursor:pointer;color:#2563eb;font-weight:700}.context-help p{margin:7px 0}.context-help strong{color:#18212b}';
+    document.head.appendChild(style);
+    document.querySelectorAll('.country-card .detail p').forEach(p=>{if(p.textContent.trim().startsWith('Observed rainfall:'))p.innerHTML=p.innerHTML.replace(' vs normal',' vs long-term average <span class="small">(latest 1-month CHIRPS period)</span>')});
+    document.querySelectorAll('.country-card .subgrid').forEach(grid=>{
+      const cols=[...grid.children]; if(cols.length<3)return;
+      const defs=[
+        ['Lowest recent rainfall','The three Admin-1 areas with the lowest one-month CHIRPS rainfall anomaly. A positive value means wetter than the long-term average; a negative value means drier.'],
+        ['Highest recent rainfall','The three Admin-1 areas with the highest one-month CHIRPS rainfall anomaly. A positive value means wetter than the long-term average; a negative value means drier.'],
+        ['Most people in IPC Phase 3+','The three Admin-1 areas with the largest number of people assessed as IPC Phase 3 (Crisis), Phase 4 (Emergency) or Phase 5 (Catastrophe/Famine), where current comparable IPC data are available.']
+      ];
+      cols.forEach((col,i)=>{const b=col.querySelector('b');if(!b)return;b.textContent=defs[i][0]+' ⓘ';b.classList.add('metric-help');b.title=defs[i][1];b.setAttribute('aria-label',defs[i][0]+'. '+defs[i][1]);});
+      if(!grid.nextElementSibling?.classList?.contains('context-help')){
+        const d=document.createElement('details');d.className='context-help';d.innerHTML='<summary>What do these figures mean?</summary><p><strong>Rainfall:</strong> percentages compare rainfall over the latest rolling one-month CHIRPS period with the long-term average. For example, <strong>+40%</strong> means about 40% more rainfall than normal; <strong>-20%</strong> means about 20% less.</p><p><strong>Admin-1:</strong> the first administrative level below national level — for example a region or province. Codes such as ET02 or ZM108 are source-system administrative codes where the rainfall dataset does not include a readable name.</p><p><strong>IPC Phase 3+:</strong> the displayed value is the estimated <em>number of people</em> in Crisis or worse food insecurity, not a percentage.</p>';
+        grid.insertAdjacentElement('afterend',d);
+      }
+    });
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',enhance);else setTimeout(enhance,0);
+})();
