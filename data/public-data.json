@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T17:09:20.419Z",
+  "generatedAt": "2026-09-05T17:14:24.065Z",
   "previous": {
-    "generatedAt": "2026-09-05T17:06:39.637Z",
+    "generatedAt": "2026-09-05T17:09:20.419Z",
     "global": {
       "enso": {
         "latest": {
@@ -503,50 +503,50 @@
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:09:20.878Z"
+      "updatedAt": "2026-09-05T17:14:24.893Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:09:21.910Z"
+      "updatedAt": "2026-09-05T17:14:25.690Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:09:22.054Z"
+      "updatedAt": "2026-09-05T17:14:25.837Z"
     },
     "GDACS": {
       "status": "stale",
       "updatedAt": "2026-09-05T17:07:08.180Z",
-      "lastAttempt": "2026-09-05T17:10:33.173Z",
+      "lastAttempt": "2026-09-05T17:16:03.267Z",
       "error": "400 Bad Request"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:10:54.200Z"
+      "updatedAt": "2026-09-05T17:16:23.231Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:11:14.274Z"
+      "updatedAt": "2026-09-05T17:16:42.052Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:11:24.252Z"
+      "updatedAt": "2026-09-05T17:17:01.926Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:11:27.294Z"
+      "updatedAt": "2026-09-05T17:17:07.276Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:11:38.905Z"
+      "updatedAt": "2026-09-05T17:17:11.596Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:11:41.214Z"
+      "updatedAt": "2026-09-05T17:17:13.391Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-09-05T17:11:41.292Z",
+      "lastAttempt": "2026-09-05T17:17:13.428Z",
       "error": "404 Not Found"
     }
   },
@@ -851,7 +851,36 @@
       },
       "subnational": {
         "rainfall": [],
-        "foodSecurity": [],
+        "foodSecurity": [
+          {
+            "name": "Oromia",
+            "phase3Plus": 9703570
+          },
+          {
+            "name": "Tigray",
+            "phase3Plus": 8122974
+          },
+          {
+            "name": "SNNP",
+            "phase3Plus": 4677920
+          },
+          {
+            "name": "Amhara",
+            "phase3Plus": 4631311
+          },
+          {
+            "name": "Somali",
+            "phase3Plus": 3956898
+          },
+          {
+            "name": "Afar",
+            "phase3Plus": 1698504
+          },
+          {
+            "name": "Sidama",
+            "phase3Plus": 721516
+          }
+        ],
         "conflict": []
       }
     },
@@ -1015,7 +1044,48 @@
       },
       "subnational": {
         "rainfall": [],
-        "foodSecurity": [],
+        "foodSecurity": [
+          {
+            "name": "Western",
+            "phase3Plus": 295042
+          },
+          {
+            "name": "Luapula",
+            "phase3Plus": 255226
+          },
+          {
+            "name": "Northern",
+            "phase3Plus": 214910
+          },
+          {
+            "name": "Southern",
+            "phase3Plus": 116664
+          },
+          {
+            "name": "North-Western",
+            "phase3Plus": 116466
+          },
+          {
+            "name": "Muchinga",
+            "phase3Plus": 116170
+          },
+          {
+            "name": "Central",
+            "phase3Plus": 115592
+          },
+          {
+            "name": "Eastern",
+            "phase3Plus": 72056
+          },
+          {
+            "name": "Copperbelt",
+            "phase3Plus": 51752
+          },
+          {
+            "name": "Lusaka",
+            "phase3Plus": 41740
+          }
+        ],
         "conflict": []
       }
     }
