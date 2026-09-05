@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-09-05T17:06:39.637Z",
+  "generatedAt": "2026-09-05T17:09:20.419Z",
   "previous": {
-    "generatedAt": "2026-09-05T16:58:05.384Z",
+    "generatedAt": "2026-09-05T17:06:39.637Z",
     "global": {
       "enso": {
         "latest": {
@@ -384,7 +384,13 @@ window.PUBLIC_COUNTRY_DATA = {
           "periodStart": "2026-06",
           "periodEnd": "2026-08"
         },
-        "funding": null,
+        "funding": {
+          "requirementsUsd": null,
+          "fundingUsd": 1609644,
+          "fundingPct": null,
+          "appeals": 1,
+          "referencePeriodEnd": "2027-12-31T23:59:59"
+        },
         "unhcr": {
           "year": 2025,
           "refugees": 83225,
@@ -497,48 +503,50 @@ window.PUBLIC_COUNTRY_DATA = {
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:06:39.904Z"
+      "updatedAt": "2026-09-05T17:09:20.878Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:06:40.624Z"
+      "updatedAt": "2026-09-05T17:09:21.910Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:06:40.810Z"
+      "updatedAt": "2026-09-05T17:09:22.054Z"
     },
     "GDACS": {
-      "status": "ok",
-      "updatedAt": "2026-09-05T17:07:08.180Z"
+      "status": "stale",
+      "updatedAt": "2026-09-05T17:07:08.180Z",
+      "lastAttempt": "2026-09-05T17:10:33.173Z",
+      "error": "400 Bad Request"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:07:10.413Z"
+      "updatedAt": "2026-09-05T17:10:54.200Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:07:10.684Z"
+      "updatedAt": "2026-09-05T17:11:14.274Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:07:11.017Z"
+      "updatedAt": "2026-09-05T17:11:24.252Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:07:13.056Z"
+      "updatedAt": "2026-09-05T17:11:27.294Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:07:13.237Z"
+      "updatedAt": "2026-09-05T17:11:38.905Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-05T17:07:19.203Z"
+      "updatedAt": "2026-09-05T17:11:41.214Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-09-05T17:07:19.219Z",
+      "lastAttempt": "2026-09-05T17:11:41.292Z",
       "error": "404 Not Found"
     }
   },
