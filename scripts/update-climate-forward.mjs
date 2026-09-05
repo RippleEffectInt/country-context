@@ -11,7 +11,7 @@ const EA=[['KEN','Kenya'],['UGA','Uganda'],['RWA','Rwanda'],['BDI','Burundi'],['
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 async function get(url){let last;for(let i=0;i<4;i++){try{const r=await fetch(url,{headers:{'User-Agent':'Ripple-Effect-Country-Context/2.0','Accept':'text/html,application/xhtml+xml'}});if(r.ok)return await r.text();last=new Error(`${r.status} ${r.statusText}`);if((r.status===429||r.status>=500)&&i<3){await sleep(1200*(i+1));continue}throw last}catch(e){last=e;if(i<3){await sleep(1200*(i+1));continue}}}throw last}
 function decode(s){return s.replace(/&nbsp;/gi,' ').replace(/&amp;/gi,'&').replace(/&ndash;|&#8211;/gi,'–').replace(/&mdash;|&#8212;/gi,'—').replace(/&deg;/gi,'°').replace(/&#(\d+);/g,(_,n)=>String.fromCharCode(+n));}
-function text(html){return decode(html.replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ').replace(/<\/(li|p|h[1-6]|div|section|article|tr)>/gi,'. ').replace(/<br\s*\/?>/gi,'. ').replace(/<[^>]+>/g,' ')).replace(/\s+/g,' ').replace(/\.\s*\./g,'. ').trim()}
+function text(html){return decode(html.replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ').replace(/<\/(li|p|h[1-6]|div|section|article|tr|td)>/gi,'. ').replace(/<br\s*\/?>/gi,'. ').replace(/<[^>]+>/g,' ')).replace(/\s+/g,' ').replace(/\.\s*\./g,'. ').trim()}
 function top(t,marker){const i=t.toLowerCase().indexOf(marker.toLowerCase());return i>0?t.slice(0,i):t}
 function sentences(t){return [...new Set(t.split(/(?<=[.!?])\s+/).map(x=>x.trim()).filter(x=>x.length>18))]}
 function mentions(s,name){return new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}\\b`,'i').test(s)}
@@ -50,11 +50,10 @@ try{
 
 try{
   const raw=await get(DROUGHT),t=text(raw),date=t.match(/Date of Analysis:\s*([^.]*(?:20\d{2}))/i)?.[1]?.trim()||'Latest analysis';
-  const val=label=>{const m=t.match(new RegExp(`${label}\\s+[\\d,]+\\s*\\(([\\d.]+)%\\)`,'i'));return m?Number(m[1]):null};
+  const val=label=>{const m=t.match(new RegExp(`${label}[\\s.|:;-]*[\\d,]+\\s*\\(([\\d.]+)%\\)`,'i'));return m?Number(m[1]):null};
   const alertPct=val('Alert'),warningPct=val('Warning'),watchPct=val('Watch');
   const bits=[];if(alertPct!=null)bits.push(`${alertPct.toFixed(2)}% Alert`);if(warningPct!=null)bits.push(`${warningPct.toFixed(2)}% Warning`);if(watchPct!=null)bits.push(`${watchPct.toFixed(2)}% Watch`);
-  const narrative=bits.length?`Latest East Africa regional CDI analysis: ${bits.join(', ')} of the population. Open Drought Watch for country and local-area inspection.`:'Open East Africa Drought Watch for the latest Combined Drought Indicator and country/local-area inspection.';
-  for(const[c]of EA)out.countries[c].drought={scope:'regional',period:date,text:narrative,alertPct,warningPct,watchPct,url:DROUGHT};
+  for(const[c]of EA){const old=out.countries[c].drought||{},a=alertPct??old.alertPct??null,w=warningPct??old.warningPct??null,wa=watchPct??old.watchPct??null,oldBits=[];if(a!=null)oldBits.push(`${Number(a).toFixed(2)}% Alert`);if(w!=null)oldBits.push(`${Number(w).toFixed(2)}% Warning`);if(wa!=null)oldBits.push(`${Number(wa).toFixed(2)}% Watch`);const narrative=bits.length?`Latest East Africa regional CDI analysis: ${bits.join(', ')} of the population. Open Drought Watch for country and local-area inspection.`:oldBits.length?`Latest retained East Africa regional CDI figures: ${oldBits.join(', ')} of the population. Open Drought Watch for the newest country and local-area analysis.`:(old.text||'Open East Africa Drought Watch for the latest Combined Drought Indicator and country/local-area inspection.');out.countries[c].drought={scope:'regional',period:date||old.period||'Latest analysis',text:narrative,alertPct:a,warningPct:w,watchPct:wa,url:DROUGHT};}
   source(out,'East Africa Drought Watch','ok',DROUGHT,date);
 }catch(e){source(out,'East Africa Drought Watch','stale',DROUGHT,null,e.message);console.warn('EADW stale:',e.message)}
 
