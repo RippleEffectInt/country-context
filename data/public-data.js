@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-09-08T09:44:05.616Z",
+  "generatedAt": "2026-09-09T09:49:08.835Z",
   "previous": {
-    "generatedAt": "2026-09-07T10:21:55.005Z",
+    "generatedAt": "2026-09-08T09:44:05.616Z",
     "global": {
       "enso": {
         "latest": {
@@ -253,20 +253,7 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 617125,
           "asylumSeekers": 218646
         },
-        "gdacs": [
-          {
-            "type": "WF",
-            "eventId": 1031697,
-            "episodeId": 6,
-            "name": "Forest fires in Kenya",
-            "alertLevel": "Green",
-            "date": "2026-09-02T00:00:00",
-            "toDate": "2026-09-06T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031697&episodeid=6&eventtype=WF",
-            "country": "Kenya",
-            "iso3": "KEN"
-          }
-        ]
+        "gdacs": []
       },
       "UGA": {
         "rainfall": {
@@ -510,133 +497,181 @@ window.PUBLIC_COUNTRY_DATA = {
         "gdacs": [
           {
             "type": "WF",
-            "eventId": 1031735,
+            "eventId": 1031784,
+            "episodeId": 2,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-09-05T00:00:00",
+            "toDate": "2026-09-07T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031784&episodeid=2&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1031786,
             "episodeId": 1,
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
-            "date": "2026-09-04T00:00:00",
-            "toDate": "2026-09-06T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031735&episodeid=1&eventtype=WF",
+            "date": "2026-09-05T00:00:00",
+            "toDate": "2026-09-07T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031786&episodeid=1&eventtype=WF",
             "country": "Zambia",
             "iso3": "ZMB"
           },
           {
             "type": "WF",
             "eventId": 1031736,
-            "episodeId": 1,
+            "episodeId": 3,
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
             "date": "2026-09-04T00:00:00",
-            "toDate": "2026-09-06T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031736&episodeid=1&eventtype=WF",
-            "country": "Zambia",
-            "iso3": "ZMB"
-          },
-          {
-            "type": "WF",
-            "eventId": 1031742,
-            "episodeId": 1,
-            "name": "Forest fires in Zambia",
-            "alertLevel": "Green",
-            "date": "2026-09-02T00:00:00",
-            "toDate": "2026-09-06T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031742&episodeid=1&eventtype=WF",
-            "country": "Zambia",
-            "iso3": "ZMB"
-          },
-          {
-            "type": "WF",
-            "eventId": 1031743,
-            "episodeId": 1,
-            "name": "Forest fires in Zambia",
-            "alertLevel": "Green",
-            "date": "2026-09-02T00:00:00",
-            "toDate": "2026-09-06T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031743&episodeid=1&eventtype=WF",
-            "country": "Zambia",
-            "iso3": "ZMB"
-          },
-          {
-            "type": "WF",
-            "eventId": 1031603,
-            "episodeId": 5,
-            "name": "Forest fires in Zambia",
-            "alertLevel": "Green",
-            "date": "2026-09-01T00:00:00",
-            "toDate": "2026-09-06T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031603&episodeid=5&eventtype=WF",
-            "country": "Zambia",
-            "iso3": "ZMB"
-          },
-          {
-            "type": "WF",
-            "eventId": 1031748,
-            "episodeId": 1,
-            "name": "Forest fires in Zambia",
-            "alertLevel": "Green",
-            "date": "2026-09-01T00:00:00",
-            "toDate": "2026-09-06T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031748&episodeid=1&eventtype=WF",
-            "country": "Zambia",
-            "iso3": "ZMB"
-          },
-          {
-            "type": "WF",
-            "eventId": 1031562,
-            "episodeId": 7,
-            "name": "Forest fires in Zambia",
-            "alertLevel": "Green",
-            "date": "2026-08-31T00:00:00",
             "toDate": "2026-09-07T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031562&episodeid=7&eventtype=WF",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031736&episodeid=3&eventtype=WF",
             "country": "Zambia",
             "iso3": "ZMB"
           },
           {
             "type": "WF",
-            "eventId": 1031636,
-            "episodeId": 4,
+            "eventId": 1031433,
+            "episodeId": 11,
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
-            "date": "2026-08-29T00:00:00",
-            "toDate": "2026-09-06T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031636&episodeid=4&eventtype=WF",
-            "country": "Zambia",
-            "iso3": "ZMB"
-          },
-          {
-            "type": "WF",
-            "eventId": 1031760,
-            "episodeId": 1,
-            "name": "Forest fires in Zambia",
-            "alertLevel": "Green",
-            "date": "2026-08-29T00:00:00",
-            "toDate": "2026-09-06T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031760&episodeid=1&eventtype=WF",
+            "date": "2026-08-28T00:00:00",
+            "toDate": "2026-09-07T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031433&episodeid=11&eventtype=WF",
             "country": "Zambia",
             "iso3": "ZMB"
           },
           {
             "type": "WF",
             "eventId": 1031478,
-            "episodeId": 8,
+            "episodeId": 11,
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
             "date": "2026-08-28T00:00:00",
             "toDate": "2026-09-07T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031478&episodeid=8&eventtype=WF",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031478&episodeid=11&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1031511,
+            "episodeId": 10,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-28T00:00:00",
+            "toDate": "2026-09-07T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031511&episodeid=10&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1031585,
+            "episodeId": 4,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-28T00:00:00",
+            "toDate": "2026-09-07T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031585&episodeid=4&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1031590,
+            "episodeId": 7,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-28T00:00:00",
+            "toDate": "2026-09-07T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031590&episodeid=7&eventtype=WF",
             "country": "Zambia",
             "iso3": "ZMB"
           },
           {
             "type": "WF",
             "eventId": 1031436,
-            "episodeId": 10,
+            "episodeId": 12,
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
             "date": "2026-08-27T00:00:00",
-            "toDate": "2026-09-06T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031436&episodeid=10&eventtype=WF",
+            "toDate": "2026-09-07T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031436&episodeid=12&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1031514,
+            "episodeId": 10,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-26T00:00:00",
+            "toDate": "2026-09-07T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031514&episodeid=10&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1031522,
+            "episodeId": 11,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-26T00:00:00",
+            "toDate": "2026-09-07T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031522&episodeid=11&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1031572,
+            "episodeId": 11,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-26T00:00:00",
+            "toDate": "2026-09-07T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=11&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1031764,
+            "episodeId": 3,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-26T00:00:00",
+            "toDate": "2026-09-07T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031764&episodeid=3&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1031577,
+            "episodeId": 8,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-25T00:00:00",
+            "toDate": "2026-09-07T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031577&episodeid=8&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1031656,
+            "episodeId": 5,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-08-25T00:00:00",
+            "toDate": "2026-09-07T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031656&episodeid=5&eventtype=WF",
             "country": "Zambia",
             "iso3": "ZMB"
           }
@@ -655,55 +690,55 @@ window.PUBLIC_COUNTRY_DATA = {
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-08T09:46:57.339Z"
+      "updatedAt": "2026-09-09T09:54:09.477Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-08T09:46:58.146Z"
+      "updatedAt": "2026-09-09T09:54:10.348Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-08T09:47:22.899Z",
+      "updatedAt": "2026-09-09T09:54:41.498Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-09-08T09:47:53.328Z",
+      "updatedAt": "2026-09-09T09:55:13.657Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-08T09:47:04.624Z"
+      "updatedAt": "2026-09-09T09:54:20.466Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-08T09:47:04.968Z"
+      "updatedAt": "2026-09-09T09:54:21.067Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-08T09:47:08.564Z"
+      "updatedAt": "2026-09-09T09:54:24.768Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-08T09:47:11.726Z"
+      "updatedAt": "2026-09-09T09:54:27.709Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-08T09:47:20.645Z"
+      "updatedAt": "2026-09-09T09:54:39.252Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-08T09:47:22.603Z"
+      "updatedAt": "2026-09-09T09:54:41.196Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-09-08T09:47:22.614Z",
+      "lastAttempt": "2026-09-09T09:54:41.223Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-09-08T09:47:50.467Z",
+      "updatedAt": "2026-09-09T09:55:07.057Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -1452,181 +1487,217 @@ window.PUBLIC_COUNTRY_DATA = {
       "gdacs": [
         {
           "type": "WF",
-          "eventId": 1031784,
-          "episodeId": 2,
+          "eventId": 1031826,
+          "episodeId": 4,
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-09-07T00:00:00",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031826&episodeid=4&eventtype=WF",
+          "country": "Zambia",
+          "iso3": "ZMB"
+        },
+        {
+          "type": "WF",
+          "eventId": 1031846,
+          "episodeId": 1,
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-09-06T00:00:00",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031846&episodeid=1&eventtype=WF",
+          "country": "Zambia",
+          "iso3": "ZMB"
+        },
+        {
+          "type": "WF",
+          "eventId": 1031827,
+          "episodeId": 1,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
           "date": "2026-09-05T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031784&episodeid=2&eventtype=WF",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031827&episodeid=1&eventtype=WF",
+          "country": "Zambia",
+          "iso3": "ZMB"
+        },
+        {
+          "type": "WF",
+          "eventId": 1031828,
+          "episodeId": 1,
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-09-05T00:00:00",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031828&episodeid=1&eventtype=WF",
+          "country": "Zambia",
+          "iso3": "ZMB"
+        },
+        {
+          "type": "WF",
+          "eventId": 1031847,
+          "episodeId": 1,
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-09-05T00:00:00",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031847&episodeid=1&eventtype=WF",
+          "country": "Zambia",
+          "iso3": "ZMB"
+        },
+        {
+          "type": "WF",
+          "eventId": 1031784,
+          "episodeId": 3,
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-09-05T00:00:00",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031784&episodeid=3&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
           "eventId": 1031786,
-          "episodeId": 1,
+          "episodeId": 2,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
           "date": "2026-09-05T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031786&episodeid=1&eventtype=WF",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031786&episodeid=2&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
-          "eventId": 1031736,
-          "episodeId": 3,
+          "eventId": 1031830,
+          "episodeId": 1,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
           "date": "2026-09-04T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031736&episodeid=3&eventtype=WF",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031830&episodeid=1&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
-          "eventId": 1031433,
-          "episodeId": 11,
+          "eventId": 1031831,
+          "episodeId": 1,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-08-28T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031433&episodeid=11&eventtype=WF",
+          "date": "2026-09-02T00:00:00",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031831&episodeid=1&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
-          "eventId": 1031478,
-          "episodeId": 11,
+          "eventId": 1031832,
+          "episodeId": 1,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-08-28T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031478&episodeid=11&eventtype=WF",
+          "date": "2026-09-02T00:00:00",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031832&episodeid=1&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
-          "eventId": 1031511,
-          "episodeId": 10,
+          "eventId": 1031774,
+          "episodeId": 3,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-08-28T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031511&episodeid=10&eventtype=WF",
+          "date": "2026-09-02T00:00:00",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031774&episodeid=3&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
-          "eventId": 1031585,
-          "episodeId": 4,
+          "eventId": 1031840,
+          "episodeId": 1,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-08-28T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031585&episodeid=4&eventtype=WF",
+          "date": "2026-08-31T00:00:00",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031840&episodeid=1&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
-          "eventId": 1031590,
-          "episodeId": 7,
+          "eventId": 1031841,
+          "episodeId": 1,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-08-28T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031590&episodeid=7&eventtype=WF",
+          "date": "2026-08-31T00:00:00",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031841&episodeid=1&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
-          "eventId": 1031436,
-          "episodeId": 12,
+          "eventId": 1031848,
+          "episodeId": 1,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-08-27T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031436&episodeid=12&eventtype=WF",
+          "date": "2026-08-31T00:00:00",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031848&episodeid=1&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
-          "eventId": 1031514,
-          "episodeId": 10,
+          "eventId": 1031849,
+          "episodeId": 1,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-08-26T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031514&episodeid=10&eventtype=WF",
+          "date": "2026-08-31T00:00:00",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031849&episodeid=1&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
-          "eventId": 1031522,
-          "episodeId": 11,
+          "eventId": 1031802,
+          "episodeId": 2,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-08-26T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031522&episodeid=11&eventtype=WF",
-          "country": "Zambia",
-          "iso3": "ZMB"
-        },
-        {
-          "type": "WF",
-          "eventId": 1031572,
-          "episodeId": 11,
-          "name": "Forest fires in Zambia",
-          "alertLevel": "Green",
-          "date": "2026-08-26T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=11&eventtype=WF",
+          "date": "2026-08-31T00:00:00",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031802&episodeid=2&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
           "eventId": 1031764,
-          "episodeId": 3,
+          "episodeId": 4,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
           "date": "2026-08-26T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031764&episodeid=3&eventtype=WF",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031764&episodeid=4&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
-          "eventId": 1031577,
-          "episodeId": 8,
+          "eventId": 1031815,
+          "episodeId": 2,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-08-25T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031577&episodeid=8&eventtype=WF",
-          "country": "Zambia",
-          "iso3": "ZMB"
-        },
-        {
-          "type": "WF",
-          "eventId": 1031656,
-          "episodeId": 5,
-          "name": "Forest fires in Zambia",
-          "alertLevel": "Green",
-          "date": "2026-08-25T00:00:00",
-          "toDate": "2026-09-07T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031656&episodeid=5&eventtype=WF",
+          "date": "2026-08-24T00:00:00",
+          "toDate": "2026-09-08T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031815&episodeid=2&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         }
