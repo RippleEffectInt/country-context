@@ -38,6 +38,23 @@
   text-underline-offset: 2px;
 }
 
+.profile-head > div {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+
+.profile-head #countryIntro {
+  margin: 0;
+}
+
+.profile-head #countryIntro::before {
+  content: "–";
+  margin-right: 9px;
+  color: #667085;
+}
+
 .section,
 #climate,
 #disaster-alerts,
