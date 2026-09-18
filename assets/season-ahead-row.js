@@ -6,7 +6,7 @@ let climateData=null;
 function seasonHeadline(code,s){
   const text=String(s?.rainfall||'').replace(/\s+/g,' ').trim();
   const lower=text.toLowerCase();
-  if(code==='ZMB')return 'Mostly below normal; wetter far north in Oct–Dec';
+  if(code==='ZMB'&&/2026\/27/.test(s?.period||''))return 'Mostly below normal; wetter far north in Oct–Dec';
   if(code==='ETH'&&lower.includes('above normal')&&lower.includes('below normal'))return 'Mixed: wetter in parts; drier central/west';
   if(lower.includes('above normal')&&lower.includes('below normal'))return 'Mixed rainfall outlook';
   if(lower.includes('above normal')||lower.includes('above-normal')||lower.includes('wetter than usual'))return 'Above-normal rainfall';
@@ -44,7 +44,7 @@ function render(){
 }
 fetch('data/climate-forward.json?v='+Date.now(),{cache:'no-store'})
   .then(r=>{if(!r.ok)throw new Error('seasonal outlook unavailable');return r.json()})
-  .then(F=>{climateData=F;render()})
-  .catch(e=>console.warn('Season-ahead table row unavailable:',e.message));
+  .then(F=>{climateData=F;render();window.dispatchEvent(new CustomEvent('season-ready',{detail:{data:F,headline:seasonHeadline,period:displayPeriod}}))})
+  .catch(e=>{console.warn('Season-ahead table row unavailable:',e.message);window.dispatchEvent(new Event('season-unavailable'))});
 document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('click',()=>setTimeout(render,0)));
 })();
