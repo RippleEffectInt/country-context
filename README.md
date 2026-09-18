@@ -1,6 +1,18 @@
 # Ripple Effect Country Context
 
-GitHub Pages-ready comparison dashboard for Kenya, Uganda, Rwanda, Burundi, Ethiopia and Zambia.
+GitHub Pages-ready country dashboard for Kenya, Uganda, Rwanda, Burundi, Ethiopia and Zambia.
+
+## Homepage
+
+Six country summary cards are the primary view. Each shows seasonal climate, IPC Phase 3+ people and reporting period, reported hazards, one flagged change, and a link to the full country profile. Cards use three columns on desktop, two on smaller screens and one on phones.
+
+The comparison table, regional climate/ENSO detail and data sources are closed by default. Native disclosure controls support keyboard use. Existing source and climate deep links open the relevant disclosure automatically; comparison filters affect only the table. Country profiles, data files and scheduled refresh connectors are unchanged.
+
+Badges highlight hazards rather than assigning a composite country risk score. Red reflects a red GDACS alert; amber reflects orange GDACS alerts or named ICPAC weekly hazards; blue provides context; grey indicates incomplete or stale hazard coverage. Feed status must be `ok` and its update no more than three days old for a current hazard cue. Missing data is never treated as zero or an all-clear. IPC assessments ending before today are labelled historical.
+
+The homepage reconciles ENSO change entries against the final corrected anomaly snapshots, because the existing refresh pipeline generates its change list before correcting NOAA SST to anomalies. This presentation safeguard does not modify stored data or refresh scripts.
+
+This is a plain HTML/CSS/JavaScript site, with no compilation or production package dependencies. Serve the repository over HTTP for local preview so its JSON requests can load; upload the files with their existing folder structure for GitHub Pages.
 
 ## Data connections already built
 
@@ -65,7 +77,7 @@ The regional outlook narrative is deliberately curated rather than scraped from 
 
 Every refresh keeps a compact copy of the previous successful snapshot and generates `changes` in `data/public-data.json` / `data/public-data.js`.
 
-The homepage shows up to six of the highest-signal changes immediately below the country comparison table. Stable indicators are deliberately omitted.
+The homepage shows up to three of the highest-priority changes below the country cards. Additional changes remain available in a disclosure. Stable indicators are deliberately omitted.
 
 Current material-change thresholds are deliberately conservative:
 
