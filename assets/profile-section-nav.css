@@ -1,0 +1,134 @@
+.profile-section-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 10px 0 0;
+  padding: 5px 0;
+  background: transparent;
+  border-top: 1px solid #cfe5e1;
+  border-bottom: 1px solid #cfe5e1;
+}
+
+.profile-section-nav-label {
+  margin-right: 4px;
+  color: #475467;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.profile-section-nav a {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #175c56;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.profile-section-nav a:hover,
+.profile-section-nav a:focus {
+  background: #fff;
+  color: var(--teal);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.section,
+#climate,
+#disaster-alerts,
+#regional,
+#humanitarian,
+#risk {
+  scroll-margin-top: 18px;
+}
+
+@media (min-width: 901px) {
+  .head {
+    height: 56px;
+  }
+
+  .logo {
+    width: 210px;
+    height: 28px;
+  }
+
+  .country-header-row .country-subnav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .country-header-row .country-subnav a {
+    padding: 4px 9px;
+  }
+
+  main {
+    padding-top: 16px;
+  }
+
+  .hero {
+    align-items: center;
+    gap: 12px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+    line-height: 1.15;
+  }
+
+  .profile-head {
+    gap: 9px;
+  }
+
+  .flag {
+    font-size: 26px;
+  }
+
+  .hero p {
+    margin-top: 1px;
+  }
+
+  .pill {
+    padding: 3px 8px;
+  }
+
+  .profile-section-nav + .section {
+    margin-top: 14px;
+  }
+
+  .kpi-grid {
+    gap: 10px;
+  }
+
+  .kpi-grid .card {
+    padding: 12px 14px;
+  }
+
+  .kpi .big {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .profile-section-nav {
+    order: initial;
+    width: 100%;
+    height: auto;
+    gap: 4px;
+    margin-top: 10px;
+    padding: 5px 0;
+  }
+
+  .profile-section-nav-label {
+    width: 100%;
+    margin-bottom: 2px;
+  }
+
+  .profile-section-nav a {
+    padding: 6px 8px;
+  }
+}
