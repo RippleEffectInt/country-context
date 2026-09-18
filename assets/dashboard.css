@@ -20,6 +20,7 @@
 .summary-card dd{margin:0;font-size:15px;line-height:1.45;overflow-wrap:anywhere}
 .summary-card dd strong{font-size:20px;font-weight:700}
 .summary-card small{display:block;color:#66766f;font-size:11px;line-height:1.5;margin-top:4px}
+.hazard-links{display:block;margin-top:7px;font-size:12px;line-height:1.5}.hazard-links a{color:#006c60;font-weight:700;text-decoration:underline;text-underline-offset:3px}.hazard-links a:hover{color:#004c44}
 .profile-cta{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #e7ede9;padding-top:15px;text-decoration:none;color:#006c60;font-weight:700;font-size:14px}
 .profile-cta:hover{text-decoration:underline}.profile-cta span{font-size:20px}
 .change-detail-link{color:#006c60;text-decoration:underline;text-underline-offset:3px}.change-detail-link:hover{color:#004c44}

@@ -1,6 +1,7 @@
 /* Homepage summaries use the existing snapshots; no additional external feeds. */
 (()=>{
 const data=window.PUBLIC_COUNTRY_DATA||{}, countries=[['KEN','Kenya'],['UGA','Uganda'],['RWA','Rwanda'],['BDI','Burundi'],['ETH','Ethiopia'],['ZMB','Zambia']];
+const profilePath=code=>`countries/${(countries.find(([id])=>id===code)?.[1]||code).toLowerCase()}.html`;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const number=n=>typeof n==='number'&&Number.isFinite(n);
 const compact=n=>new Intl.NumberFormat('en-GB',{notation:'compact',maximumFractionDigits:1}).format(n);
@@ -32,11 +33,12 @@ function hazard(code,c){
   const named=[['heavyRain','Heavy rainfall'],['heatStress','Heat stress'],['flood','Flood signal']].filter(([key])=>weekly?.[key+'Scope']==='country-or-subnational');
   const rank={red:0,orange:1,green:2};
   const alert=[...alerts].sort((a,b)=>(rank[String(a.alertLevel).toLowerCase()]??3)-(rank[String(b.alertLevel).toLowerCase()]??3))[0];
-  if(alert){const level=String(alert.alertLevel||'').toLowerCase(),weatherWatch=named.length&&weeklyFresh;return {tone:!gdacsFresh?'unknown':level==='red'?'high':level==='orange'||weatherWatch?'watch':'context',badge:!gdacsFresh?'Check latest alerts':level==='red'?'Red GDACS alert':level==='orange'?'Orange GDACS alert':weatherWatch?'Weather watch':'Reported alert',text:(alert.name||'GDACS alert')+(named.length?' · '+named.map(x=>x[1]).join(' · '):''),note:`${alert.alertLevel||'Unspecified'} GDACS level · ${date(alert.date)}${alerts.length>1?` · +${alerts.length-1} more`:''}${!gdacsFresh?' · retained snapshot':''}${named.length?` · ICPAC ${weekly.period||'period unavailable'}${!weeklyFresh?' (retained)':''}`:''}`};}
-  if(named.length)return {tone:weeklyFresh?'watch':'unknown',badge:weeklyFresh?'Weather watch':'Check latest outlook',text:named.map(x=>x[1]).join(' · '),note:`ICPAC · ${weekly.period||'Period unavailable'}${!weeklyFresh?' · retained snapshot':''}`};
-  if(!gdacsFresh||!Array.isArray(c.gdacs)||!seasonal||(!weeklyFresh&&code!=='ZMB'))return {tone:'unknown',badge:'Coverage incomplete',text:gdacsFresh&&Array.isArray(c.gdacs)?'No GDACS alert reported':'Current hazard status unavailable',note:'Check the profile and source status'};
-  return {tone:'context',badge:'Latest context',text:'No major alert reported',note:`GDACS checked ${date(data.sources.GDACS.updatedAt)}${code==='ZMB'?' · ICPAC weekly coverage unavailable':''}`};
+  if(alert){const level=String(alert.alertLevel||'').toLowerCase(),weatherWatch=named.length&&weeklyFresh;return {tone:!gdacsFresh?'unknown':level==='red'?'high':level==='orange'||weatherWatch?'watch':'context',badge:!gdacsFresh?'Check latest alerts':level==='red'?'Red GDACS alert':level==='orange'?'Orange GDACS alert':weatherWatch?'Weather watch':'Reported alert',text:(alert.name||'GDACS alert')+(named.length?' · '+named.map(x=>x[1]).join(' · '):''),note:`${alert.alertLevel||'Unspecified'} GDACS level · ${date(alert.date)}${alerts.length>1?` · +${alerts.length-1} more`:''}${!gdacsFresh?' · retained snapshot':''}${named.length?` · ICPAC ${weekly.period||'period unavailable'}${!weeklyFresh?' (retained)':''}`:''}`,links:[alert.url?{label:'Open GDACS report ↗',href:alert.url,external:true}:{label:'View alert details →',href:`${profilePath(code)}#alerts`},...(named.length?[{label:'View forecast detail →',href:`${profilePath(code)}#climateSummary`}]:[])]};}
+  if(named.length)return {tone:weeklyFresh?'watch':'unknown',badge:weeklyFresh?'Weather watch':'Check latest outlook',text:named.map(x=>x[1]).join(' · '),note:`ICPAC · ${weekly.period||'Period unavailable'}${!weeklyFresh?' · retained snapshot':''}`,links:[{label:'View forecast detail →',href:`${profilePath(code)}#climateSummary`}]};
+  if(!gdacsFresh||!Array.isArray(c.gdacs)||!seasonal||(!weeklyFresh&&code!=='ZMB'))return {tone:'unknown',badge:'Coverage incomplete',text:gdacsFresh&&Array.isArray(c.gdacs)?'No GDACS alert reported':'Current hazard status unavailable',note:'Check the profile and source status',links:[{label:'Check hazard details →',href:`${profilePath(code)}#alerts`}]};
+  return {tone:'context',badge:'Latest context',text:'No major alert reported',note:`GDACS checked ${date(data.sources.GDACS.updatedAt)}${code==='ZMB'?' · ICPAC weekly coverage unavailable':''}`,links:[{label:'View alert sources →',href:`${profilePath(code)}#alerts`}]};
 }
+function hazardLinks(links=[]){return `<span class="hazard-links">${links.map(link=>`<a href="${esc(link.href)}"${link.external?' target="_blank" rel="noreferrer"':''}>${esc(link.label)}</a>`).join('<span aria-hidden="true"> · </span>')}</span>`;}
 function render(){
   document.getElementById('countrySummaries').innerHTML=countries.map(([code,name])=>{
     const c=data.countries?.[code]||{},s=seasonal?.data.countries?.[code]?.seasonal,food=c.foodSecurity,h=hazard(code,c),change=updates.find(x=>x.scope===name||x.scope===code);
@@ -48,7 +50,7 @@ function render(){
     return `<article class="summary-card tone-${h.tone}"><div class="summary-card-heading"><h2>${name}</h2><span class="signal-badge">${esc(h.badge)}</span></div><dl>
       <div><dt>Climate · season ahead</dt><dd>${esc(climate)}<small>${esc(s?seasonal.period(code,s)+(seasonSource?.status!=='ok'?' · retained outlook':''):'See the profile for available climate detail')}</small></dd></div>
       <div><dt>Food security${historical?' · historical period':''}</dt><dd>${number(food?.phase3Plus)?`<strong>${compact(food.phase3Plus)}</strong> people in Crisis or worse`:'No comparable IPC figure'}<small>${number(food?.phase3Plus)?esc(`IPC Phase 3+ · ${foodNote}${retained?' · retained snapshot':''}`):'Missing data does not mean zero'}</small></dd></div>
-      <div><dt>Immediate hazards</dt><dd>${esc(h.text)}<small>${esc(h.note)}</small></dd></div>
+      <div><dt>Immediate hazards</dt><dd>${esc(h.text)}<small>${esc(h.note)}</small>${hazardLinks(h.links)}</dd></div>
       <div><dt>What’s changing</dt><dd>${change?`<a class="change-detail-link" href="${changeHref(change,name)}">${esc(change.text)} <span aria-hidden="true">→</span></a>`:esc(data.previous?'No material change flagged':'No previous snapshot to compare')}</dd></div>
       </dl><a class="profile-cta" href="countries/${name.toLowerCase()}.html">View ${name} <span aria-hidden="true">→</span></a></article>`;
   }).join('');
