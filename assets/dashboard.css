@@ -21,8 +21,8 @@
 .summary-card dd strong{font-size:20px;font-weight:700}
 .summary-card small{display:block;color:#66766f;font-size:11px;line-height:1.5;margin-top:4px}
 .hazard-links{display:block;margin-top:7px;font-size:12px;line-height:1.5}.hazard-links a{color:#006c60;font-weight:700;text-decoration:underline;text-underline-offset:3px}.hazard-links a:hover{color:#004c44}
-.profile-cta{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #e7ede9;padding-top:15px;text-decoration:none;color:#006c60;font-weight:700;font-size:14px}
-.profile-cta:hover{text-decoration:underline}.profile-cta span{font-size:20px}
+.profile-cta{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;border:1px solid #007f73;border-radius:6px;background:#007f73;padding:10px 14px;text-decoration:none;color:#fff;font-weight:700;font-size:14px;line-height:1.35;transition:background-color .15s ease,border-color .15s ease}
+.profile-cta:hover{background:#006c62;border-color:#006c62;color:#fff;text-decoration:none}.profile-cta span{margin-left:auto;font-size:19px;line-height:1}
 .change-detail-link{color:#006c60;text-decoration:underline;text-underline-offset:3px}.change-detail-link:hover{color:#004c44}
 .dashboard .changes-section{margin:34px 0}
 .dashboard .changes-section h2{font-size:21px}
