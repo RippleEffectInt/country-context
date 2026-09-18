@@ -10,11 +10,9 @@ function alertDate(v){if(!v)return'';const d=new Date(v);return Number.isNaN(d.g
 if(!document.querySelector('link[href="../assets/header-nav.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='../assets/header-nav.css';document.head.appendChild(css)}
 if(!document.querySelector('link[href="../assets/profile-section-nav.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='../assets/profile-section-nav.css';document.head.appendChild(css)}
 const topNav=document.querySelector('header .head nav');
-if(topNav)topNav.innerHTML='<a href="../index.html">Overview</a><a href="../index.html#climate">Climate &amp; El Niño</a><a href="../index.html#sources">Data sources</a>';
+if(topNav){topNav.className='site-primary-nav';topNav.setAttribute('aria-label','Main navigation');topNav.innerHTML='<a href="../index.html">Overview</a>'+Object.entries(META).map(([c,x])=>`<a class="${c===code?'active':''}" href="${FILES[c]}.html">${x.name}</a>`).join('')+'<a href="../index.html#sources">Data sources</a>'}
 const main=document.querySelector('main');
 const oldBack=main?.querySelector('.back')?.closest('p');if(oldBack)oldBack.remove();
-const selector=document.createElement('nav');selector.className='country-subnav';selector.setAttribute('aria-label','Country profiles');selector.innerHTML='<span class="country-subnav-label">Countries</span>'+Object.entries(META).map(([c,x])=>`<a class="${c===code?'active':''}" href="${FILES[c]}.html">${x.name}</a>`).join('');
-const row=document.createElement('div');row.className='country-header-row';row.appendChild(selector);const header=document.querySelector('header');if(header)header.appendChild(row);
 const oldOther=document.getElementById('otherCountries');if(oldOther?.closest('.section'))oldOther.closest('.section').remove();
 
 const sectionTargets={
