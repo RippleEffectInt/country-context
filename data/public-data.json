@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-24T10:04:05.521Z",
+  "generatedAt": "2026-09-25T10:13:39.406Z",
   "previous": {
-    "generatedAt": "2026-09-23T10:01:02.693Z",
+    "generatedAt": "2026-09-24T10:04:05.521Z",
     "global": {
       "enso": {
         "latest": {
@@ -207,9 +207,9 @@
     "countries": {
       "KEN": {
         "rainfall": {
-          "anomalyPct": 77.52943076498813,
+          "anomalyPct": 94.15837398889366,
           "referencePeriodStart": null,
-          "referencePeriodEnd": "2026-09-01",
+          "referencePeriodEnd": "2026-09-11",
           "aggregationPeriod": "one_month",
           "adminUnits": 8,
           "source": "WFP CHIRPS via HDX"
@@ -257,9 +257,9 @@
       },
       "UGA": {
         "rainfall": {
-          "anomalyPct": 48.489157958265025,
+          "anomalyPct": 53.062696387688206,
           "referencePeriodStart": null,
-          "referencePeriodEnd": "2026-09-01",
+          "referencePeriodEnd": "2026-09-11",
           "aggregationPeriod": "one_month",
           "adminUnits": 4,
           "source": "WFP CHIRPS via HDX"
@@ -303,26 +303,13 @@
           "refugees": 1936719,
           "asylumSeekers": 35249
         },
-        "gdacs": [
-          {
-            "type": "FL",
-            "eventId": 1104185,
-            "episodeId": 1,
-            "name": "Flood in Uganda",
-            "alertLevel": "Green",
-            "date": "2026-09-20T01:00:00",
-            "toDate": "2026-09-22T01:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1104185&episodeid=1&eventtype=FL",
-            "country": "Uganda",
-            "iso3": "UGA"
-          }
-        ]
+        "gdacs": []
       },
       "RWA": {
         "rainfall": {
-          "anomalyPct": 37.777028640862945,
+          "anomalyPct": 59.01545390862944,
           "referencePeriodStart": null,
-          "referencePeriodEnd": "2026-09-01",
+          "referencePeriodEnd": "2026-09-11",
           "aggregationPeriod": "one_month",
           "adminUnits": 5,
           "source": "WFP CHIRPS via HDX"
@@ -361,9 +348,9 @@
       },
       "BDI": {
         "rainfall": {
-          "anomalyPct": 50.01801220646766,
+          "anomalyPct": 47.22703260323384,
           "referencePeriodStart": null,
-          "referencePeriodEnd": "2026-09-01",
+          "referencePeriodEnd": "2026-09-11",
           "aggregationPeriod": "one_month",
           "adminUnits": 18,
           "source": "WFP CHIRPS via HDX"
@@ -411,9 +398,9 @@
       },
       "ETH": {
         "rainfall": {
-          "anomalyPct": 79.10644492965532,
+          "anomalyPct": 88.22605269285172,
           "referencePeriodStart": null,
-          "referencePeriodEnd": "2026-09-01",
+          "referencePeriodEnd": "2026-09-11",
           "aggregationPeriod": "one_month",
           "adminUnits": 11,
           "source": "WFP CHIRPS via HDX"
@@ -461,9 +448,9 @@
       },
       "ZMB": {
         "rainfall": {
-          "anomalyPct": 100.76475701442172,
+          "anomalyPct": 99.17055682309096,
           "referencePeriodStart": null,
-          "referencePeriodEnd": "2026-09-01",
+          "referencePeriodEnd": "2026-09-11",
           "aggregationPeriod": "one_month",
           "adminUnits": 10,
           "source": "WFP CHIRPS via HDX"
@@ -517,60 +504,66 @@
       "metric": "ENSO",
       "text": "Niño 3.4 rose 27.49°C to 29.38°C.",
       "severity": "medium"
+    },
+    {
+      "scope": "Zambia",
+      "metric": "Disaster alert",
+      "text": "New GDACS alert: Forest fires in Zambia.",
+      "severity": "high"
     }
   ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-24T10:05:42.078Z"
+      "updatedAt": "2026-09-25T10:13:44.049Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-24T10:05:43.043Z"
+      "updatedAt": "2026-09-25T10:13:45.007Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-24T10:06:11.218Z",
+      "updatedAt": "2026-09-25T10:14:40.519Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-09-24T10:06:43.778Z",
+      "updatedAt": "2026-09-25T10:15:23.165Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-24T10:05:47.761Z"
+      "updatedAt": "2026-09-25T10:13:50.510Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-24T10:05:48.111Z"
+      "updatedAt": "2026-09-25T10:13:51.064Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-24T10:05:53.083Z"
+      "updatedAt": "2026-09-25T10:13:54.717Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-24T10:05:56.912Z"
+      "updatedAt": "2026-09-25T10:13:57.841Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-24T10:06:08.636Z"
+      "updatedAt": "2026-09-25T10:14:19.934Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-24T10:06:10.914Z"
+      "updatedAt": "2026-09-25T10:14:40.012Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-09-24T10:06:10.958Z",
+      "lastAttempt": "2026-09-25T10:14:40.318Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-09-24T10:06:42.145Z",
+      "updatedAt": "2026-09-25T10:15:19.159Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -1038,7 +1031,7 @@
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Plateaux secs de l'est",
+            "name": "Dépressions de l’est",
             "phase3Plus": 3140356
           }
         ],
@@ -1316,7 +1309,32 @@
         "refugees": 83225,
         "asylumSeekers": 12906
       },
-      "gdacs": [],
+      "gdacs": [
+        {
+          "type": "WF",
+          "eventId": 1032160,
+          "episodeId": 8,
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-09-10T00:00:00",
+          "toDate": "2026-09-24T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032160&episodeid=8&eventtype=WF",
+          "country": "Zambia",
+          "iso3": "ZMB"
+        },
+        {
+          "type": "WF",
+          "eventId": 1032161,
+          "episodeId": 10,
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-09-10T00:00:00",
+          "toDate": "2026-09-24T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032161&episodeid=10&eventtype=WF",
+          "country": "Zambia",
+          "iso3": "ZMB"
+        }
+      ],
       "inform": {
         "overallRisk": 4.6,
         "riskClass": 3,
