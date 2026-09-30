@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-29T11:23:27.692Z",
+  "generatedAt": "2026-09-30T11:11:20.404Z",
   "previous": {
-    "generatedAt": "2026-09-28T11:43:27.914Z",
+    "generatedAt": "2026-09-29T11:23:27.692Z",
     "global": {
       "enso": {
         "latest": {
@@ -498,12 +498,24 @@
           {
             "type": "WF",
             "eventId": 1032417,
-            "episodeId": 5,
+            "episodeId": 7,
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
             "date": "2026-09-24T00:00:00",
-            "toDate": "2026-09-28T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032417&episodeid=5&eventtype=WF",
+            "toDate": "2026-09-29T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032417&episodeid=7&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1032439,
+            "episodeId": 3,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-09-20T00:00:00",
+            "toDate": "2026-09-29T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032439&episodeid=3&eventtype=WF",
             "country": "Zambia",
             "iso3": "ZMB"
           }
@@ -522,55 +534,55 @@
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-09-29T11:23:28.147Z"
+      "updatedAt": "2026-09-30T11:11:45.873Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-09-29T11:23:28.993Z"
+      "updatedAt": "2026-09-30T11:11:46.632Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-09-29T11:23:55.853Z",
+      "updatedAt": "2026-09-30T11:12:20.452Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-09-29T11:24:28.527Z",
+      "updatedAt": "2026-09-30T11:12:59.851Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-09-29T11:23:33.765Z"
+      "updatedAt": "2026-09-30T11:11:51.313Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-09-29T11:23:34.429Z"
+      "updatedAt": "2026-09-30T11:11:51.698Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-09-29T11:23:38.671Z"
+      "updatedAt": "2026-09-30T11:11:58.593Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-09-29T11:23:42.105Z"
+      "updatedAt": "2026-09-30T11:12:03.099Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-09-29T11:23:53.302Z"
+      "updatedAt": "2026-09-30T11:12:17.802Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-09-29T11:23:55.527Z"
+      "updatedAt": "2026-09-30T11:12:20.059Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-09-29T11:23:55.587Z",
+      "lastAttempt": "2026-09-30T11:12:20.079Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-09-29T11:24:26.936Z",
+      "updatedAt": "2026-09-30T11:12:58.983Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -1038,7 +1050,7 @@
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Plateaux humides",
+            "name": "Crête congo Nil",
             "phase3Plus": 3140356
           }
         ],
@@ -1319,25 +1331,37 @@
       "gdacs": [
         {
           "type": "WF",
-          "eventId": 1032417,
-          "episodeId": 7,
+          "eventId": 1032490,
+          "episodeId": 1,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-09-24T00:00:00",
+          "date": "2026-09-25T00:00:00",
           "toDate": "2026-09-29T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032417&episodeid=7&eventtype=WF",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032490&episodeid=1&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
-          "eventId": 1032439,
-          "episodeId": 3,
+          "eventId": 1032492,
+          "episodeId": 1,
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-09-23T00:00:00",
+          "toDate": "2026-09-29T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032492&episodeid=1&eventtype=WF",
+          "country": "Zambia",
+          "iso3": "ZMB"
+        },
+        {
+          "type": "WF",
+          "eventId": 1032469,
+          "episodeId": 2,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
           "date": "2026-09-20T00:00:00",
           "toDate": "2026-09-29T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032439&episodeid=3&eventtype=WF",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032469&episodeid=2&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         }
