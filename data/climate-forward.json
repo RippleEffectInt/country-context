@@ -1,64 +1,64 @@
 {
-  "generatedAt": "2026-09-30T11:13:25.897Z",
+  "generatedAt": "2026-10-01T11:44:25.284Z",
   "sources": {
     "ICPAC weekly forecast": {
       "status": "ok",
-      "period": "22 - 29 September 2026",
+      "period": "30 - 8 October 2026",
       "url": "https://www.icpac.net/weekly-forecast/",
-      "updatedAt": "2026-09-30T11:13:00.777Z"
+      "updatedAt": "2026-10-01T11:42:28.767Z"
     },
     "ICPAC seasonal forecast": {
       "status": "ok",
       "period": "September - November 2026",
       "url": "https://www.icpac.net/seasonal-forecast/",
-      "updatedAt": "2026-09-30T11:13:02.818Z"
+      "updatedAt": "2026-10-01T11:42:31.288Z"
     },
     "East Africa Drought Watch": {
       "status": "stale",
       "period": "11 August 2026",
       "url": "https://droughtwatch.icpac.net/report-v2/",
-      "updatedAt": "2026-09-30T11:13:03.125Z",
-      "error": "Drought Watch page loaded but CDI percentages were not parseable"
+      "updatedAt": "2026-10-01T11:42:40.304Z",
+      "error": "fetch failed"
     },
     "SADC / SARCOF-33": {
       "status": "ok",
       "period": "August 27, 2026",
       "url": "https://www.sadc.int/latest-news/sadc-outlook-favours-drier-conditions-across-much-southern-africa-during-202627-rainy",
-      "updatedAt": "2026-09-30T11:13:04.205Z",
+      "updatedAt": "2026-10-01T11:42:41.534Z",
       "error": "fetch failed"
     },
     "NOAA GFS spatial forecast": {
       "status": "ok",
       "url": "https://open-meteo.com/en/docs/gfs-api",
-      "period": "2026-09-30 to 2026-10-06",
-      "updatedAt": "2026-09-30T11:13:25.897Z"
+      "period": "2026-10-01 to 2026-10-07",
+      "updatedAt": "2026-10-01T11:44:25.284Z"
     },
     "ECMWF EC46 subseasonal outlook": {
       "status": "ok",
       "url": "https://open-meteo.com/en/docs/seasonal-forecast-api",
       "period": "2026-10-12 to 2026-11-01",
-      "updatedAt": "2026-09-30T11:13:25.897Z"
+      "updatedAt": "2026-10-01T11:44:25.284Z"
     },
     "Country boundary geometry": {
       "status": "cached",
       "url": "https://github.com/johan/world.geo.json",
       "period": "current",
-      "updatedAt": "2026-09-30T11:13:22.067Z",
-      "error": "502 Bad Gateway"
+      "updatedAt": "2026-10-01T11:44:19.959Z",
+      "error": "fetch failed"
     }
   },
   "countries": {
     "KEN": {
       "weekly": {
-        "period": "22 - 29 September 2026",
-        "rainfall": "Central to western Kenya — less than usual rainfall expected.",
+        "period": "30 - 8 October 2026",
+        "rainfall": "Isolated areas along the coastal parts of Kenya — more than usual rainfall expected.",
         "rainfallScope": "country-or-subnational",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
         "temperatureScope": "regional",
         "heavyRain": "No specific exceptional-rainfall signal is highlighted for Kenya in the latest ICPAC bulletin.",
         "heavyRainScope": "none",
-        "heatStress": "Some parts of Eastern Kenya — elevated heat stress within the ‘extreme caution’ category expected.",
-        "heatStressScope": "country-or-subnational",
+        "heatStress": "No specific severe heat-stress signal is highlighted for Kenya in the latest ICPAC bulletin.",
+        "heatStressScope": "none",
         "flood": "No specific flood update is listed for Kenya in the latest ICPAC bulletin. This does not mean there is no local flood risk.",
         "floodScope": "none",
         "url": "https://www.icpac.net/weekly-forecast/"
@@ -81,24 +81,24 @@
         "url": "https://droughtwatch.icpac.net/report-v2/"
       },
       "spatial7d": {
-        "periodStart": "2026-09-30",
-        "periodEnd": "2026-10-06",
+        "periodStart": "2026-10-01",
+        "periodEnd": "2026-10-07",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
         "sampleCount": 22,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianMm": 0.3,
-          "meanMm": 2.4,
+          "medianMm": 0.5,
+          "meanMm": 2.5,
           "minMm": 0,
-          "maxMm": 18.8,
+          "maxMm": 18.9,
           "drySharePct": 82,
           "heavySharePct": 0,
           "veryHeavySharePct": 0,
           "wettestZone": "southern-eastern"
         },
         "temperature": {
-          "meanDailyMaxC": 32.1,
+          "meanDailyMaxC": 32.4,
           "hotSharePct": 18,
           "hottestZone": "northern-western"
         },
@@ -112,14 +112,14 @@
         "sampleCount": 11,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianAnomalyMm": 43.4,
+          "medianAnomalyMm": 33.2,
           "wetterSharePct": 100,
           "drierSharePct": 0,
           "wettestZone": "eastern"
         },
         "temperature": {
           "medianAnomalyC": 0.2,
-          "warmerSharePct": 36,
+          "warmerSharePct": 27,
           "coolerSharePct": 9
         },
         "method": "EC46 weekly ensemble-mean anomalies sampled inside a real country polygon (cached country polygons) for roughly days 8–28. This is a broad area outlook, not a local weather forecast."
@@ -127,9 +127,9 @@
     },
     "UGA": {
       "weekly": {
-        "period": "22 - 29 September 2026",
-        "rainfall": "Uganda — less than usual rainfall expected.",
-        "rainfallScope": "country-or-subnational",
+        "period": "30 - 8 October 2026",
+        "rainfall": "No specific weekly rainfall anomaly is highlighted for Uganda in the latest ICPAC bulletin.",
+        "rainfallScope": "none",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
         "temperatureScope": "regional",
         "heavyRain": "No specific exceptional-rainfall signal is highlighted for Uganda in the latest ICPAC bulletin.",
@@ -158,25 +158,25 @@
         "url": "https://droughtwatch.icpac.net/report-v2/"
       },
       "spatial7d": {
-        "periodStart": "2026-09-30",
-        "periodEnd": "2026-10-06",
+        "periodStart": "2026-10-01",
+        "periodEnd": "2026-10-07",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
         "sampleCount": 26,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianMm": 2.9,
-          "meanMm": 3.6,
+          "medianMm": 2.1,
+          "meanMm": 3.1,
           "minMm": 0,
-          "maxMm": 15,
-          "drySharePct": 69,
+          "maxMm": 21.5,
+          "drySharePct": 88,
           "heavySharePct": 0,
           "veryHeavySharePct": 0,
-          "wettestZone": "northern-western"
+          "wettestZone": "western"
         },
         "temperature": {
-          "meanDailyMaxC": 30.8,
-          "hotSharePct": 15,
+          "meanDailyMaxC": 30.7,
+          "hotSharePct": 12,
           "hottestZone": "northern"
         },
         "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
@@ -189,13 +189,13 @@
         "sampleCount": 13,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianAnomalyMm": 34.3,
+          "medianAnomalyMm": 29.9,
           "wetterSharePct": 92,
-          "drierSharePct": 8,
+          "drierSharePct": 0,
           "wettestZone": "central"
         },
         "temperature": {
-          "medianAnomalyC": 1,
+          "medianAnomalyC": 0.9,
           "warmerSharePct": 100,
           "coolerSharePct": 0
         },
@@ -204,9 +204,9 @@
     },
     "RWA": {
       "weekly": {
-        "period": "22 - 29 September 2026",
-        "rainfall": "Rwanda — less than usual rainfall expected.",
-        "rainfallScope": "country-or-subnational",
+        "period": "30 - 8 October 2026",
+        "rainfall": "No specific weekly rainfall anomaly is highlighted for Rwanda in the latest ICPAC bulletin.",
+        "rainfallScope": "none",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
         "temperatureScope": "regional",
         "heavyRain": "No specific exceptional-rainfall signal is highlighted for Rwanda in the latest ICPAC bulletin.",
@@ -235,18 +235,18 @@
         "url": "https://droughtwatch.icpac.net/report-v2/"
       },
       "spatial7d": {
-        "periodStart": "2026-09-30",
-        "periodEnd": "2026-10-06",
+        "periodStart": "2026-10-01",
+        "periodEnd": "2026-10-07",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
         "sampleCount": 21,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianMm": 0.9,
-          "meanMm": 2,
-          "minMm": 0,
-          "maxMm": 13,
-          "drySharePct": 90,
+          "medianMm": 3,
+          "meanMm": 4,
+          "minMm": 0.5,
+          "maxMm": 12.4,
+          "drySharePct": 71,
           "heavySharePct": 0,
           "veryHeavySharePct": 0,
           "wettestZone": "northern-western"
@@ -266,13 +266,13 @@
         "sampleCount": 11,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianAnomalyMm": 16.1,
-          "wetterSharePct": 82,
+          "medianAnomalyMm": 16.8,
+          "wetterSharePct": 100,
           "drierSharePct": 0,
-          "wettestZone": "southern"
+          "wettestZone": "western"
         },
         "temperature": {
-          "medianAnomalyC": 1.2,
+          "medianAnomalyC": 1,
           "warmerSharePct": 100,
           "coolerSharePct": 0
         },
@@ -281,7 +281,7 @@
     },
     "BDI": {
       "weekly": {
-        "period": "22 - 29 September 2026",
+        "period": "30 - 8 October 2026",
         "rainfall": "No specific weekly rainfall anomaly is highlighted for Burundi in the latest ICPAC bulletin.",
         "rainfallScope": "none",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
@@ -312,25 +312,25 @@
         "url": "https://droughtwatch.icpac.net/report-v2/"
       },
       "spatial7d": {
-        "periodStart": "2026-09-30",
-        "periodEnd": "2026-10-06",
+        "periodStart": "2026-10-01",
+        "periodEnd": "2026-10-07",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
         "sampleCount": 21,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianMm": 0.6,
-          "meanMm": 1.1,
-          "minMm": 0,
-          "maxMm": 4.8,
-          "drySharePct": 100,
+          "medianMm": 2.5,
+          "meanMm": 2.7,
+          "minMm": 0.3,
+          "maxMm": 11.1,
+          "drySharePct": 95,
           "heavySharePct": 0,
           "veryHeavySharePct": 0,
-          "wettestZone": "northern-eastern"
+          "wettestZone": "western"
         },
         "temperature": {
-          "meanDailyMaxC": 30.3,
-          "hotSharePct": 5,
+          "meanDailyMaxC": 30.2,
+          "hotSharePct": 0,
           "hottestZone": "eastern"
         },
         "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
@@ -343,13 +343,13 @@
         "sampleCount": 11,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianAnomalyMm": 8.7,
-          "wetterSharePct": 73,
+          "medianAnomalyMm": 12,
+          "wetterSharePct": 64,
           "drierSharePct": 9,
-          "wettestZone": "northern"
+          "wettestZone": "southern-western"
         },
         "temperature": {
-          "medianAnomalyC": 1.4,
+          "medianAnomalyC": 1.2,
           "warmerSharePct": 100,
           "coolerSharePct": 0
         },
@@ -358,15 +358,15 @@
     },
     "ETH": {
       "weekly": {
-        "period": "22 - 29 September 2026",
-        "rainfall": "Over central to western Ethiopia — more than usual rainfall expected. Central to south-eastern parts of Ethiopia — less than usual rainfall expected.",
+        "period": "30 - 8 October 2026",
+        "rainfall": "South-eastern parts of Ethiopia — more than usual rainfall expected.",
         "rainfallScope": "country-or-subnational",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
         "temperatureScope": "regional",
         "heavyRain": "No specific exceptional-rainfall signal is highlighted for Ethiopia in the latest ICPAC bulletin.",
         "heavyRainScope": "none",
-        "heatStress": "Northeastern regions of Ethiopia — elevated heat stress within the ‘extreme caution’ category expected. Parts of the Afar region in Ethiopia extending into parts of central Eritrea — elevated heat stress within the ‘danger’ category expected.",
-        "heatStressScope": "country-or-subnational",
+        "heatStress": "No specific severe heat-stress signal is highlighted for Ethiopia in the latest ICPAC bulletin.",
+        "heatStressScope": "none",
         "flood": "No specific flood update is listed for Ethiopia in the latest ICPAC bulletin. This does not mean there is no local flood risk.",
         "floodScope": "none",
         "url": "https://www.icpac.net/weekly-forecast/"
@@ -389,26 +389,26 @@
         "url": "https://droughtwatch.icpac.net/report-v2/"
       },
       "spatial7d": {
-        "periodStart": "2026-09-30",
-        "periodEnd": "2026-10-06",
+        "periodStart": "2026-10-01",
+        "periodEnd": "2026-10-07",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
         "sampleCount": 20,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianMm": 9.8,
-          "meanMm": 18.7,
-          "minMm": 0.1,
-          "maxMm": 85.4,
-          "drySharePct": 25,
-          "heavySharePct": 10,
+          "medianMm": 17.2,
+          "meanMm": 25.3,
+          "minMm": 1,
+          "maxMm": 88.9,
+          "drySharePct": 20,
+          "heavySharePct": 15,
           "veryHeavySharePct": 0,
           "wettestZone": "southern"
         },
         "temperature": {
-          "meanDailyMaxC": 29.5,
-          "hotSharePct": 15,
-          "hottestZone": "southern-western"
+          "meanDailyMaxC": 28.9,
+          "hotSharePct": 10,
+          "hottestZone": "northern-western"
         },
         "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
       },
@@ -420,7 +420,7 @@
         "sampleCount": 10,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianAnomalyMm": 34.8,
+          "medianAnomalyMm": 33.7,
           "wetterSharePct": 90,
           "drierSharePct": 10,
           "wettestZone": "southern-eastern"
@@ -463,26 +463,26 @@
         "url": "https://www.sadc.int/latest-news/sadc-outlook-favours-drier-conditions-across-much-southern-africa-during-202627-rainy"
       },
       "spatial7d": {
-        "periodStart": "2026-09-30",
-        "periodEnd": "2026-10-06",
+        "periodStart": "2026-10-01",
+        "periodEnd": "2026-10-07",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
         "sampleCount": 19,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianMm": 6.7,
-          "meanMm": 7.3,
-          "minMm": 0.8,
-          "maxMm": 21.9,
-          "drySharePct": 32,
+          "medianMm": 5.4,
+          "meanMm": 5.2,
+          "minMm": 0.3,
+          "maxMm": 13.4,
+          "drySharePct": 42,
           "heavySharePct": 0,
           "veryHeavySharePct": 0,
-          "wettestZone": "southern"
+          "wettestZone": "northern-eastern"
         },
         "temperature": {
-          "meanDailyMaxC": 32.4,
+          "meanDailyMaxC": 32.6,
           "hotSharePct": 11,
-          "hottestZone": "southern-western"
+          "hottestZone": "western"
         },
         "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
       },
@@ -494,15 +494,15 @@
         "sampleCount": 10,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianAnomalyMm": -6.4,
+          "medianAnomalyMm": -4.2,
           "wetterSharePct": 20,
           "drierSharePct": 50,
-          "wettestZone": "northern-eastern"
+          "wettestZone": "eastern"
         },
         "temperature": {
-          "medianAnomalyC": -0.1,
-          "warmerSharePct": 10,
-          "coolerSharePct": 10
+          "medianAnomalyC": 0.1,
+          "warmerSharePct": 20,
+          "coolerSharePct": 0
         },
         "method": "EC46 weekly ensemble-mean anomalies sampled inside a real country polygon (cached country polygons) for roughly days 8–28. This is a broad area outlook, not a local weather forecast."
       }
