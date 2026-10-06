@@ -1,74 +1,74 @@
 {
-  "generatedAt": "2026-10-05T12:23:55.063Z",
+  "generatedAt": "2026-10-06T12:04:31.467Z",
   "sources": {
     "ICPAC weekly forecast": {
       "status": "ok",
-      "period": "30 - 8 October 2026",
+      "period": "29 - 6 October 2026",
       "url": "https://www.icpac.net/weekly-forecast/",
-      "updatedAt": "2026-10-05T12:22:02.422Z"
+      "updatedAt": "2026-10-06T12:04:14.989Z"
     },
     "ICPAC seasonal forecast": {
       "status": "ok",
-      "period": "September - November 2026",
+      "period": "October - December 2026",
       "url": "https://www.icpac.net/seasonal-forecast/",
-      "updatedAt": "2026-10-05T12:22:04.437Z"
+      "updatedAt": "2026-10-06T12:04:17.873Z"
     },
     "East Africa Drought Watch": {
       "status": "stale",
       "period": "11 August 2026",
       "url": "https://droughtwatch.icpac.net/report-v2/",
-      "updatedAt": "2026-10-05T12:22:04.850Z",
+      "updatedAt": "2026-10-06T12:04:18.136Z",
       "error": "Drought Watch page loaded but CDI percentages were not parseable"
     },
     "SADC / SARCOF-33": {
       "status": "ok",
       "period": "August 27, 2026",
       "url": "https://www.sadc.int/latest-news/sadc-outlook-favours-drier-conditions-across-much-southern-africa-during-202627-rainy",
-      "updatedAt": "2026-10-05T12:22:06.104Z",
+      "updatedAt": "2026-10-06T12:04:19.088Z",
       "error": "fetch failed"
     },
     "NOAA GFS spatial forecast": {
       "status": "stale",
       "url": "https://open-meteo.com/en/docs/gfs-api",
       "period": "2026-10-01 to 2026-10-07",
-      "updatedAt": "2026-10-05T12:23:55.063Z",
+      "updatedAt": "2026-10-06T12:04:31.467Z",
       "error": "Updated 0/6 countries"
     },
     "ECMWF EC46 subseasonal outlook": {
       "status": "stale",
       "url": "https://open-meteo.com/en/docs/seasonal-forecast-api",
       "period": "2026-10-12 to 2026-11-01",
-      "updatedAt": "2026-10-05T12:23:55.063Z",
+      "updatedAt": "2026-10-06T12:04:31.467Z",
       "error": "Updated 0/6 countries"
     },
     "Country boundary geometry": {
       "status": "ok",
       "url": "https://geoportal.icpac.net/layers/data0:geonode:afr_g2014_2013_0",
       "period": "current",
-      "updatedAt": "2026-10-05T12:23:55.062Z"
+      "updatedAt": "2026-10-06T12:04:31.466Z"
     }
   },
   "countries": {
     "KEN": {
       "weekly": {
-        "period": "30 - 8 October 2026",
+        "period": "29 - 6 October 2026",
         "rainfall": "Isolated areas along the coastal parts of Kenya — more than usual rainfall expected.",
         "rainfallScope": "country-or-subnational",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
         "temperatureScope": "regional",
         "heavyRain": "No specific exceptional-rainfall signal is highlighted for Kenya in the latest ICPAC bulletin.",
         "heavyRainScope": "none",
-        "heatStress": "No specific severe heat-stress signal is highlighted for Kenya in the latest ICPAC bulletin.",
-        "heatStressScope": "none",
+        "heatStress": "Some parts of Eastern Kenya — elevated heat stress within the ‘extreme caution’ category expected.",
+        "heatStressScope": "country-or-subnational",
         "flood": "No specific flood update is listed for Kenya in the latest ICPAC bulletin. This does not mean there is no local flood risk.",
         "floodScope": "none",
         "url": "https://www.icpac.net/weekly-forecast/"
       },
       "seasonal": {
-        "period": "September - November 2026",
-        "rainfall": "Kenya — above normal rainfall expected.",
-        "rainfallScope": "country-or-subnational",
-        "temperature": "Above normal temperatures are expected over the region with the highest probabilities indicated over northern and central areas of the regions.",
+        "period": "October - December 2026",
+        "rainfall": "No specific seasonal rainfall signal is highlighted for Kenya in the latest ICPAC summary.",
+        "rainfallScope": "none",
+        "temperature": "Above normal temperatures are expected across most of the Greater Horn of Africa, with particularly high probabilities in Somalia, Ethiopia and coastal regions.",
         "temperatureScope": "regional",
         "url": "https://www.icpac.net/seasonal-forecast/"
       },
@@ -128,7 +128,7 @@
     },
     "UGA": {
       "weekly": {
-        "period": "30 - 8 October 2026",
+        "period": "29 - 6 October 2026",
         "rainfall": "No specific weekly rainfall anomaly is highlighted for Uganda in the latest ICPAC bulletin.",
         "rainfallScope": "none",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
@@ -142,10 +142,10 @@
         "url": "https://www.icpac.net/weekly-forecast/"
       },
       "seasonal": {
-        "period": "September - November 2026",
-        "rainfall": "Uganda — above normal rainfall expected.",
-        "rainfallScope": "country-or-subnational",
-        "temperature": "Above normal temperatures are expected over the region with the highest probabilities indicated over northern and central areas of the regions.",
+        "period": "October - December 2026",
+        "rainfall": "No specific seasonal rainfall signal is highlighted for Uganda in the latest ICPAC summary.",
+        "rainfallScope": "none",
+        "temperature": "Above normal temperatures are expected across most of the Greater Horn of Africa, with particularly high probabilities in Somalia, Ethiopia and coastal regions.",
         "temperatureScope": "regional",
         "url": "https://www.icpac.net/seasonal-forecast/"
       },
@@ -205,7 +205,7 @@
     },
     "RWA": {
       "weekly": {
-        "period": "30 - 8 October 2026",
+        "period": "29 - 6 October 2026",
         "rainfall": "No specific weekly rainfall anomaly is highlighted for Rwanda in the latest ICPAC bulletin.",
         "rainfallScope": "none",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
@@ -219,10 +219,10 @@
         "url": "https://www.icpac.net/weekly-forecast/"
       },
       "seasonal": {
-        "period": "September - November 2026",
-        "rainfall": "Rwanda — above normal rainfall expected.",
-        "rainfallScope": "country-or-subnational",
-        "temperature": "Above normal temperatures are expected over the region with the highest probabilities indicated over northern and central areas of the regions.",
+        "period": "October - December 2026",
+        "rainfall": "No specific seasonal rainfall signal is highlighted for Rwanda in the latest ICPAC summary.",
+        "rainfallScope": "none",
+        "temperature": "Above normal temperatures are expected across most of the Greater Horn of Africa, with particularly high probabilities in Somalia, Ethiopia and coastal regions.",
         "temperatureScope": "regional",
         "url": "https://www.icpac.net/seasonal-forecast/"
       },
@@ -282,7 +282,7 @@
     },
     "BDI": {
       "weekly": {
-        "period": "30 - 8 October 2026",
+        "period": "29 - 6 October 2026",
         "rainfall": "No specific weekly rainfall anomaly is highlighted for Burundi in the latest ICPAC bulletin.",
         "rainfallScope": "none",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
@@ -296,10 +296,10 @@
         "url": "https://www.icpac.net/weekly-forecast/"
       },
       "seasonal": {
-        "period": "September - November 2026",
-        "rainfall": "Burundi — above normal rainfall expected.",
-        "rainfallScope": "country-or-subnational",
-        "temperature": "Above normal temperatures are expected over the region with the highest probabilities indicated over northern and central areas of the regions.",
+        "period": "October - December 2026",
+        "rainfall": "No specific seasonal rainfall signal is highlighted for Burundi in the latest ICPAC summary.",
+        "rainfallScope": "none",
+        "temperature": "Above normal temperatures are expected across most of the Greater Horn of Africa, with particularly high probabilities in Somalia, Ethiopia and coastal regions.",
         "temperatureScope": "regional",
         "url": "https://www.icpac.net/seasonal-forecast/"
       },
@@ -359,25 +359,25 @@
     },
     "ETH": {
       "weekly": {
-        "period": "30 - 8 October 2026",
+        "period": "29 - 6 October 2026",
         "rainfall": "South-eastern parts of Ethiopia — more than usual rainfall expected.",
         "rainfallScope": "country-or-subnational",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
         "temperatureScope": "regional",
         "heavyRain": "No specific exceptional-rainfall signal is highlighted for Ethiopia in the latest ICPAC bulletin.",
         "heavyRainScope": "none",
-        "heatStress": "No specific severe heat-stress signal is highlighted for Ethiopia in the latest ICPAC bulletin.",
-        "heatStressScope": "none",
+        "heatStress": "North-eastern regions of Ethiopia — elevated heat stress within the ‘extreme caution’ category expected.",
+        "heatStressScope": "country-or-subnational",
         "flood": "No specific flood update is listed for Ethiopia in the latest ICPAC bulletin. This does not mean there is no local flood risk.",
         "floodScope": "none",
         "url": "https://www.icpac.net/weekly-forecast/"
       },
       "seasonal": {
-        "period": "September - November 2026",
-        "rainfall": "Most parts of the region including parts of Ethiopia — above normal rainfall expected. Central and western Ethiopia — below normal rainfall expected.",
-        "rainfallScope": "country-or-subnational",
-        "temperature": "Above normal temperatures are expected over the region with the highest probabilities indicated over northern and central areas of the regions.",
-        "temperatureScope": "regional",
+        "period": "October - December 2026",
+        "rainfall": "No specific seasonal rainfall signal is highlighted for Ethiopia in the latest ICPAC summary.",
+        "rainfallScope": "none",
+        "temperature": "Above normal temperatures are expected across most of the Greater Horn of Africa, with particularly high probabilities in Somalia, Ethiopia and coastal regions.",
+        "temperatureScope": "country-or-subnational",
         "url": "https://www.icpac.net/seasonal-forecast/"
       },
       "drought": {

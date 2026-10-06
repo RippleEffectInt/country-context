@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startedAt": "2026-09-05T19:40:00.000Z",
-  "generatedAt": "2026-10-05T12:23:55.297Z",
+  "generatedAt": "2026-10-06T12:04:31.559Z",
   "global": {
     "enso": [
       {
@@ -182,6 +182,11 @@
       {
         "date": "2026-08",
         "value": 1.89,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2026-09",
+        "value": 2.09,
         "source": "NOAA Niño 3.4 anomaly"
       }
     ]

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-05T12:18:48.276Z",
+  "generatedAt": "2026-10-06T12:03:11.996Z",
   "previous": {
-    "generatedAt": "2026-10-04T11:08:15.912Z",
+    "generatedAt": "2026-10-05T12:18:48.276Z",
     "global": {
       "enso": {
         "latest": {
@@ -207,9 +207,9 @@
     "countries": {
       "KEN": {
         "rainfall": {
-          "anomalyPct": 94.15837398889366,
+          "anomalyPct": 107.89385048452664,
           "referencePeriodStart": null,
-          "referencePeriodEnd": "2026-09-11",
+          "referencePeriodEnd": "2026-09-21",
           "aggregationPeriod": "one_month",
           "adminUnits": 8,
           "source": "WFP CHIRPS via HDX"
@@ -257,9 +257,9 @@
       },
       "UGA": {
         "rainfall": {
-          "anomalyPct": 53.062696387688206,
+          "anomalyPct": 60.48284719913547,
           "referencePeriodStart": null,
-          "referencePeriodEnd": "2026-09-11",
+          "referencePeriodEnd": "2026-09-21",
           "aggregationPeriod": "one_month",
           "adminUnits": 4,
           "source": "WFP CHIRPS via HDX"
@@ -307,9 +307,9 @@
       },
       "RWA": {
         "rainfall": {
-          "anomalyPct": 59.01545390862944,
+          "anomalyPct": 82.51021829314722,
           "referencePeriodStart": null,
-          "referencePeriodEnd": "2026-09-11",
+          "referencePeriodEnd": "2026-09-21",
           "aggregationPeriod": "one_month",
           "adminUnits": 5,
           "source": "WFP CHIRPS via HDX"
@@ -348,9 +348,9 @@
       },
       "BDI": {
         "rainfall": {
-          "anomalyPct": 47.22703260323384,
+          "anomalyPct": 53.66543511567163,
           "referencePeriodStart": null,
-          "referencePeriodEnd": "2026-09-11",
+          "referencePeriodEnd": "2026-09-21",
           "aggregationPeriod": "one_month",
           "adminUnits": 18,
           "source": "WFP CHIRPS via HDX"
@@ -398,9 +398,9 @@
       },
       "ETH": {
         "rainfall": {
-          "anomalyPct": 88.22605269285172,
+          "anomalyPct": 102.7309914052677,
           "referencePeriodStart": null,
-          "referencePeriodEnd": "2026-09-11",
+          "referencePeriodEnd": "2026-09-21",
           "aggregationPeriod": "one_month",
           "adminUnits": 11,
           "source": "WFP CHIRPS via HDX"
@@ -444,13 +444,26 @@
           "refugees": 1010466,
           "asylumSeekers": 112987
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "WF",
+            "eventId": 1032562,
+            "episodeId": 1,
+            "name": "Forest fires in Ethiopia",
+            "alertLevel": "Green",
+            "date": "2026-10-04T00:00:00",
+            "toDate": "2026-10-04T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032562&episodeid=1&eventtype=WF",
+            "country": "Ethiopia",
+            "iso3": "ETH"
+          }
+        ]
       },
       "ZMB": {
         "rainfall": {
-          "anomalyPct": 99.17055682309096,
+          "anomalyPct": 111.31861961750052,
           "referencePeriodStart": null,
-          "referencePeriodEnd": "2026-09-11",
+          "referencePeriodEnd": "2026-09-21",
           "aggregationPeriod": "one_month",
           "adminUnits": 10,
           "source": "WFP CHIRPS via HDX"
@@ -494,7 +507,20 @@
           "refugees": 83225,
           "asylumSeekers": 12906
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "WF",
+            "eventId": 1032490,
+            "episodeId": 4,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-09-25T00:00:00",
+            "toDate": "2026-10-04T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032490&episodeid=4&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          }
+        ]
       }
     }
   },
@@ -502,74 +528,68 @@
     {
       "scope": "Global",
       "metric": "ENSO",
-      "text": "Niño 3.4 rose 27.49°C to 29.38°C.",
+      "text": "Niño 3.4 rose 27.62°C to 29.51°C.",
       "severity": "medium"
     },
     {
       "scope": "Ethiopia",
       "metric": "Disaster alert",
-      "text": "New GDACS alert: Forest fires in Ethiopia.",
-      "severity": "high"
-    },
-    {
-      "scope": "Zambia",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Forest fires in Zambia.",
+      "text": "New GDACS alert: Earthquake in Ethiopia.",
       "severity": "high"
     }
   ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-10-05T12:20:20.247Z"
+      "updatedAt": "2026-10-06T12:03:17.650Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-10-05T12:20:21.516Z"
+      "updatedAt": "2026-10-06T12:03:18.739Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-10-05T12:21:17.420Z",
+      "updatedAt": "2026-10-06T12:03:43.668Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-10-05T12:22:01.523Z",
+      "updatedAt": "2026-10-06T12:04:14.614Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-10-05T12:20:25.659Z"
+      "updatedAt": "2026-10-06T12:03:22.320Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-10-05T12:20:26.342Z"
+      "updatedAt": "2026-10-06T12:03:22.499Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-10-05T12:20:30.765Z"
+      "updatedAt": "2026-10-06T12:03:26.063Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-10-05T12:20:34.043Z"
+      "updatedAt": "2026-10-06T12:03:29.048Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-10-05T12:20:56.068Z"
+      "updatedAt": "2026-10-06T12:03:41.469Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-10-05T12:21:16.893Z"
+      "updatedAt": "2026-10-06T12:03:43.364Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-10-05T12:21:17.141Z",
+      "lastAttempt": "2026-10-06T12:03:43.380Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-10-05T12:22:00.081Z",
+      "updatedAt": "2026-10-06T12:04:12.230Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -1160,14 +1180,14 @@
       },
       "gdacs": [
         {
-          "type": "WF",
-          "eventId": 1032562,
-          "episodeId": 1,
-          "name": "Forest fires in Ethiopia",
+          "type": "EQ",
+          "eventId": 1569664,
+          "episodeId": 1737905,
+          "name": "Earthquake in Ethiopia",
           "alertLevel": "Green",
-          "date": "2026-10-04T00:00:00",
-          "toDate": "2026-10-04T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032562&episodeid=1&eventtype=WF",
+          "date": "2026-10-05T19:47:55",
+          "toDate": "2026-10-05T19:47:55",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569664&episodeid=1737905&eventtype=EQ",
           "country": "Ethiopia",
           "iso3": "ETH"
         }
@@ -1328,20 +1348,7 @@
         "refugees": 83225,
         "asylumSeekers": 12906
       },
-      "gdacs": [
-        {
-          "type": "WF",
-          "eventId": 1032490,
-          "episodeId": 4,
-          "name": "Forest fires in Zambia",
-          "alertLevel": "Green",
-          "date": "2026-09-25T00:00:00",
-          "toDate": "2026-10-04T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032490&episodeid=4&eventtype=WF",
-          "country": "Zambia",
-          "iso3": "ZMB"
-        }
-      ],
+      "gdacs": [],
       "inform": {
         "overallRisk": 4.6,
         "riskClass": 3,
@@ -1487,22 +1494,17 @@
     "enso": {
       "latest": {
         "year": 2026,
-        "month": 8,
-        "value": 1.89
+        "month": 9,
+        "value": 2.09
       },
       "previous": {
         "year": 2026,
-        "month": 7,
-        "value": 1.73
+        "month": 8,
+        "value": 1.89
       },
       "signal": "Warm / El Niño signal",
       "trend": "Strengthening",
       "series": [
-        {
-          "year": 2023,
-          "month": 9,
-          "value": 1.41
-        },
         {
           "year": 2023,
           "month": 10,
@@ -1677,6 +1679,11 @@
           "year": 2026,
           "month": 8,
           "value": 1.89
+        },
+        {
+          "year": 2026,
+          "month": 9,
+          "value": 2.09
         }
       ],
       "metric": "Niño 3.4 SST anomaly",
