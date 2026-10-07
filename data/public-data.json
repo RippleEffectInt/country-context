@@ -1,27 +1,22 @@
 {
-  "generatedAt": "2026-10-06T12:03:11.996Z",
+  "generatedAt": "2026-10-07T11:48:39.636Z",
   "previous": {
-    "generatedAt": "2026-10-05T12:18:48.276Z",
+    "generatedAt": "2026-10-06T12:03:11.996Z",
     "global": {
       "enso": {
         "latest": {
           "year": 2026,
-          "month": 8,
-          "value": 1.89
+          "month": 9,
+          "value": 2.09
         },
         "previous": {
           "year": 2026,
-          "month": 7,
-          "value": 1.73
+          "month": 8,
+          "value": 1.89
         },
         "signal": "Warm / El Niño signal",
         "trend": "Strengthening",
         "series": [
-          {
-            "year": 2023,
-            "month": 9,
-            "value": 1.41
-          },
           {
             "year": 2023,
             "month": 10,
@@ -196,6 +191,11 @@
             "year": 2026,
             "month": 8,
             "value": 1.89
+          },
+          {
+            "year": 2026,
+            "month": 9,
+            "value": 2.09
           }
         ],
         "metric": "Niño 3.4 SST anomaly",
@@ -446,14 +446,14 @@
         },
         "gdacs": [
           {
-            "type": "WF",
-            "eventId": 1032562,
-            "episodeId": 1,
-            "name": "Forest fires in Ethiopia",
+            "type": "EQ",
+            "eventId": 1569664,
+            "episodeId": 1737905,
+            "name": "Earthquake in Ethiopia",
             "alertLevel": "Green",
-            "date": "2026-10-04T00:00:00",
-            "toDate": "2026-10-04T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032562&episodeid=1&eventtype=WF",
+            "date": "2026-10-05T19:47:55",
+            "toDate": "2026-10-05T19:47:55",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569664&episodeid=1737905&eventtype=EQ",
             "country": "Ethiopia",
             "iso3": "ETH"
           }
@@ -507,20 +507,7 @@
           "refugees": 83225,
           "asylumSeekers": 12906
         },
-        "gdacs": [
-          {
-            "type": "WF",
-            "eventId": 1032490,
-            "episodeId": 4,
-            "name": "Forest fires in Zambia",
-            "alertLevel": "Green",
-            "date": "2026-09-25T00:00:00",
-            "toDate": "2026-10-04T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032490&episodeid=4&eventtype=WF",
-            "country": "Zambia",
-            "iso3": "ZMB"
-          }
-        ]
+        "gdacs": []
       }
     }
   },
@@ -528,68 +515,62 @@
     {
       "scope": "Global",
       "metric": "ENSO",
-      "text": "Niño 3.4 rose 27.62°C to 29.51°C.",
+      "text": "Niño 3.4 rose 27.42°C to 29.51°C.",
       "severity": "medium"
-    },
-    {
-      "scope": "Ethiopia",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Earthquake in Ethiopia.",
-      "severity": "high"
     }
   ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-10-06T12:03:17.650Z"
+      "updatedAt": "2026-10-07T11:48:40.097Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-10-06T12:03:18.739Z"
+      "updatedAt": "2026-10-07T11:48:41.102Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-10-06T12:03:43.668Z",
+      "updatedAt": "2026-10-07T11:49:04.710Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-10-06T12:04:14.614Z",
+      "updatedAt": "2026-10-07T11:49:35.504Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-10-06T12:03:22.320Z"
+      "updatedAt": "2026-10-07T11:48:44.130Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-10-06T12:03:22.499Z"
+      "updatedAt": "2026-10-07T11:48:44.416Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-10-06T12:03:26.063Z"
+      "updatedAt": "2026-10-07T11:48:48.268Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-10-06T12:03:29.048Z"
+      "updatedAt": "2026-10-07T11:48:51.043Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-10-06T12:03:41.469Z"
+      "updatedAt": "2026-10-07T11:49:02.426Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-10-06T12:03:43.364Z"
+      "updatedAt": "2026-10-07T11:49:04.314Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-10-06T12:03:43.380Z",
+      "lastAttempt": "2026-10-07T11:49:04.355Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-10-06T12:04:12.230Z",
+      "updatedAt": "2026-10-07T11:49:34.347Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -637,9 +618,9 @@
         "source": "WFP CHIRPS via HDX"
       },
       "foodSecurity": {
-        "phase3Plus": 7405412,
-        "referencePeriodStart": "2026-01-01T00:00:00",
-        "referencePeriodEnd": "2026-03-31T23:59:59",
+        "phase3Plus": 6173318,
+        "referencePeriodStart": "2026-07-01T00:00:00",
+        "referencePeriodEnd": "2026-10-31T23:59:59",
         "level": 0
       },
       "idps": {
@@ -648,11 +629,11 @@
         "level": 0
       },
       "conflict": {
-        "events3m": 492,
-        "previous3m": 464,
-        "changePct": 6.0344827586206895,
-        "periodStart": "2026-06",
-        "periodEnd": "2026-08"
+        "events3m": 454,
+        "previous3m": 480,
+        "changePct": -5.416666666666667,
+        "periodStart": "2026-07",
+        "periodEnd": "2026-09"
       },
       "funding": {
         "requirementsUsd": null,
@@ -664,64 +645,60 @@
       "subnational": {
         "foodSecurity": [
           {
+            "name": "Dadaab",
+            "phase3Plus": 6644772
+          },
+          {
             "name": "Mandera",
-            "phase3Plus": 1007000
+            "phase3Plus": 805600
           },
           {
             "name": "Turkana",
-            "phase3Plus": 644400
-          },
-          {
-            "name": "Kilifi",
-            "phase3Plus": 597940
+            "phase3Plus": 751800
           },
           {
             "name": "Wajir",
             "phase3Plus": 549000
           },
           {
-            "name": "Dadaab",
-            "phase3Plus": 486802
+            "name": "Garissa",
+            "phase3Plus": 388400
           },
           {
-            "name": "Garissa",
-            "phase3Plus": 485500
+            "name": "Kilifi",
+            "phase3Plus": 327400
+          },
+          {
+            "name": "Baringo",
+            "phase3Plus": 305600
           },
           {
             "name": "Meru",
-            "phase3Plus": 397600
-          },
-          {
-            "name": "Kwale",
-            "phase3Plus": 395200
-          },
-          {
-            "name": "Kitui",
-            "phase3Plus": 377700
+            "phase3Plus": 298200
           },
           {
             "name": "Tana River",
-            "phase3Plus": 370000
-          },
-          {
-            "name": "Makueni",
-            "phase3Plus": 319500
+            "phase3Plus": 296000
           },
           {
             "name": "Marsabit",
             "phase3Plus": 269500
           },
           {
-            "name": "Kisumu",
-            "phase3Plus": 265310
+            "name": "Kakamega",
+            "phase3Plus": 231444
           },
           {
-            "name": "Baringo",
-            "phase3Plus": 229200
+            "name": "Makueni",
+            "phase3Plus": 213000
+          },
+          {
+            "name": "Kwale",
+            "phase3Plus": 197600
           },
           {
             "name": "Samburu",
-            "phase3Plus": 183500
+            "phase3Plus": 146800
           },
           {
             "name": "West Pokot",
@@ -736,16 +713,16 @@
             "phase3Plus": 132800
           },
           {
-            "name": "Isiolo",
-            "phase3Plus": 132000
-          },
-          {
-            "name": "Tharaka-Nithi",
-            "phase3Plus": 85410
+            "name": "Kitui",
+            "phase3Plus": 125900
           },
           {
             "name": "Laikipia",
-            "phase3Plus": 58300
+            "phase3Plus": 116600
+          },
+          {
+            "name": "Isiolo",
+            "phase3Plus": 99000
           },
           {
             "name": "Lamu",
@@ -758,6 +735,10 @@
           {
             "name": "Embu",
             "phase3Plus": 29600
+          },
+          {
+            "name": "Tharaka-Nithi",
+            "phase3Plus": 28470
           },
           {
             "name": "Nyeri",
@@ -850,9 +831,9 @@
         "source": "WFP CHIRPS via HDX"
       },
       "foodSecurity": {
-        "phase3Plus": 946736,
-        "referencePeriodStart": "2026-03-01T00:00:00",
-        "referencePeriodEnd": "2026-07-31T23:59:59",
+        "phase3Plus": 1346482,
+        "referencePeriodStart": "2026-08-01T00:00:00",
+        "referencePeriodEnd": "2026-10-31T23:59:59",
         "level": 0
       },
       "idps": {
@@ -861,11 +842,11 @@
         "level": 0
       },
       "conflict": {
-        "events3m": 107,
-        "previous3m": 98,
-        "changePct": 9.183673469387756,
-        "periodStart": "2026-06",
-        "periodEnd": "2026-08"
+        "events3m": 89,
+        "previous3m": 108,
+        "changePct": -17.59259259259259,
+        "periodStart": "2026-07",
+        "periodEnd": "2026-09"
       },
       "funding": {
         "requirementsUsd": null,
@@ -947,8 +928,8 @@
         "events3m": 0,
         "previous3m": null,
         "changePct": null,
-        "periodStart": "2026-06",
-        "periodEnd": "2026-08"
+        "periodStart": "2026-07",
+        "periodEnd": "2026-09"
       },
       "funding": {
         "requirementsUsd": null,
@@ -1044,8 +1025,8 @@
         "events3m": 4,
         "previous3m": 6,
         "changePct": -33.33333333333333,
-        "periodStart": "2026-06",
-        "periodEnd": "2026-08"
+        "periodStart": "2026-07",
+        "periodEnd": "2026-09"
       },
       "funding": {
         "requirementsUsd": null,
@@ -1057,8 +1038,12 @@
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Plateaux humides",
-            "phase3Plus": 3140356
+            "name": "Dépressions du nord",
+            "phase3Plus": 3040874
+          },
+          {
+            "name": "Burunga",
+            "phase3Plus": 99482
           }
         ],
         "rainfall": [
@@ -1178,20 +1163,7 @@
         "refugees": 1010466,
         "asylumSeekers": 112987
       },
-      "gdacs": [
-        {
-          "type": "EQ",
-          "eventId": 1569664,
-          "episodeId": 1737905,
-          "name": "Earthquake in Ethiopia",
-          "alertLevel": "Green",
-          "date": "2026-10-05T19:47:55",
-          "toDate": "2026-10-05T19:47:55",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569664&episodeid=1737905&eventtype=EQ",
-          "country": "Ethiopia",
-          "iso3": "ETH"
-        }
-      ],
+      "gdacs": [],
       "inform": {
         "overallRisk": 7.1,
         "riskClass": 5,
@@ -1221,11 +1193,11 @@
         "level": 0
       },
       "conflict": {
-        "events3m": 54,
-        "previous3m": 39,
-        "changePct": 38.46153846153847,
-        "periodStart": "2026-06",
-        "periodEnd": "2026-08"
+        "events3m": 62,
+        "previous3m": 57,
+        "changePct": 8.771929824561402,
+        "periodStart": "2026-07",
+        "periodEnd": "2026-09"
       },
       "funding": {
         "requirementsUsd": null,
@@ -1379,14 +1351,14 @@
       },
       "conflict": {
         "events3m": 15,
-        "previous3m": 15,
-        "changePct": 0,
-        "periodStart": "2026-06",
-        "periodEnd": "2026-08"
+        "previous3m": 17,
+        "changePct": -11.76470588235294,
+        "periodStart": "2026-07",
+        "periodEnd": "2026-09"
       },
       "funding": {
         "requirementsUsd": null,
-        "fundingUsd": 1609644,
+        "fundingUsd": 1624647,
         "fundingPct": null,
         "appeals": 1,
         "referencePeriodEnd": "2027-12-31T23:59:59"
