@@ -1,51 +1,51 @@
 {
-  "generatedAt": "2026-10-08T12:12:57.036Z",
+  "generatedAt": "2026-10-09T11:58:30.908Z",
   "sources": {
     "ICPAC weekly forecast": {
       "status": "ok",
       "period": "06 - 13 October 2026",
       "url": "https://www.icpac.net/weekly-forecast/",
-      "updatedAt": "2026-10-08T12:05:07.094Z"
+      "updatedAt": "2026-10-09T11:58:13.853Z"
     },
     "ICPAC seasonal forecast": {
       "status": "ok",
       "period": "October - December 2026",
       "url": "https://www.icpac.net/seasonal-forecast/",
-      "updatedAt": "2026-10-08T12:05:09.315Z"
+      "updatedAt": "2026-10-09T11:58:16.004Z"
     },
     "East Africa Drought Watch": {
       "status": "stale",
       "period": "11 August 2026",
       "url": "https://droughtwatch.icpac.net/report-v2/",
-      "updatedAt": "2026-10-08T12:05:09.627Z",
+      "updatedAt": "2026-10-09T11:58:16.560Z",
       "error": "Drought Watch page loaded but CDI percentages were not parseable"
     },
     "SADC / SARCOF-33": {
       "status": "ok",
       "period": "August 27, 2026",
       "url": "https://www.sadc.int/latest-news/sadc-outlook-favours-drier-conditions-across-much-southern-africa-during-202627-rainy",
-      "updatedAt": "2026-10-08T12:05:10.915Z",
+      "updatedAt": "2026-10-09T11:58:17.675Z",
       "error": "fetch failed"
     },
     "NOAA GFS spatial forecast": {
       "status": "stale",
       "url": "https://open-meteo.com/en/docs/gfs-api",
       "period": "2026-10-01 to 2026-10-07",
-      "updatedAt": "2026-10-08T12:12:57.036Z",
+      "updatedAt": "2026-10-09T11:58:30.908Z",
       "error": "Updated 0/6 countries"
     },
     "ECMWF EC46 subseasonal outlook": {
       "status": "stale",
       "url": "https://open-meteo.com/en/docs/seasonal-forecast-api",
       "period": "2026-10-12 to 2026-11-01",
-      "updatedAt": "2026-10-08T12:12:57.036Z",
+      "updatedAt": "2026-10-09T11:58:30.908Z",
       "error": "Updated 0/6 countries"
     },
     "Country boundary geometry": {
       "status": "ok",
       "url": "https://geoportal.icpac.net/layers/data0:geonode:afr_g2014_2013_0",
       "period": "current",
-      "updatedAt": "2026-10-08T12:12:57.035Z"
+      "updatedAt": "2026-10-09T11:58:30.907Z"
     }
   },
   "countries": {
