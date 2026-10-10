@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startedAt": "2026-09-05T19:40:00.000Z",
-  "generatedAt": "2026-10-09T11:58:30.996Z",
+  "generatedAt": "2026-10-10T11:13:38.749Z",
   "global": {
     "enso": [
       {
@@ -236,7 +236,7 @@
         },
         {
           "date": "2026-06",
-          "value": 480,
+          "value": 482,
           "source": "ACLED aggregate",
           "window": "previous 3 months"
         },
@@ -248,7 +248,7 @@
         },
         {
           "date": "2026-09",
-          "value": 454,
+          "value": 491,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
@@ -324,7 +324,7 @@
         },
         {
           "date": "2026-09",
-          "value": 89,
+          "value": 98,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
@@ -442,7 +442,7 @@
         },
         {
           "date": "2026-09",
-          "value": 4,
+          "value": 5,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
@@ -513,7 +513,7 @@
         },
         {
           "date": "2026-09",
-          "value": 62,
+          "value": 112,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
@@ -584,7 +584,7 @@
         },
         {
           "date": "2026-09",
-          "value": 15,
+          "value": 22,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
