@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-11T11:25:37.285Z",
+  "generatedAt": "2026-10-12T13:12:34.651Z",
   "previous": {
-    "generatedAt": "2026-10-10T11:12:09.572Z",
+    "generatedAt": "2026-10-11T11:25:37.285Z",
     "global": {
       "enso": {
         "latest": {
@@ -494,20 +494,7 @@
           "refugees": 83225,
           "asylumSeekers": 12906
         },
-        "gdacs": [
-          {
-            "type": "WF",
-            "eventId": 1032639,
-            "episodeId": 6,
-            "name": "Forest fires in Zambia",
-            "alertLevel": "Green",
-            "date": "2026-10-06T00:00:00",
-            "toDate": "2026-10-10T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032639&episodeid=6&eventtype=WF",
-            "country": "Zambia",
-            "iso3": "ZMB"
-          }
-        ]
+        "gdacs": []
       }
     }
   },
@@ -517,60 +504,66 @@
       "metric": "ENSO",
       "text": "Niño 3.4 rose 27.42°C to 29.51°C.",
       "severity": "medium"
+    },
+    {
+      "scope": "Zambia",
+      "metric": "Disaster alert",
+      "text": "New GDACS alert: Forest fires in Zambia.",
+      "severity": "high"
     }
   ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-10-11T11:27:13.190Z"
+      "updatedAt": "2026-10-12T13:16:09.898Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-10-11T11:27:17.527Z"
+      "updatedAt": "2026-10-12T13:16:10.724Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-10-11T11:27:49.234Z",
+      "updatedAt": "2026-10-12T13:18:22.293Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-10-11T11:28:23.742Z",
+      "updatedAt": "2026-10-12T13:18:57.204Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-10-11T11:27:26.939Z"
+      "updatedAt": "2026-10-12T13:16:31.997Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-10-11T11:27:27.432Z"
+      "updatedAt": "2026-10-12T13:16:50.897Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-10-11T11:27:31.294Z"
+      "updatedAt": "2026-10-12T13:17:13.424Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-10-11T11:27:33.589Z"
+      "updatedAt": "2026-10-12T13:17:34.332Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-10-11T11:27:46.644Z"
+      "updatedAt": "2026-10-12T13:18:02.251Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-10-11T11:27:48.858Z"
+      "updatedAt": "2026-10-12T13:18:21.873Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-10-11T11:27:48.918Z",
+      "lastAttempt": "2026-10-12T13:18:22.074Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-10-11T11:28:22.541Z",
+      "updatedAt": "2026-10-12T13:18:56.167Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -1038,7 +1031,7 @@
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Plaine imbo",
+            "name": "Plateaux humides",
             "phase3Plus": 3040874
           },
           {
@@ -1320,7 +1313,20 @@
         "refugees": 83225,
         "asylumSeekers": 12906
       },
-      "gdacs": [],
+      "gdacs": [
+        {
+          "type": "WF",
+          "eventId": 1032717,
+          "episodeId": 2,
+          "name": "Forest fires in Zambia",
+          "alertLevel": "Green",
+          "date": "2026-10-04T00:00:00",
+          "toDate": "2026-10-12T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032717&episodeid=2&eventtype=WF",
+          "country": "Zambia",
+          "iso3": "ZMB"
+        }
+      ],
       "inform": {
         "overallRisk": 4.6,
         "riskClass": 3,
