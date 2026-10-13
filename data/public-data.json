@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-12T13:12:34.651Z",
+  "generatedAt": "2026-10-13T12:44:14.984Z",
   "previous": {
-    "generatedAt": "2026-10-11T11:25:37.285Z",
+    "generatedAt": "2026-10-12T13:12:34.651Z",
     "global": {
       "enso": {
         "latest": {
@@ -494,7 +494,20 @@
           "refugees": 83225,
           "asylumSeekers": 12906
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "WF",
+            "eventId": 1032717,
+            "episodeId": 2,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-10-04T00:00:00",
+            "toDate": "2026-10-12T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032717&episodeid=2&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          }
+        ]
       }
     }
   },
@@ -506,64 +519,82 @@
       "severity": "medium"
     },
     {
+      "scope": "Kenya",
+      "metric": "Conflict",
+      "text": "Political-violence events changed 23% over the latest 3 months.",
+      "severity": "medium"
+    },
+    {
+      "scope": "Uganda",
+      "metric": "Conflict",
+      "text": "Political-violence events changed 38% over the latest 3 months.",
+      "severity": "medium"
+    },
+    {
+      "scope": "Ethiopia",
+      "metric": "Conflict",
+      "text": "Political-violence events changed 21% over the latest 3 months.",
+      "severity": "medium"
+    },
+    {
       "scope": "Zambia",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Forest fires in Zambia.",
-      "severity": "high"
+      "metric": "Conflict",
+      "text": "Political-violence events changed 23% over the latest 3 months.",
+      "severity": "medium"
     }
   ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-10-12T13:16:09.898Z"
+      "updatedAt": "2026-10-13T12:44:15.327Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-10-12T13:16:10.724Z"
+      "updatedAt": "2026-10-13T12:44:16.585Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-10-12T13:18:22.293Z",
+      "updatedAt": "2026-10-13T12:44:39.232Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-10-12T13:18:57.204Z",
+      "updatedAt": "2026-10-13T12:45:10.165Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-10-12T13:16:31.997Z"
+      "updatedAt": "2026-10-13T12:44:19.690Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-10-12T13:16:50.897Z"
+      "updatedAt": "2026-10-13T12:44:19.864Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-10-12T13:17:13.424Z"
+      "updatedAt": "2026-10-13T12:44:24.320Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-10-12T13:17:34.332Z"
+      "updatedAt": "2026-10-13T12:44:26.315Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-10-12T13:18:02.251Z"
+      "updatedAt": "2026-10-13T12:44:36.645Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-10-12T13:18:21.873Z"
+      "updatedAt": "2026-10-13T12:44:38.855Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-10-12T13:18:22.074Z",
+      "lastAttempt": "2026-10-13T12:44:38.872Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-10-12T13:18:56.167Z",
+      "updatedAt": "2026-10-13T12:45:09.098Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -622,11 +653,11 @@
         "level": 0
       },
       "conflict": {
-        "events3m": 491,
-        "previous3m": 482,
-        "changePct": 1.8672199170124482,
-        "periodStart": "2026-07",
-        "periodEnd": "2026-09"
+        "events3m": 376,
+        "previous3m": 500,
+        "changePct": -24.8,
+        "periodStart": "2026-08",
+        "periodEnd": "2026-10"
       },
       "funding": {
         "requirementsUsd": null,
@@ -835,11 +866,11 @@
         "level": 0
       },
       "conflict": {
-        "events3m": 98,
-        "previous3m": 108,
-        "changePct": -9.25925925925926,
-        "periodStart": "2026-07",
-        "periodEnd": "2026-09"
+        "events3m": 61,
+        "previous3m": 110,
+        "changePct": -44.54545454545455,
+        "periodStart": "2026-08",
+        "periodEnd": "2026-10"
       },
       "funding": {
         "requirementsUsd": null,
@@ -921,8 +952,8 @@
         "events3m": 0,
         "previous3m": null,
         "changePct": null,
-        "periodStart": "2026-07",
-        "periodEnd": "2026-09"
+        "periodStart": "2026-08",
+        "periodEnd": "2026-10"
       },
       "funding": {
         "requirementsUsd": null,
@@ -1009,17 +1040,13 @@
         "referencePeriodEnd": "2026-05-31T23:59:59",
         "level": 0
       },
-      "idps": {
-        "population": 89114,
-        "referencePeriodEnd": "2025-07-31T23:59:59",
-        "level": 0
-      },
+      "idps": null,
       "conflict": {
         "events3m": 5,
-        "previous3m": 6,
-        "changePct": -16.666666666666664,
-        "periodStart": "2026-07",
-        "periodEnd": "2026-09"
+        "previous3m": 5,
+        "changePct": 0,
+        "periodStart": "2026-08",
+        "periodEnd": "2026-10"
       },
       "funding": {
         "requirementsUsd": null,
@@ -1031,7 +1058,7 @@
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Plateaux humides",
+            "name": "Dépressions du nord",
             "phase3Plus": 3040874
           },
           {
@@ -1186,11 +1213,11 @@
         "level": 0
       },
       "conflict": {
-        "events3m": 112,
-        "previous3m": 57,
-        "changePct": 96.49122807017544,
-        "periodStart": "2026-07",
-        "periodEnd": "2026-09"
+        "events3m": 135,
+        "previous3m": 65,
+        "changePct": 107.6923076923077,
+        "periodStart": "2026-08",
+        "periodEnd": "2026-10"
       },
       "funding": {
         "requirementsUsd": null,
@@ -1356,11 +1383,11 @@
         "level": 0
       },
       "conflict": {
-        "events3m": 22,
-        "previous3m": 17,
-        "changePct": 29.411764705882355,
-        "periodStart": "2026-07",
-        "periodEnd": "2026-09"
+        "events3m": 17,
+        "previous3m": 20,
+        "changePct": -15,
+        "periodStart": "2026-08",
+        "periodEnd": "2026-10"
       },
       "funding": {
         "requirementsUsd": null,

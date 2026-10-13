@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startedAt": "2026-09-05T19:40:00.000Z",
-  "generatedAt": "2026-10-12T13:19:25.185Z",
+  "generatedAt": "2026-10-13T12:45:35.403Z",
   "global": {
     "enso": [
       {
@@ -241,6 +241,12 @@
           "window": "previous 3 months"
         },
         {
+          "date": "2026-07",
+          "value": 500,
+          "source": "ACLED aggregate",
+          "window": "previous 3 months"
+        },
+        {
           "date": "2026-08",
           "value": 492,
           "source": "ACLED aggregate",
@@ -249,6 +255,12 @@
         {
           "date": "2026-09",
           "value": 491,
+          "source": "ACLED aggregate",
+          "window": "latest 3 months"
+        },
+        {
+          "date": "2026-10",
+          "value": 376,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
@@ -317,6 +329,12 @@
           "window": "previous 3 months"
         },
         {
+          "date": "2026-07",
+          "value": 110,
+          "source": "ACLED aggregate",
+          "window": "previous 3 months"
+        },
+        {
           "date": "2026-08",
           "value": 107,
           "source": "ACLED aggregate",
@@ -325,6 +343,12 @@
         {
           "date": "2026-09",
           "value": 98,
+          "source": "ACLED aggregate",
+          "window": "latest 3 months"
+        },
+        {
+          "date": "2026-10",
+          "value": 61,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
@@ -377,6 +401,12 @@
         },
         {
           "date": "2026-09",
+          "value": 0,
+          "source": "ACLED aggregate",
+          "window": "latest 3 months"
+        },
+        {
+          "date": "2026-10",
           "value": 0,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
@@ -435,6 +465,12 @@
           "window": "previous 3 months"
         },
         {
+          "date": "2026-07",
+          "value": 5,
+          "source": "ACLED aggregate",
+          "window": "previous 3 months"
+        },
+        {
           "date": "2026-08",
           "value": 4,
           "source": "ACLED aggregate",
@@ -442,6 +478,12 @@
         },
         {
           "date": "2026-09",
+          "value": 5,
+          "source": "ACLED aggregate",
+          "window": "latest 3 months"
+        },
+        {
+          "date": "2026-10",
           "value": 5,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
@@ -506,6 +548,12 @@
           "window": "previous 3 months"
         },
         {
+          "date": "2026-07",
+          "value": 65,
+          "source": "ACLED aggregate",
+          "window": "previous 3 months"
+        },
+        {
           "date": "2026-08",
           "value": 54,
           "source": "ACLED aggregate",
@@ -514,6 +562,12 @@
         {
           "date": "2026-09",
           "value": 112,
+          "source": "ACLED aggregate",
+          "window": "latest 3 months"
+        },
+        {
+          "date": "2026-10",
+          "value": 135,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
@@ -577,6 +631,12 @@
           "window": "previous 3 months"
         },
         {
+          "date": "2026-07",
+          "value": 20,
+          "source": "ACLED aggregate",
+          "window": "previous 3 months"
+        },
+        {
           "date": "2026-08",
           "value": 15,
           "source": "ACLED aggregate",
@@ -585,6 +645,12 @@
         {
           "date": "2026-09",
           "value": 22,
+          "source": "ACLED aggregate",
+          "window": "latest 3 months"
+        },
+        {
+          "date": "2026-10",
+          "value": 17,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
