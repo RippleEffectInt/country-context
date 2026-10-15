@@ -1,50 +1,51 @@
 {
-  "generatedAt": "2026-10-14T10:18:30.685Z",
+  "generatedAt": "2026-10-15T09:59:52.533Z",
   "sources": {
     "ICPAC weekly forecast": {
       "status": "ok",
       "period": "13 - 20 October 2026",
       "url": "https://www.icpac.net/weekly-forecast/",
-      "updatedAt": "2026-10-14T10:18:05.351Z"
+      "updatedAt": "2026-10-15T09:59:34.434Z"
     },
     "ICPAC seasonal forecast": {
       "status": "ok",
       "period": "October - December 2026",
       "url": "https://www.icpac.net/seasonal-forecast/",
-      "updatedAt": "2026-10-14T10:18:07.374Z"
+      "updatedAt": "2026-10-15T09:59:36.377Z"
     },
     "East Africa Drought Watch": {
       "status": "stale",
       "period": "11 August 2026",
       "url": "https://droughtwatch.icpac.net/report-v2/",
-      "updatedAt": "2026-10-14T10:18:07.912Z",
+      "updatedAt": "2026-10-15T09:59:37.101Z",
       "error": "Drought Watch page loaded but CDI percentages were not parseable"
     },
     "SADC / SARCOF-33": {
       "status": "ok",
       "period": "August 27, 2026",
       "url": "https://www.sadc.int/latest-news/sadc-outlook-favours-drier-conditions-across-much-southern-africa-during-202627-rainy",
-      "updatedAt": "2026-10-14T10:18:08.984Z",
+      "updatedAt": "2026-10-15T09:59:39.277Z",
       "error": "fetch failed"
     },
     "NOAA GFS spatial forecast": {
-      "status": "ok",
+      "status": "stale",
       "url": "https://open-meteo.com/en/docs/gfs-api",
       "period": "2026-10-14 to 2026-10-20",
-      "updatedAt": "2026-10-14T10:18:30.685Z"
+      "updatedAt": "2026-10-15T09:59:52.533Z",
+      "error": "Updated 0/6 countries"
     },
     "ECMWF EC46 subseasonal outlook": {
-      "status": "ok",
+      "status": "stale",
       "url": "https://open-meteo.com/en/docs/seasonal-forecast-api",
       "period": "2026-10-26 to 2026-11-15",
-      "updatedAt": "2026-10-14T10:18:30.685Z"
+      "updatedAt": "2026-10-15T09:59:52.533Z",
+      "error": "Updated 0/6 countries"
     },
     "Country boundary geometry": {
-      "status": "cached",
-      "url": "https://github.com/johan/world.geo.json",
+      "status": "ok",
+      "url": "https://geoportal.icpac.net/layers/data0:geonode:afr_g2014_2013_0",
       "period": "current",
-      "updatedAt": "2026-10-14T10:18:26.749Z",
-      "error": "502 Bad Gateway"
+      "updatedAt": "2026-10-15T09:59:52.532Z"
     }
   },
   "countries": {
