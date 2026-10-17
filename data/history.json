@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startedAt": "2026-09-05T19:40:00.000Z",
-  "generatedAt": "2026-10-16T09:54:13.708Z",
+  "generatedAt": "2026-10-17T09:47:04.798Z",
   "global": {
     "enso": [
       {
@@ -265,7 +265,7 @@
         },
         {
           "date": "2026-10",
-          "value": 376,
+          "value": 399,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
@@ -358,7 +358,7 @@
         },
         {
           "date": "2026-10",
-          "value": 61,
+          "value": 73,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
@@ -592,7 +592,7 @@
         },
         {
           "date": "2026-10",
-          "value": 135,
+          "value": 161,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
