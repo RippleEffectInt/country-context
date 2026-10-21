@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-10-20T10:06:43.332Z",
+  "generatedAt": "2026-10-21T10:13:11.416Z",
   "previous": {
-    "generatedAt": "2026-10-19T10:48:41.490Z",
+    "generatedAt": "2026-10-20T10:06:43.332Z",
     "global": {
       "enso": {
         "latest": {
@@ -253,7 +253,20 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 617125,
           "asylumSeekers": 218646
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "DR",
+            "eventId": 1027465,
+            "episodeId": 9,
+            "name": "Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
+            "alertLevel": "Orange",
+            "date": "2026-05-21T00:00:00",
+            "toDate": "2026-10-20T08:18:20",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1027465&episodeid=9&eventtype=DR",
+            "country": "Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
+            "iso3": "BDI"
+          }
+        ]
       },
       "UGA": {
         "rainfall": {
@@ -303,7 +316,20 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 1936719,
           "asylumSeekers": 35249
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "DR",
+            "eventId": 1027465,
+            "episodeId": 9,
+            "name": "Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
+            "alertLevel": "Orange",
+            "date": "2026-05-21T00:00:00",
+            "toDate": "2026-10-20T08:18:20",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1027465&episodeid=9&eventtype=DR",
+            "country": "Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
+            "iso3": "BDI"
+          }
+        ]
       },
       "RWA": {
         "rainfall": {
@@ -344,7 +370,20 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 115794,
           "asylumSeekers": 15251
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "DR",
+            "eventId": 1027465,
+            "episodeId": 9,
+            "name": "Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
+            "alertLevel": "Orange",
+            "date": "2026-05-21T00:00:00",
+            "toDate": "2026-10-20T08:18:20",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1027465&episodeid=9&eventtype=DR",
+            "country": "Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
+            "iso3": "BDI"
+          }
+        ]
       },
       "BDI": {
         "rainfall": {
@@ -390,7 +429,20 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 110800,
           "asylumSeekers": 1466
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "DR",
+            "eventId": 1027465,
+            "episodeId": 9,
+            "name": "Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
+            "alertLevel": "Orange",
+            "date": "2026-05-21T00:00:00",
+            "toDate": "2026-10-20T08:18:20",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1027465&episodeid=9&eventtype=DR",
+            "country": "Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
+            "iso3": "BDI"
+          }
+        ]
       },
       "ETH": {
         "rainfall": {
@@ -440,7 +492,20 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 1010466,
           "asylumSeekers": 112987
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "DR",
+            "eventId": 1027450,
+            "episodeId": 12,
+            "name": "Drought in Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Niger, Nigeria, Sudan, South Sudan, Chad",
+            "alertLevel": "Orange",
+            "date": "2026-06-21T00:00:00",
+            "toDate": "2026-10-20T08:17:58",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=12&eventtype=DR",
+            "country": "Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Niger, Nigeria, Sudan, South Sudan, Chad",
+            "iso3": "COD"
+          }
+        ]
       },
       "ZMB": {
         "rainfall": {
@@ -493,38 +558,74 @@ window.PUBLIC_COUNTRY_DATA = {
         "gdacs": [
           {
             "type": "WF",
-            "eventId": 1032901,
+            "eventId": 1032930,
             "episodeId": 2,
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
-            "date": "2026-10-13T00:00:00",
-            "toDate": "2026-10-19T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032901&episodeid=2&eventtype=WF",
+            "date": "2026-10-18T00:00:00",
+            "toDate": "2026-10-20T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032930&episodeid=2&eventtype=WF",
             "country": "Zambia",
             "iso3": "ZMB"
           },
           {
             "type": "WF",
-            "eventId": 1032852,
-            "episodeId": 4,
+            "eventId": 1032931,
+            "episodeId": 2,
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
-            "date": "2026-10-12T00:00:00",
-            "toDate": "2026-10-18T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032852&episodeid=4&eventtype=WF",
+            "date": "2026-10-18T00:00:00",
+            "toDate": "2026-10-20T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032931&episodeid=2&eventtype=WF",
             "country": "Zambia",
             "iso3": "ZMB"
           },
           {
             "type": "WF",
-            "eventId": 1032789,
-            "episodeId": 13,
+            "eventId": 1032934,
+            "episodeId": 2,
             "name": "Forest fires in Zambia",
             "alertLevel": "Green",
-            "date": "2026-10-09T00:00:00",
-            "toDate": "2026-10-19T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032789&episodeid=13&eventtype=WF",
+            "date": "2026-10-17T00:00:00",
+            "toDate": "2026-10-20T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032934&episodeid=2&eventtype=WF",
             "country": "Zambia",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1032957,
+            "episodeId": 1,
+            "name": "Forest fires in Zambia, Mozambique",
+            "alertLevel": "Green",
+            "date": "2026-10-16T00:00:00",
+            "toDate": "2026-10-20T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032957&episodeid=1&eventtype=WF",
+            "country": "Zambia, Mozambique",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1032948,
+            "episodeId": 2,
+            "name": "Forest fires in Zambia",
+            "alertLevel": "Green",
+            "date": "2026-10-14T00:00:00",
+            "toDate": "2026-10-20T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032948&episodeid=2&eventtype=WF",
+            "country": "Zambia",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1032953,
+            "episodeId": 2,
+            "name": "Forest fires in Zambia, Zimbabwe",
+            "alertLevel": "Green",
+            "date": "2026-10-11T00:00:00",
+            "toDate": "2026-10-20T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032953&episodeid=2&eventtype=WF",
+            "country": "Zambia, Zimbabwe",
             "iso3": "ZMB"
           }
         ]
@@ -539,94 +640,64 @@ window.PUBLIC_COUNTRY_DATA = {
       "severity": "medium"
     },
     {
-      "scope": "Kenya",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda.",
-      "severity": "high"
-    },
-    {
-      "scope": "Uganda",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda.",
-      "severity": "high"
-    },
-    {
-      "scope": "Rwanda",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda.",
-      "severity": "high"
-    },
-    {
-      "scope": "Burundi",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda.",
-      "severity": "high"
-    },
-    {
-      "scope": "Ethiopia",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Drought in Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Niger, Nigeria, Sudan, South Sudan, Chad.",
-      "severity": "high"
-    },
-    {
       "scope": "Zambia",
       "metric": "Disaster alert",
-      "text": "New GDACS alert: Forest fires in Zambia, Mozambique.",
+      "text": "New GDACS alert: Forest fires in Mozambique, Zambia.",
       "severity": "high"
     }
   ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-10-20T10:06:44.471Z"
+      "updatedAt": "2026-10-21T10:17:35.535Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-10-20T10:06:45.513Z"
+      "updatedAt": "2026-10-21T10:17:36.356Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-10-20T10:07:19.198Z",
+      "updatedAt": "2026-10-21T10:18:01.245Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-10-20T10:07:56.358Z",
+      "updatedAt": "2026-10-21T10:18:46.502Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-10-20T10:06:49.408Z"
+      "updatedAt": "2026-10-21T10:17:40.116Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-10-20T10:06:49.871Z"
+      "updatedAt": "2026-10-21T10:17:40.531Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-10-20T10:06:54.788Z"
+      "updatedAt": "2026-10-21T10:17:44.965Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-10-20T10:06:57.411Z"
+      "updatedAt": "2026-10-21T10:17:47.139Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-10-20T10:07:16.844Z"
+      "updatedAt": "2026-10-21T10:17:59.137Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-10-20T10:07:18.905Z"
+      "updatedAt": "2026-10-21T10:18:00.986Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-10-20T10:07:18.957Z",
+      "lastAttempt": "2026-10-21T10:18:01.025Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-10-20T10:07:54.930Z",
+      "updatedAt": "2026-10-21T10:18:45.033Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -655,20 +726,7 @@ window.PUBLIC_COUNTRY_DATA = {
         "refugees": 617125,
         "asylumSeekers": 218646
       },
-      "gdacs": [
-        {
-          "type": "DR",
-          "eventId": 1027465,
-          "episodeId": 9,
-          "name": "Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
-          "alertLevel": "Orange",
-          "date": "2026-05-21T00:00:00",
-          "toDate": "2026-10-20T08:18:20",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1027465&episodeid=9&eventtype=DR",
-          "country": "Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
-          "iso3": "BDI"
-        }
-      ],
+      "gdacs": [],
       "inform": {
         "overallRisk": 6,
         "riskClass": 4,
@@ -881,20 +939,7 @@ window.PUBLIC_COUNTRY_DATA = {
         "refugees": 1936719,
         "asylumSeekers": 35249
       },
-      "gdacs": [
-        {
-          "type": "DR",
-          "eventId": 1027465,
-          "episodeId": 9,
-          "name": "Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
-          "alertLevel": "Orange",
-          "date": "2026-05-21T00:00:00",
-          "toDate": "2026-10-20T08:18:20",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1027465&episodeid=9&eventtype=DR",
-          "country": "Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
-          "iso3": "BDI"
-        }
-      ],
+      "gdacs": [],
       "inform": {
         "overallRisk": 5.7,
         "riskClass": 4,
@@ -986,20 +1031,7 @@ window.PUBLIC_COUNTRY_DATA = {
         "refugees": 115794,
         "asylumSeekers": 15251
       },
-      "gdacs": [
-        {
-          "type": "DR",
-          "eventId": 1027465,
-          "episodeId": 9,
-          "name": "Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
-          "alertLevel": "Orange",
-          "date": "2026-05-21T00:00:00",
-          "toDate": "2026-10-20T08:18:20",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1027465&episodeid=9&eventtype=DR",
-          "country": "Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
-          "iso3": "BDI"
-        }
-      ],
+      "gdacs": [],
       "inform": {
         "overallRisk": 4.3,
         "riskClass": 3,
@@ -1087,20 +1119,7 @@ window.PUBLIC_COUNTRY_DATA = {
         "refugees": 110800,
         "asylumSeekers": 1466
       },
-      "gdacs": [
-        {
-          "type": "DR",
-          "eventId": 1027465,
-          "episodeId": 9,
-          "name": "Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
-          "alertLevel": "Orange",
-          "date": "2026-05-21T00:00:00",
-          "toDate": "2026-10-20T08:18:20",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1027465&episodeid=9&eventtype=DR",
-          "country": "Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda",
-          "iso3": "BDI"
-        }
-      ],
+      "gdacs": [],
       "inform": {
         "overallRisk": 5.9,
         "riskClass": 4,
@@ -1142,7 +1161,7 @@ window.PUBLIC_COUNTRY_DATA = {
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Plaine imbo",
+            "name": "Crête congo Nil",
             "phase3Plus": 3040874
           },
           {
@@ -1267,20 +1286,7 @@ window.PUBLIC_COUNTRY_DATA = {
         "refugees": 1010466,
         "asylumSeekers": 112987
       },
-      "gdacs": [
-        {
-          "type": "DR",
-          "eventId": 1027450,
-          "episodeId": 12,
-          "name": "Drought in Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Niger, Nigeria, Sudan, South Sudan, Chad",
-          "alertLevel": "Orange",
-          "date": "2026-06-21T00:00:00",
-          "toDate": "2026-10-20T08:17:58",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=12&eventtype=DR",
-          "country": "Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Niger, Nigeria, Sudan, South Sudan, Chad",
-          "iso3": "COD"
-        }
-      ],
+      "gdacs": [],
       "inform": {
         "overallRisk": 7.1,
         "riskClass": 5,
@@ -1441,73 +1447,73 @@ window.PUBLIC_COUNTRY_DATA = {
         {
           "type": "WF",
           "eventId": 1032930,
-          "episodeId": 2,
+          "episodeId": 6,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
           "date": "2026-10-18T00:00:00",
           "toDate": "2026-10-20T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032930&episodeid=2&eventtype=WF",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032930&episodeid=6&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
           "eventId": 1032931,
-          "episodeId": 2,
+          "episodeId": 5,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
           "date": "2026-10-18T00:00:00",
           "toDate": "2026-10-20T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032931&episodeid=2&eventtype=WF",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032931&episodeid=5&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
           "eventId": 1032934,
-          "episodeId": 2,
+          "episodeId": 3,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
           "date": "2026-10-17T00:00:00",
           "toDate": "2026-10-20T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032934&episodeid=2&eventtype=WF",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032934&episodeid=3&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
           "eventId": 1032957,
-          "episodeId": 1,
-          "name": "Forest fires in Zambia, Mozambique",
+          "episodeId": 2,
+          "name": "Forest fires in Mozambique, Zambia",
           "alertLevel": "Green",
           "date": "2026-10-16T00:00:00",
           "toDate": "2026-10-20T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032957&episodeid=1&eventtype=WF",
-          "country": "Zambia, Mozambique",
-          "iso3": "ZMB"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032957&episodeid=2&eventtype=WF",
+          "country": "Mozambique, Zambia",
+          "iso3": "MOZ"
         },
         {
           "type": "WF",
-          "eventId": 1032948,
-          "episodeId": 2,
+          "eventId": 1032979,
+          "episodeId": 1,
           "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-10-14T00:00:00",
+          "date": "2026-10-15T00:00:00",
           "toDate": "2026-10-20T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032948&episodeid=2&eventtype=WF",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032979&episodeid=1&eventtype=WF",
           "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
-          "eventId": 1032953,
-          "episodeId": 2,
-          "name": "Forest fires in Zambia, Zimbabwe",
+          "eventId": 1032805,
+          "episodeId": 11,
+          "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-10-11T00:00:00",
+          "date": "2026-10-08T00:00:00",
           "toDate": "2026-10-20T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032953&episodeid=2&eventtype=WF",
-          "country": "Zambia, Zimbabwe",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032805&episodeid=11&eventtype=WF",
+          "country": "Zambia",
           "iso3": "ZMB"
         }
       ],
