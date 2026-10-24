@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startedAt": "2026-09-05T19:40:00.000Z",
-  "generatedAt": "2026-10-23T10:09:09.648Z",
+  "generatedAt": "2026-10-24T09:51:19.465Z",
   "global": {
     "enso": [
       {
@@ -218,6 +218,11 @@
           "date": "2026-10-01",
           "value": 130.88572773452663,
           "source": "CHIRPS"
+        },
+        {
+          "date": "2026-10-11",
+          "value": 107.30600157440155,
+          "source": "CHIRPS"
         }
       ],
       "ipc": [
@@ -265,7 +270,7 @@
         },
         {
           "date": "2026-10",
-          "value": 399,
+          "value": 413,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
@@ -310,6 +315,11 @@
         {
           "date": "2026-10-01",
           "value": 89.22344674154121,
+          "source": "CHIRPS"
+        },
+        {
+          "date": "2026-10-11",
+          "value": 111.64252509956775,
           "source": "CHIRPS"
         }
       ],
@@ -358,7 +368,7 @@
         },
         {
           "date": "2026-10",
-          "value": 73,
+          "value": 87,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
@@ -403,6 +413,11 @@
         {
           "date": "2026-10-01",
           "value": 83.14083078299493,
+          "source": "CHIRPS"
+        },
+        {
+          "date": "2026-10-11",
+          "value": 102.15189156091371,
           "source": "CHIRPS"
         }
       ],
@@ -461,6 +476,11 @@
         {
           "date": "2026-10-01",
           "value": 58.29795088308458,
+          "source": "CHIRPS"
+        },
+        {
+          "date": "2026-10-11",
+          "value": 91.92408942164182,
           "source": "CHIRPS"
         }
       ],
@@ -550,6 +570,11 @@
           "date": "2026-10-01",
           "value": 127.29659493266314,
           "source": "CHIRPS"
+        },
+        {
+          "date": "2026-10-11",
+          "value": 134.1868635495881,
+          "source": "CHIRPS"
         }
       ],
       "ipc": [
@@ -592,7 +617,7 @@
         },
         {
           "date": "2026-10",
-          "value": 161,
+          "value": 172,
           "source": "ACLED aggregate",
           "window": "latest 3 months"
         }
@@ -637,6 +662,11 @@
         {
           "date": "2026-10-01",
           "value": 156.30437624994937,
+          "source": "CHIRPS"
+        },
+        {
+          "date": "2026-10-11",
+          "value": 128.95524817792182,
           "source": "CHIRPS"
         }
       ],
