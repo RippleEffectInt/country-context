@@ -1,64 +1,65 @@
 {
-  "generatedAt": "2026-10-26T11:15:20.191Z",
+  "generatedAt": "2026-10-27T10:47:00.085Z",
   "sources": {
     "ICPAC weekly forecast": {
       "status": "ok",
-      "period": "20 - 27 October 2026",
+      "period": "27 - 3 November 2026",
       "url": "https://www.icpac.net/weekly-forecast/",
-      "updatedAt": "2026-10-26T11:13:33.679Z"
+      "updatedAt": "2026-10-27T10:46:22.931Z"
     },
     "ICPAC seasonal forecast": {
       "status": "ok",
       "period": "October - December 2026",
       "url": "https://www.icpac.net/seasonal-forecast/",
-      "updatedAt": "2026-10-26T11:13:35.546Z"
+      "updatedAt": "2026-10-27T10:46:25.219Z"
     },
     "East Africa Drought Watch": {
       "status": "stale",
       "period": "11 August 2026",
       "url": "https://droughtwatch.icpac.net/report-v2/",
-      "updatedAt": "2026-10-26T11:13:35.979Z",
+      "updatedAt": "2026-10-27T10:46:46.471Z",
       "error": "Drought Watch page loaded but CDI percentages were not parseable"
     },
     "SADC / SARCOF-33": {
       "status": "ok",
       "period": "August 27, 2026",
       "url": "https://www.sadc.int/latest-news/sadc-outlook-favours-drier-conditions-across-much-southern-africa-during-202627-rainy",
-      "updatedAt": "2026-10-26T11:13:37.159Z",
+      "updatedAt": "2026-10-27T10:46:47.576Z",
       "error": "fetch failed"
     },
     "NOAA GFS spatial forecast": {
-      "status": "ok",
+      "status": "stale",
       "url": "https://open-meteo.com/en/docs/gfs-api",
       "period": "2026-10-26 to 2026-11-01",
-      "updatedAt": "2026-10-26T11:15:20.191Z"
+      "updatedAt": "2026-10-27T10:47:00.085Z",
+      "error": "Updated 0/6 countries"
     },
     "ECMWF EC46 subseasonal outlook": {
-      "status": "ok",
+      "status": "stale",
       "url": "https://open-meteo.com/en/docs/seasonal-forecast-api",
       "period": "2026-11-02 to 2026-11-29",
-      "updatedAt": "2026-10-26T11:15:20.191Z"
+      "updatedAt": "2026-10-27T10:47:00.085Z",
+      "error": "Updated 0/6 countries"
     },
     "Country boundary geometry": {
-      "status": "cached",
-      "url": "https://github.com/johan/world.geo.json",
+      "status": "ok",
+      "url": "https://geoportal.icpac.net/layers/data0:geonode:afr_g2014_2013_0",
       "period": "current",
-      "updatedAt": "2026-10-26T11:15:15.593Z",
-      "error": "fetch failed"
+      "updatedAt": "2026-10-27T10:47:00.084Z"
     }
   },
   "countries": {
     "KEN": {
       "weekly": {
-        "period": "20 - 27 October 2026",
-        "rainfall": "Isolated areas in Kenya and Burundi — more than usual rainfall expected. Kenya — less than usual rainfall expected.",
+        "period": "27 - 3 November 2026",
+        "rainfall": "Western region of Kenya and central to northern … — more than usual rainfall expected.",
         "rainfallScope": "country-or-subnational",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
         "temperatureScope": "regional",
         "heavyRain": "No specific exceptional-rainfall signal is highlighted for Kenya in the latest ICPAC bulletin.",
         "heavyRainScope": "none",
-        "heatStress": "Some parts of Eastern Kenya — elevated heat stress within the ‘extreme caution’ category expected.",
-        "heatStressScope": "country-or-subnational",
+        "heatStress": "No specific severe heat-stress signal is highlighted for Kenya in the latest ICPAC bulletin.",
+        "heatStressScope": "none",
         "flood": "No specific flood update is listed for Kenya in the latest ICPAC bulletin. This does not mean there is no local flood risk.",
         "floodScope": "none",
         "url": "https://www.icpac.net/weekly-forecast/"
@@ -127,8 +128,8 @@
     },
     "UGA": {
       "weekly": {
-        "period": "20 - 27 October 2026",
-        "rainfall": "South-western Uganda — more than usual rainfall expected. Most parts of Uganda — less than usual rainfall expected.",
+        "period": "27 - 3 November 2026",
+        "rainfall": "Central to northern and south-eastern parts of Uganda — more than usual rainfall expected.",
         "rainfallScope": "country-or-subnational",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
         "temperatureScope": "regional",
@@ -136,8 +137,8 @@
         "heavyRainScope": "none",
         "heatStress": "No specific severe heat-stress signal is highlighted for Uganda in the latest ICPAC bulletin.",
         "heatStressScope": "none",
-        "flood": "South-western Uganda — flooding incidences expected.",
-        "floodScope": "country-or-subnational",
+        "flood": "No specific flood update is listed for Uganda in the latest ICPAC bulletin. This does not mean there is no local flood risk.",
+        "floodScope": "none",
         "url": "https://www.icpac.net/weekly-forecast/"
       },
       "seasonal": {
@@ -204,13 +205,13 @@
     },
     "RWA": {
       "weekly": {
-        "period": "20 - 27 October 2026",
-        "rainfall": "Western Rwanda — more than usual rainfall expected.",
+        "period": "27 - 3 November 2026",
+        "rainfall": "Rwanda — more than usual rainfall expected.",
         "rainfallScope": "country-or-subnational",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
         "temperatureScope": "regional",
-        "heavyRain": "No specific exceptional-rainfall signal is highlighted for Rwanda in the latest ICPAC bulletin.",
-        "heavyRainScope": "none",
+        "heavyRain": "Isolated areas in southern Rwanda — heavy rainfall (more than 200 mm) expected.",
+        "heavyRainScope": "country-or-subnational",
         "heatStress": "No specific severe heat-stress signal is highlighted for Rwanda in the latest ICPAC bulletin.",
         "heatStressScope": "none",
         "flood": "No specific flood update is listed for Rwanda in the latest ICPAC bulletin. This does not mean there is no local flood risk.",
@@ -281,13 +282,13 @@
     },
     "BDI": {
       "weekly": {
-        "period": "20 - 27 October 2026",
-        "rainfall": "Isolated areas in Kenya and Burundi — more than usual rainfall expected. Burundi — less than usual rainfall expected.",
+        "period": "27 - 3 November 2026",
+        "rainfall": "Burundi — more than usual rainfall expected.",
         "rainfallScope": "country-or-subnational",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
         "temperatureScope": "regional",
-        "heavyRain": "No specific exceptional-rainfall signal is highlighted for Burundi in the latest ICPAC bulletin.",
-        "heavyRainScope": "none",
+        "heavyRain": "Isolated areas in central Burundi — heavy rainfall (more than 200 mm) expected.",
+        "heavyRainScope": "country-or-subnational",
         "heatStress": "No specific severe heat-stress signal is highlighted for Burundi in the latest ICPAC bulletin.",
         "heatStressScope": "none",
         "flood": "No specific flood update is listed for Burundi in the latest ICPAC bulletin. This does not mean there is no local flood risk.",
@@ -358,17 +359,17 @@
     },
     "ETH": {
       "weekly": {
-        "period": "20 - 27 October 2026",
-        "rainfall": "South-eastern Ethiopia — more than usual rainfall expected. Central to south-western Ethiopia — less than usual rainfall expected.",
+        "period": "27 - 3 November 2026",
+        "rainfall": "South-eastern Ethiopia — more than usual rainfall expected.",
         "rainfallScope": "country-or-subnational",
         "temperature": "Warmer than usual temperatures expected over most parts of the GHA.",
         "temperatureScope": "regional",
         "heavyRain": "No specific exceptional-rainfall signal is highlighted for Ethiopia in the latest ICPAC bulletin.",
         "heavyRainScope": "none",
-        "heatStress": "Some parts of north-eastern Ethiopia — elevated heat stress within the ‘extreme caution’ category expected.",
-        "heatStressScope": "country-or-subnational",
-        "flood": "Areas in south-eastern Ethiopia — flooding incidences expected.",
-        "floodScope": "country-or-subnational",
+        "heatStress": "No specific severe heat-stress signal is highlighted for Ethiopia in the latest ICPAC bulletin.",
+        "heatStressScope": "none",
+        "flood": "No specific flood update is listed for Ethiopia in the latest ICPAC bulletin. This does not mean there is no local flood risk.",
+        "floodScope": "none",
         "url": "https://www.icpac.net/weekly-forecast/"
       },
       "seasonal": {
