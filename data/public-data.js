@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-10-29T11:32:46.958Z",
+  "generatedAt": "2026-10-30T11:25:21.075Z",
   "previous": {
-    "generatedAt": "2026-10-28T11:21:57.485Z",
+    "generatedAt": "2026-10-29T11:32:46.958Z",
     "global": {
       "enso": {
         "latest": {
@@ -440,7 +440,20 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 1010466,
           "asylumSeekers": 112987
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "EQ",
+            "eventId": 1574362,
+            "episodeId": 1743267,
+            "name": "Earthquake in Ethiopia",
+            "alertLevel": "Green",
+            "date": "2026-10-28T13:31:54",
+            "toDate": "2026-10-28T13:31:54",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1574362&episodeid=1743267&eventtype=EQ",
+            "country": "Ethiopia",
+            "iso3": "ETH"
+          }
+        ]
       },
       "ZMB": {
         "rainfall": {
@@ -493,14 +506,26 @@ window.PUBLIC_COUNTRY_DATA = {
         "gdacs": [
           {
             "type": "WF",
-            "eventId": 1033150,
-            "episodeId": 6,
-            "name": "Forest fires in Zambia",
+            "eventId": 1033298,
+            "episodeId": 1,
+            "name": "Forest fires in Zambia, Zimbabwe",
             "alertLevel": "Green",
-            "date": "2026-10-21T00:00:00",
-            "toDate": "2026-10-27T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033150&episodeid=6&eventtype=WF",
-            "country": "Zambia",
+            "date": "2026-10-15T00:00:00",
+            "toDate": "2026-10-28T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033298&episodeid=1&eventtype=WF",
+            "country": "Zambia, Zimbabwe",
+            "iso3": "ZMB"
+          },
+          {
+            "type": "WF",
+            "eventId": 1033035,
+            "episodeId": 12,
+            "name": "Forest fires in Zambia, Zimbabwe",
+            "alertLevel": "Green",
+            "date": "2026-10-14T00:00:00",
+            "toDate": "2026-10-28T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033035&episodeid=12&eventtype=WF",
+            "country": "Zambia, Zimbabwe",
             "iso3": "ZMB"
           }
         ]
@@ -515,70 +540,64 @@ window.PUBLIC_COUNTRY_DATA = {
       "severity": "medium"
     },
     {
-      "scope": "Ethiopia",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Earthquake in Ethiopia.",
-      "severity": "high"
-    },
-    {
       "scope": "Zambia",
       "metric": "Disaster alert",
-      "text": "New GDACS alert: Forest fires in Zambia, Zimbabwe.",
+      "text": "New GDACS alert: Forest fires in Zambia.",
       "severity": "high"
     }
   ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-10-29T11:32:48.130Z"
+      "updatedAt": "2026-10-30T11:25:22.918Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-10-29T11:32:48.891Z"
+      "updatedAt": "2026-10-30T11:25:23.957Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-10-29T11:33:19.011Z",
+      "updatedAt": "2026-10-30T11:25:50.709Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-10-29T11:33:49.532Z",
+      "updatedAt": "2026-10-30T11:26:24.443Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-10-29T11:32:57.774Z"
+      "updatedAt": "2026-10-30T11:25:28.354Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-10-29T11:32:58.061Z"
+      "updatedAt": "2026-10-30T11:25:28.999Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-10-29T11:33:04.015Z"
+      "updatedAt": "2026-10-30T11:25:34.184Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-10-29T11:33:06.187Z"
+      "updatedAt": "2026-10-30T11:25:36.850Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-10-29T11:33:16.907Z"
+      "updatedAt": "2026-10-30T11:25:48.232Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-10-29T11:33:18.726Z"
+      "updatedAt": "2026-10-30T11:25:50.345Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-10-29T11:33:18.738Z",
+      "lastAttempt": "2026-10-30T11:25:50.421Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-10-29T11:33:46.850Z",
+      "updatedAt": "2026-10-30T11:26:22.925Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -653,7 +672,7 @@ window.PUBLIC_COUNTRY_DATA = {
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Dadaab",
+            "name": "Kalobeyei",
             "phase3Plus": 6644772
           },
           {
@@ -1167,20 +1186,7 @@ window.PUBLIC_COUNTRY_DATA = {
         "refugees": 1010466,
         "asylumSeekers": 112987
       },
-      "gdacs": [
-        {
-          "type": "EQ",
-          "eventId": 1574362,
-          "episodeId": 1743267,
-          "name": "Earthquake in Ethiopia",
-          "alertLevel": "Green",
-          "date": "2026-10-28T13:31:54",
-          "toDate": "2026-10-28T13:31:54",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1574362&episodeid=1743267&eventtype=EQ",
-          "country": "Ethiopia",
-          "iso3": "ETH"
-        }
-      ],
+      "gdacs": [],
       "inform": {
         "overallRisk": 7.1,
         "riskClass": 5,
@@ -1340,26 +1346,26 @@ window.PUBLIC_COUNTRY_DATA = {
       "gdacs": [
         {
           "type": "WF",
-          "eventId": 1033298,
-          "episodeId": 1,
-          "name": "Forest fires in Zambia, Zimbabwe",
+          "eventId": 1033279,
+          "episodeId": 4,
+          "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-10-15T00:00:00",
-          "toDate": "2026-10-28T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033298&episodeid=1&eventtype=WF",
-          "country": "Zambia, Zimbabwe",
+          "date": "2026-10-23T00:00:00",
+          "toDate": "2026-10-29T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033279&episodeid=4&eventtype=WF",
+          "country": "Zambia",
           "iso3": "ZMB"
         },
         {
           "type": "WF",
-          "eventId": 1033035,
-          "episodeId": 12,
-          "name": "Forest fires in Zambia, Zimbabwe",
+          "eventId": 1033314,
+          "episodeId": 1,
+          "name": "Forest fires in Zambia",
           "alertLevel": "Green",
-          "date": "2026-10-14T00:00:00",
-          "toDate": "2026-10-28T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033035&episodeid=12&eventtype=WF",
-          "country": "Zambia, Zimbabwe",
+          "date": "2026-10-23T00:00:00",
+          "toDate": "2026-10-29T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033314&episodeid=1&eventtype=WF",
+          "country": "Zambia",
           "iso3": "ZMB"
         }
       ],
