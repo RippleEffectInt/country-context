@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-11-02T13:32:34.441Z",
+  "generatedAt": "2026-11-03T12:49:31.977Z",
   "previous": {
-    "generatedAt": "2026-11-01T11:51:30.006Z",
+    "generatedAt": "2026-11-02T13:32:34.441Z",
     "global": {
       "enso": {
         "latest": {
@@ -443,14 +443,14 @@ window.PUBLIC_COUNTRY_DATA = {
         "gdacs": [
           {
             "type": "WF",
-            "eventId": 1033378,
+            "eventId": 1033404,
             "episodeId": 2,
-            "name": "Forest fires in Ethiopia, Sudan",
+            "name": "Forest fires in Ethiopia, South Sudan",
             "alertLevel": "Green",
-            "date": "2026-10-20T00:00:00",
-            "toDate": "2026-10-31T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033378&episodeid=2&eventtype=WF",
-            "country": "Ethiopia, Sudan",
+            "date": "2026-10-29T00:00:00",
+            "toDate": "2026-11-02T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033404&episodeid=2&eventtype=WF",
+            "country": "Ethiopia, South Sudan",
             "iso3": "ETH"
           }
         ]
@@ -513,68 +513,64 @@ window.PUBLIC_COUNTRY_DATA = {
       "metric": "ENSO",
       "text": "Niño 3.4 rose 27.42°C to 29.51°C.",
       "severity": "medium"
-    },
-    {
-      "scope": "Ethiopia",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Forest fires in Ethiopia, South Sudan.",
-      "severity": "high"
     }
   ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-11-02T13:33:14.510Z"
+      "updatedAt": "2026-11-03T12:49:33.231Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-11-02T13:33:15.569Z"
+      "updatedAt": "2026-11-03T12:49:34.299Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-11-02T13:33:42.319Z",
+      "updatedAt": "2026-11-03T12:49:59.643Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-11-02T13:34:15.246Z",
+      "updatedAt": "2026-11-03T12:50:17.850Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-11-02T13:33:22.329Z"
+      "updatedAt": "2026-11-03T12:49:39.290Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-11-02T13:33:22.737Z"
+      "updatedAt": "2026-11-03T12:49:39.870Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-11-02T13:33:27.514Z"
+      "updatedAt": "2026-11-03T12:49:43.893Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-11-02T13:33:29.795Z"
+      "updatedAt": "2026-11-03T12:49:46.428Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-11-02T13:33:40.237Z"
+      "updatedAt": "2026-11-03T12:49:57.550Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-11-02T13:33:41.952Z"
+      "updatedAt": "2026-11-03T12:49:59.431Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-11-02T13:33:41.964Z",
+      "lastAttempt": "2026-11-03T12:49:59.481Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
-      "status": "ok",
+      "status": "stale",
       "updatedAt": "2026-11-02T13:34:12.538Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
-      "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
+      "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational",
+      "lastAttempt": "2026-11-03T12:50:15.110Z",
+      "error": "No country direct CHIRPS refresh succeeded; previous data preserved."
     }
   },
   "countries": {
@@ -647,7 +643,7 @@ window.PUBLIC_COUNTRY_DATA = {
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Dadaab",
+            "name": "Kalobeyei",
             "phase3Plus": 6644772
           },
           {
@@ -1036,7 +1032,7 @@ window.PUBLIC_COUNTRY_DATA = {
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Crête congo Nil",
+            "name": "Plateaux humides",
             "phase3Plus": 3040874
           },
           {
@@ -1165,12 +1161,12 @@ window.PUBLIC_COUNTRY_DATA = {
         {
           "type": "WF",
           "eventId": 1033404,
-          "episodeId": 2,
+          "episodeId": 7,
           "name": "Forest fires in Ethiopia, South Sudan",
           "alertLevel": "Green",
           "date": "2026-10-29T00:00:00",
-          "toDate": "2026-11-02T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033404&episodeid=2&eventtype=WF",
+          "toDate": "2026-11-03T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033404&episodeid=7&eventtype=WF",
           "country": "Ethiopia, South Sudan",
           "iso3": "ETH"
         }
