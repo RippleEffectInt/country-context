@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startedAt": "2026-09-05T19:40:00.000Z",
-  "generatedAt": "2026-11-04T13:03:54.825Z",
+  "generatedAt": "2026-11-05T13:15:21.217Z",
   "global": {
     "enso": [
       {
@@ -332,6 +332,11 @@
         {
           "date": "2026-10-31",
           "value": 1346482,
+          "source": "IPC"
+        },
+        {
+          "date": "2027-01-31",
+          "value": 5880248,
           "source": "IPC"
         }
       ],
