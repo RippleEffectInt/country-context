@@ -1,27 +1,22 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-11-06T12:58:47.511Z",
+  "generatedAt": "2026-11-07T11:44:56.164Z",
   "previous": {
-    "generatedAt": "2026-11-05T13:14:13.140Z",
+    "generatedAt": "2026-11-06T12:58:47.511Z",
     "global": {
       "enso": {
         "latest": {
           "year": 2026,
-          "month": 9,
-          "value": 2.09
+          "month": 10,
+          "value": 2.3
         },
         "previous": {
           "year": 2026,
-          "month": 8,
-          "value": 1.89
+          "month": 9,
+          "value": 2.09
         },
         "signal": "Warm / El Niño signal",
         "trend": "Strengthening",
         "series": [
-          {
-            "year": 2023,
-            "month": 10,
-            "value": 1.51
-          },
           {
             "year": 2023,
             "month": 11,
@@ -196,6 +191,11 @@ window.PUBLIC_COUNTRY_DATA = {
             "year": 2026,
             "month": 9,
             "value": 2.09
+          },
+          {
+            "year": 2026,
+            "month": 10,
+            "value": 2.3
           }
         ],
         "metric": "Niño 3.4 SST anomaly",
@@ -440,20 +440,7 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 1010466,
           "asylumSeekers": 112987
         },
-        "gdacs": [
-          {
-            "type": "WF",
-            "eventId": 1033471,
-            "episodeId": 2,
-            "name": "Forest fires in Ethiopia, Sudan",
-            "alertLevel": "Green",
-            "date": "2026-10-27T00:00:00",
-            "toDate": "2026-11-04T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033471&episodeid=2&eventtype=WF",
-            "country": "Ethiopia, Sudan",
-            "iso3": "ETH"
-          }
-        ]
+        "gdacs": []
       },
       "ZMB": {
         "rainfall": {
@@ -506,14 +493,14 @@ window.PUBLIC_COUNTRY_DATA = {
         "gdacs": [
           {
             "type": "WF",
-            "eventId": 1033459,
-            "episodeId": 4,
-            "name": "Forest fires in Zambia",
+            "eventId": 1033530,
+            "episodeId": 3,
+            "name": "Forest fires in Zambia, Zimbabwe",
             "alertLevel": "Green",
-            "date": "2026-10-29T00:00:00",
-            "toDate": "2026-11-04T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033459&episodeid=4&eventtype=WF",
-            "country": "Zambia",
+            "date": "2026-11-01T00:00:00",
+            "toDate": "2026-11-06T00:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033530&episodeid=3&eventtype=WF",
+            "country": "Zambia, Zimbabwe",
             "iso3": "ZMB"
           }
         ]
@@ -524,72 +511,70 @@ window.PUBLIC_COUNTRY_DATA = {
     {
       "scope": "Global",
       "metric": "ENSO",
-      "text": "Niño 3.4 rose 27.60°C to 29.69°C.",
+      "text": "Niño 3.4 rose 27.39°C to 29.69°C.",
       "severity": "medium"
     },
     {
-      "scope": "Zambia",
+      "scope": "Ethiopia",
       "metric": "Disaster alert",
-      "text": "New GDACS alert: Forest fires in Zambia, Zimbabwe.",
+      "text": "New GDACS alert: Forest fires in Ethiopia, Sudan.",
       "severity": "high"
     }
   ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-11-06T12:58:48.111Z"
+      "updatedAt": "2026-11-07T11:44:56.988Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-11-06T12:58:49.052Z"
+      "updatedAt": "2026-11-07T11:44:57.851Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-11-06T12:59:12.415Z",
+      "updatedAt": "2026-11-07T11:45:22.000Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-11-06T12:59:28.032Z",
+      "updatedAt": "2026-11-07T11:46:09.898Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-11-06T12:58:51.973Z"
+      "updatedAt": "2026-11-07T11:45:02.023Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-11-06T12:58:52.420Z"
+      "updatedAt": "2026-11-07T11:45:02.560Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-11-06T12:58:56.700Z"
+      "updatedAt": "2026-11-07T11:45:06.459Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-11-06T12:58:59.470Z"
+      "updatedAt": "2026-11-07T11:45:08.751Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-11-06T12:59:10.108Z"
+      "updatedAt": "2026-11-07T11:45:19.882Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-11-06T12:59:12.190Z"
+      "updatedAt": "2026-11-07T11:45:21.723Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-11-06T12:59:12.234Z",
+      "lastAttempt": "2026-11-07T11:45:21.758Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
-      "status": "stale",
-      "updatedAt": "2026-11-02T13:34:12.538Z",
+      "status": "ok",
+      "updatedAt": "2026-11-07T11:46:08.910Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
-      "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational",
-      "lastAttempt": "2026-11-06T12:59:27.207Z",
-      "error": "No country direct CHIRPS refresh succeeded; previous data preserved."
+      "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
   },
   "countries": {
@@ -627,9 +612,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
       "rainfall": {
-        "anomalyPct": 107.30600157440155,
+        "anomalyPct": 110.07939283717921,
         "referencePeriodStart": null,
-        "referencePeriodEnd": "2026-10-11",
+        "referencePeriodEnd": "2026-10-21",
         "aggregationPeriod": "one_month",
         "adminUnits": 8,
         "source": "WFP CHIRPS via HDX"
@@ -646,9 +631,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "level": 0
       },
       "conflict": {
-        "events3m": 456,
+        "events3m": 492,
         "previous3m": 500,
-        "changePct": -8.799999999999999,
+        "changePct": -1.6,
         "periodStart": "2026-08",
         "periodEnd": "2026-10"
       },
@@ -662,7 +647,7 @@ window.PUBLIC_COUNTRY_DATA = {
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Dadaab",
+            "name": "Arid and Semi-Arid Lands (ASALs)",
             "phase3Plus": 6644772
           },
           {
@@ -766,42 +751,42 @@ window.PUBLIC_COUNTRY_DATA = {
           {
             "name": null,
             "code": "KE047",
-            "anomalyPct": 84.54417
-          },
-          {
-            "name": null,
-            "code": "KE023",
-            "anomalyPct": 93.74167999999999
-          },
-          {
-            "name": null,
-            "code": "KE004",
-            "anomalyPct": 95.97155
-          },
-          {
-            "name": null,
-            "code": "KE037",
-            "anomalyPct": 97.3818
-          },
-          {
-            "name": null,
-            "code": "KE043",
-            "anomalyPct": 107.53826
-          },
-          {
-            "name": null,
-            "code": "KE010",
-            "anomalyPct": 113.227356
+            "anomalyPct": 83.43216
           },
           {
             "name": null,
             "code": "KE019",
-            "anomalyPct": 115.823
+            "anomalyPct": 103.18965999999999
+          },
+          {
+            "name": null,
+            "code": "KE023",
+            "anomalyPct": 104.79702
           },
           {
             "name": null,
             "code": "KE008",
-            "anomalyPct": 125.73903
+            "anomalyPct": 109.136604
+          },
+          {
+            "name": null,
+            "code": "KE004",
+            "anomalyPct": 112.50677999999999
+          },
+          {
+            "name": null,
+            "code": "KE010",
+            "anomalyPct": 113.58842
+          },
+          {
+            "name": null,
+            "code": "KE037",
+            "anomalyPct": 117.14599
+          },
+          {
+            "name": null,
+            "code": "KE043",
+            "anomalyPct": 137.30547
           }
         ]
       }
@@ -840,9 +825,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
       "rainfall": {
-        "anomalyPct": 111.64252509956775,
+        "anomalyPct": 112.50367923744228,
         "referencePeriodStart": null,
-        "referencePeriodEnd": "2026-10-11",
+        "referencePeriodEnd": "2026-10-21",
         "aggregationPeriod": "one_month",
         "adminUnits": 4,
         "source": "WFP CHIRPS via HDX"
@@ -859,9 +844,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "level": 0
       },
       "conflict": {
-        "events3m": 97,
-        "previous3m": 110,
-        "changePct": -11.818181818181818,
+        "events3m": 110,
+        "previous3m": 112,
+        "changePct": -1.7857142857142856,
         "periodStart": "2026-08",
         "periodEnd": "2026-10"
       },
@@ -877,23 +862,23 @@ window.PUBLIC_COUNTRY_DATA = {
         "rainfall": [
           {
             "name": null,
-            "code": "UG3",
-            "anomalyPct": 104.54256671746266
-          },
-          {
-            "name": null,
             "code": "UG4",
-            "anomalyPct": 112.69452264057797
-          },
-          {
-            "name": null,
-            "code": "UG2",
-            "anomalyPct": 118.09046209090907
+            "anomalyPct": 100.31122579048765
           },
           {
             "name": null,
             "code": "UG1",
-            "anomalyPct": 120.26941506539922
+            "anomalyPct": 112.19712881825096
+          },
+          {
+            "name": null,
+            "code": "UG3",
+            "anomalyPct": 112.76326095880424
+          },
+          {
+            "name": null,
+            "code": "UG2",
+            "anomalyPct": 132.64786743434342
           }
         ]
       }
@@ -932,9 +917,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
       "rainfall": {
-        "anomalyPct": 102.15189156091371,
+        "anomalyPct": 87.69791470812183,
         "referencePeriodStart": null,
-        "referencePeriodEnd": "2026-10-11",
+        "referencePeriodEnd": "2026-10-21",
         "aggregationPeriod": "one_month",
         "adminUnits": 5,
         "source": "WFP CHIRPS via HDX"
@@ -961,27 +946,27 @@ window.PUBLIC_COUNTRY_DATA = {
           {
             "name": null,
             "code": "RW1",
-            "anomalyPct": 81.57125
+            "anomalyPct": 73.08227
           },
           {
             "name": null,
             "code": "RW5",
-            "anomalyPct": 90.67413
-          },
-          {
-            "name": null,
-            "code": "RW4",
-            "anomalyPct": 107.60989
+            "anomalyPct": 84.385994
           },
           {
             "name": null,
             "code": "RW2",
-            "anomalyPct": 108.12954
+            "anomalyPct": 88.29086
+          },
+          {
+            "name": null,
+            "code": "RW4",
+            "anomalyPct": 90.10109
           },
           {
             "name": null,
             "code": "RW3",
-            "anomalyPct": 116.38397
+            "anomalyPct": 93.978966
           }
         ]
       }
@@ -1020,9 +1005,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
       "rainfall": {
-        "anomalyPct": 91.92408942164182,
+        "anomalyPct": 78.11200341169155,
         "referencePeriodStart": null,
-        "referencePeriodEnd": "2026-10-11",
+        "referencePeriodEnd": "2026-10-21",
         "aggregationPeriod": "one_month",
         "adminUnits": 18,
         "source": "WFP CHIRPS via HDX"
@@ -1051,7 +1036,7 @@ window.PUBLIC_COUNTRY_DATA = {
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Crête congo Nil",
+            "name": "Plaine imbo",
             "phase3Plus": 3040874
           },
           {
@@ -1062,93 +1047,93 @@ window.PUBLIC_COUNTRY_DATA = {
         "rainfall": [
           {
             "name": null,
-            "code": "BDI010",
-            "anomalyPct": 46.848000000000006
-          },
-          {
-            "name": null,
             "code": "BDI003",
-            "anomalyPct": 53.67096
+            "anomalyPct": 55.17455
           },
           {
             "name": null,
             "code": "BDI018",
-            "anomalyPct": 56.215054
+            "anomalyPct": 56.636723
           },
           {
             "name": null,
-            "code": "BDI015",
-            "anomalyPct": 58.36132
-          },
-          {
-            "name": null,
-            "code": "BDI006",
-            "anomalyPct": 71.91775
-          },
-          {
-            "name": null,
-            "code": "BDI013",
-            "anomalyPct": 81.37935
+            "code": "BDI010",
+            "anomalyPct": 58.61454
           },
           {
             "name": null,
             "code": "BDI002",
-            "anomalyPct": 82.214836
+            "anomalyPct": 61.31276
+          },
+          {
+            "name": null,
+            "code": "BDI013",
+            "anomalyPct": 63.28876
+          },
+          {
+            "name": null,
+            "code": "BDI015",
+            "anomalyPct": 65.21377
+          },
+          {
+            "name": null,
+            "code": "BDI006",
+            "anomalyPct": 65.89443
           },
           {
             "name": null,
             "code": "BDI017",
-            "anomalyPct": 95.922485
-          },
-          {
-            "name": null,
-            "code": "BDI014",
-            "anomalyPct": 98.03287499999999
-          },
-          {
-            "name": null,
-            "code": "BDI008",
-            "anomalyPct": 98.48269
+            "anomalyPct": 66.24976
           },
           {
             "name": null,
             "code": "BDI011",
-            "anomalyPct": 103.08774
+            "anomalyPct": 73.85334
           },
           {
             "name": null,
-            "code": "BDI009",
-            "anomalyPct": 105.24979
-          },
-          {
-            "name": null,
-            "code": "BDI016",
-            "anomalyPct": 105.68263
+            "code": "BDI008",
+            "anomalyPct": 74.20447
           },
           {
             "name": null,
             "code": "BDI005",
-            "anomalyPct": 105.71524000000001
+            "anomalyPct": 75.38961
           },
           {
             "name": null,
             "code": "BDI001",
-            "anomalyPct": 109.13033
+            "anomalyPct": 75.81414
+          },
+          {
+            "name": null,
+            "code": "BDI014",
+            "anomalyPct": 79.65747
+          },
+          {
+            "name": null,
+            "code": "BDI009",
+            "anomalyPct": 89.504944
+          },
+          {
+            "name": null,
+            "code": "BDI016",
+            "anomalyPct": 90.66487
           },
           {
             "name": null,
             "code": "BDI007",
-            "anomalyPct": 114.93564
+            "anomalyPct": 91.97637
           },
           {
             "name": null,
             "code": "BDI012",
-            "anomalyPct": 122.91429
+            "anomalyPct": 103.9722
           },
           {
             "name": null,
             "code": "BDI004",
-            "anomalyPct": 141.78354
+            "anomalyPct": 116.41098
           }
         ]
       }
@@ -1176,7 +1161,20 @@ window.PUBLIC_COUNTRY_DATA = {
         "refugees": 1010466,
         "asylumSeekers": 112987
       },
-      "gdacs": [],
+      "gdacs": [
+        {
+          "type": "WF",
+          "eventId": 1033471,
+          "episodeId": 5,
+          "name": "Forest fires in Ethiopia, Sudan",
+          "alertLevel": "Green",
+          "date": "2026-10-27T00:00:00",
+          "toDate": "2026-11-06T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033471&episodeid=5&eventtype=WF",
+          "country": "Ethiopia, Sudan",
+          "iso3": "ETH"
+        }
+      ],
       "inform": {
         "overallRisk": 7.1,
         "riskClass": 5,
@@ -1187,9 +1185,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
       "rainfall": {
-        "anomalyPct": 134.1868635495881,
+        "anomalyPct": 123.11354984630391,
         "referencePeriodStart": null,
-        "referencePeriodEnd": "2026-10-11",
+        "referencePeriodEnd": "2026-10-21",
         "aggregationPeriod": "one_month",
         "adminUnits": 11,
         "source": "WFP CHIRPS via HDX"
@@ -1206,9 +1204,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "level": 0
       },
       "conflict": {
-        "events3m": 182,
+        "events3m": 205,
         "previous3m": 65,
-        "changePct": 180,
+        "changePct": 215.3846153846154,
         "periodStart": "2026-08",
         "periodEnd": "2026-10"
       },
@@ -1223,58 +1221,58 @@ window.PUBLIC_COUNTRY_DATA = {
         "rainfall": [
           {
             "name": null,
-            "code": "ET15",
-            "anomalyPct": 61.500984
-          },
-          {
-            "name": null,
-            "code": "ET14",
-            "anomalyPct": 69.35047
+            "code": "ET12",
+            "anomalyPct": 64.340225
           },
           {
             "name": null,
             "code": "ET06",
-            "anomalyPct": 71.18798
+            "anomalyPct": 68.406715
           },
           {
             "name": null,
-            "code": "ET12",
-            "anomalyPct": 71.57451
+            "code": "ET15",
+            "anomalyPct": 71.01974
           },
           {
             "name": null,
             "code": "ET02",
-            "anomalyPct": 77.23273
+            "anomalyPct": 76.302574
           },
           {
             "name": null,
-            "code": "ET03",
-            "anomalyPct": 86.007996
-          },
-          {
-            "name": null,
-            "code": "ET13",
-            "anomalyPct": 88.1611
+            "code": "ET14",
+            "anomalyPct": 77.26386
           },
           {
             "name": null,
             "code": "ET01",
-            "anomalyPct": 100.143814
+            "anomalyPct": 84.43315
           },
           {
             "name": null,
-            "code": "ET07",
-            "anomalyPct": 105.594185
+            "code": "ET03",
+            "anomalyPct": 89.00837
+          },
+          {
+            "name": null,
+            "code": "ET13",
+            "anomalyPct": 95.62649499999999
           },
           {
             "name": null,
             "code": "ET04",
-            "anomalyPct": 107.40931
+            "anomalyPct": 107.39246
+          },
+          {
+            "name": null,
+            "code": "ET07",
+            "anomalyPct": 113.76126
           },
           {
             "name": null,
             "code": "ET05",
-            "anomalyPct": 234.09946000000002
+            "anomalyPct": 193.79994
           }
         ],
         "foodSecurity": [
@@ -1337,12 +1335,12 @@ window.PUBLIC_COUNTRY_DATA = {
         {
           "type": "WF",
           "eventId": 1033530,
-          "episodeId": 3,
+          "episodeId": 5,
           "name": "Forest fires in Zambia, Zimbabwe",
           "alertLevel": "Green",
           "date": "2026-11-01T00:00:00",
           "toDate": "2026-11-06T00:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033530&episodeid=3&eventtype=WF",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033530&episodeid=5&eventtype=WF",
           "country": "Zambia, Zimbabwe",
           "iso3": "ZMB"
         }
@@ -1357,9 +1355,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
       "rainfall": {
-        "anomalyPct": 128.95524817792182,
+        "anomalyPct": 118.013648159206,
         "referencePeriodStart": null,
-        "referencePeriodEnd": "2026-10-11",
+        "referencePeriodEnd": "2026-10-21",
         "aggregationPeriod": "one_month",
         "adminUnits": 10,
         "source": "WFP CHIRPS via HDX"
@@ -1393,53 +1391,53 @@ window.PUBLIC_COUNTRY_DATA = {
         "rainfall": [
           {
             "name": null,
-            "code": "ZM106",
-            "anomalyPct": 96.787964
-          },
-          {
-            "name": null,
-            "code": "ZM107",
-            "anomalyPct": 98.85652
-          },
-          {
-            "name": null,
             "code": "ZM103",
-            "anomalyPct": 115.09303999999999
-          },
-          {
-            "name": null,
-            "code": "ZM104",
-            "anomalyPct": 115.71906999999999
+            "anomalyPct": 103.43081
           },
           {
             "name": null,
             "code": "ZM105",
-            "anomalyPct": 128.82735
+            "anomalyPct": 103.67306499999998
           },
           {
             "name": null,
             "code": "ZM110",
-            "anomalyPct": 131.41028
-          },
-          {
-            "name": null,
-            "code": "ZM101",
-            "anomalyPct": 139.7393
+            "anomalyPct": 103.931404
           },
           {
             "name": null,
             "code": "ZM108",
-            "anomalyPct": 139.90645
+            "anomalyPct": 116.01632
+          },
+          {
+            "name": null,
+            "code": "ZM106",
+            "anomalyPct": 120.412254
+          },
+          {
+            "name": null,
+            "code": "ZM101",
+            "anomalyPct": 120.81361
+          },
+          {
+            "name": null,
+            "code": "ZM104",
+            "anomalyPct": 128.16714
+          },
+          {
+            "name": null,
+            "code": "ZM107",
+            "anomalyPct": 129.78458
           },
           {
             "name": null,
             "code": "ZM102",
-            "anomalyPct": 162.53125
+            "anomalyPct": 130.00665
           },
           {
             "name": null,
             "code": "ZM109",
-            "anomalyPct": 164.6465
+            "anomalyPct": 132.73625
           }
         ],
         "foodSecurity": [
