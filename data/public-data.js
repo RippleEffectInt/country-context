@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-11-09T13:56:24.853Z",
+  "generatedAt": "2026-11-10T13:29:39.534Z",
   "previous": {
-    "generatedAt": "2026-11-08T11:57:21.351Z",
+    "generatedAt": "2026-11-09T13:56:24.853Z",
     "global": {
       "enso": {
         "latest": {
@@ -440,20 +440,7 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 1010466,
           "asylumSeekers": 112987
         },
-        "gdacs": [
-          {
-            "type": "WF",
-            "eventId": 1033471,
-            "episodeId": 7,
-            "name": "Forest fires in Ethiopia, Sudan",
-            "alertLevel": "Green",
-            "date": "2026-10-27T00:00:00",
-            "toDate": "2026-11-07T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033471&episodeid=7&eventtype=WF",
-            "country": "Ethiopia, Sudan",
-            "iso3": "ETH"
-          }
-        ]
+        "gdacs": []
       },
       "ZMB": {
         "rainfall": {
@@ -503,20 +490,7 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 83225,
           "asylumSeekers": 12906
         },
-        "gdacs": [
-          {
-            "type": "WF",
-            "eventId": 1033530,
-            "episodeId": 6,
-            "name": "Forest fires in Zambia, Zimbabwe",
-            "alertLevel": "Green",
-            "date": "2026-11-01T00:00:00",
-            "toDate": "2026-11-07T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033530&episodeid=6&eventtype=WF",
-            "country": "Zambia, Zimbabwe",
-            "iso3": "ZMB"
-          }
-        ]
+        "gdacs": []
       }
     }
   },
@@ -531,55 +505,55 @@ window.PUBLIC_COUNTRY_DATA = {
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-11-09T13:56:26.174Z"
+      "updatedAt": "2026-11-10T13:31:10.039Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-11-09T13:56:27.171Z"
+      "updatedAt": "2026-11-10T13:31:10.852Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-11-09T13:56:52.997Z",
+      "updatedAt": "2026-11-10T13:33:23.510Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-11-09T13:58:04.122Z",
+      "updatedAt": "2026-11-10T13:33:56.820Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-11-09T13:56:30.971Z"
+      "updatedAt": "2026-11-10T13:31:32.631Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-11-09T13:56:31.639Z"
+      "updatedAt": "2026-11-10T13:31:51.682Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-11-09T13:56:35.649Z"
+      "updatedAt": "2026-11-10T13:32:18.577Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-11-09T13:56:37.930Z"
+      "updatedAt": "2026-11-10T13:32:38.778Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-11-09T13:56:50.657Z"
+      "updatedAt": "2026-11-10T13:33:02.107Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-11-09T13:56:52.679Z"
+      "updatedAt": "2026-11-10T13:33:22.180Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-11-09T13:56:52.756Z",
+      "lastAttempt": "2026-11-10T13:33:23.263Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-11-09T13:58:03.168Z",
+      "updatedAt": "2026-11-10T13:33:53.526Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -654,7 +628,7 @@ window.PUBLIC_COUNTRY_DATA = {
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Dadaab",
+            "name": "Kalobeyei",
             "phase3Plus": 6644772
           },
           {
