@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-10T13:29:39.534Z",
+  "generatedAt": "2026-11-11T12:45:10.008Z",
   "previous": {
-    "generatedAt": "2026-11-09T13:56:24.853Z",
+    "generatedAt": "2026-11-10T13:29:39.534Z",
     "global": {
       "enso": {
         "latest": {
@@ -505,55 +505,55 @@
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-11-10T13:31:10.039Z"
+      "updatedAt": "2026-11-11T12:45:30.433Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-11-10T13:31:10.852Z"
+      "updatedAt": "2026-11-11T12:45:31.446Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-11-10T13:33:23.510Z",
+      "updatedAt": "2026-11-11T12:45:55.668Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-11-10T13:33:56.820Z",
+      "updatedAt": "2026-11-11T12:46:44.768Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-11-10T13:31:32.631Z"
+      "updatedAt": "2026-11-11T12:45:35.424Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-11-10T13:31:51.682Z"
+      "updatedAt": "2026-11-11T12:45:35.982Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-11-10T13:32:18.577Z"
+      "updatedAt": "2026-11-11T12:45:40.219Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-11-10T13:32:38.778Z"
+      "updatedAt": "2026-11-11T12:45:42.545Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-11-10T13:33:02.107Z"
+      "updatedAt": "2026-11-11T12:45:53.234Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-11-10T13:33:22.180Z"
+      "updatedAt": "2026-11-11T12:45:55.475Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-11-10T13:33:23.263Z",
+      "lastAttempt": "2026-11-11T12:45:55.526Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-11-10T13:33:53.526Z",
+      "updatedAt": "2026-11-11T12:46:43.559Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -628,7 +628,7 @@
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Kalobeyei",
+            "name": "Dadaab",
             "phase3Plus": 6644772
           },
           {
@@ -1017,7 +1017,7 @@
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Plaine imbo",
+            "name": "Crête congo Nil",
             "phase3Plus": 3040874
           },
           {
