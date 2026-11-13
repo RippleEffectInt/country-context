@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-11-12T13:47:20.682Z",
+  "generatedAt": "2026-11-13T13:09:16.448Z",
   "previous": {
-    "generatedAt": "2026-11-11T12:45:10.008Z",
+    "generatedAt": "2026-11-12T13:47:20.682Z",
     "global": {
       "enso": {
         "latest": {
@@ -253,7 +253,20 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 617125,
           "asylumSeekers": 218646
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "DR",
+            "eventId": 1027450,
+            "episodeId": 13,
+            "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
+            "alertLevel": "Orange",
+            "date": "2026-05-21T00:00:00",
+            "toDate": "2026-11-12T08:29:24",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=13&eventtype=DR",
+            "country": "Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
+            "iso3": "BDI"
+          }
+        ]
       },
       "UGA": {
         "rainfall": {
@@ -303,7 +316,20 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 1936719,
           "asylumSeekers": 35249
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "DR",
+            "eventId": 1027450,
+            "episodeId": 13,
+            "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
+            "alertLevel": "Orange",
+            "date": "2026-05-21T00:00:00",
+            "toDate": "2026-11-12T08:29:24",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=13&eventtype=DR",
+            "country": "Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
+            "iso3": "BDI"
+          }
+        ]
       },
       "RWA": {
         "rainfall": {
@@ -344,7 +370,20 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 115794,
           "asylumSeekers": 15251
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "DR",
+            "eventId": 1027450,
+            "episodeId": 13,
+            "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
+            "alertLevel": "Orange",
+            "date": "2026-05-21T00:00:00",
+            "toDate": "2026-11-12T08:29:24",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=13&eventtype=DR",
+            "country": "Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
+            "iso3": "BDI"
+          }
+        ]
       },
       "BDI": {
         "rainfall": {
@@ -390,7 +429,20 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 110800,
           "asylumSeekers": 1466
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "DR",
+            "eventId": 1027450,
+            "episodeId": 13,
+            "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
+            "alertLevel": "Orange",
+            "date": "2026-05-21T00:00:00",
+            "toDate": "2026-11-12T08:29:24",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=13&eventtype=DR",
+            "country": "Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
+            "iso3": "BDI"
+          }
+        ]
       },
       "ETH": {
         "rainfall": {
@@ -440,7 +492,20 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 1010466,
           "asylumSeekers": 112987
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "DR",
+            "eventId": 1027450,
+            "episodeId": 13,
+            "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
+            "alertLevel": "Orange",
+            "date": "2026-05-21T00:00:00",
+            "toDate": "2026-11-12T08:29:24",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=13&eventtype=DR",
+            "country": "Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
+            "iso3": "BDI"
+          }
+        ]
       },
       "ZMB": {
         "rainfall": {
@@ -500,90 +565,60 @@ window.PUBLIC_COUNTRY_DATA = {
       "metric": "ENSO",
       "text": "Niño 3.4 rose 27.39°C to 29.69°C.",
       "severity": "medium"
-    },
-    {
-      "scope": "Kenya",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda.",
-      "severity": "high"
-    },
-    {
-      "scope": "Uganda",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda.",
-      "severity": "high"
-    },
-    {
-      "scope": "Rwanda",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda.",
-      "severity": "high"
-    },
-    {
-      "scope": "Burundi",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda.",
-      "severity": "high"
-    },
-    {
-      "scope": "Ethiopia",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda.",
-      "severity": "high"
     }
   ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-11-12T13:50:33.804Z"
+      "updatedAt": "2026-11-13T13:09:16.775Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-11-12T13:50:34.770Z"
+      "updatedAt": "2026-11-13T13:09:17.616Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-11-12T13:51:25.682Z",
+      "updatedAt": "2026-11-13T13:10:28.275Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-11-12T13:52:05.723Z",
+      "updatedAt": "2026-11-13T13:11:07.783Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-11-12T13:50:37.920Z"
+      "updatedAt": "2026-11-13T13:09:22.230Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-11-12T13:50:38.458Z"
+      "updatedAt": "2026-11-13T13:09:22.750Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-11-12T13:50:42.690Z"
+      "updatedAt": "2026-11-13T13:09:28.665Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-11-12T13:50:45.064Z"
+      "updatedAt": "2026-11-13T13:09:32.037Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-11-12T13:51:05.466Z"
+      "updatedAt": "2026-11-13T13:10:08.025Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-11-12T13:51:25.286Z"
+      "updatedAt": "2026-11-13T13:10:27.895Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-11-12T13:51:25.474Z",
+      "lastAttempt": "2026-11-13T13:10:28.066Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-11-12T13:52:05.041Z",
+      "updatedAt": "2026-11-13T13:11:05.446Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -612,20 +647,7 @@ window.PUBLIC_COUNTRY_DATA = {
         "refugees": 617125,
         "asylumSeekers": 218646
       },
-      "gdacs": [
-        {
-          "type": "DR",
-          "eventId": 1027450,
-          "episodeId": 13,
-          "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-          "alertLevel": "Orange",
-          "date": "2026-05-21T00:00:00",
-          "toDate": "2026-11-12T08:29:24",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=13&eventtype=DR",
-          "country": "Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-          "iso3": "BDI"
-        }
-      ],
+      "gdacs": [],
       "inform": {
         "overallRisk": 6,
         "riskClass": 4,
@@ -838,20 +860,7 @@ window.PUBLIC_COUNTRY_DATA = {
         "refugees": 1936719,
         "asylumSeekers": 35249
       },
-      "gdacs": [
-        {
-          "type": "DR",
-          "eventId": 1027450,
-          "episodeId": 13,
-          "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-          "alertLevel": "Orange",
-          "date": "2026-05-21T00:00:00",
-          "toDate": "2026-11-12T08:29:24",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=13&eventtype=DR",
-          "country": "Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-          "iso3": "BDI"
-        }
-      ],
+      "gdacs": [],
       "inform": {
         "overallRisk": 5.7,
         "riskClass": 4,
@@ -943,20 +952,7 @@ window.PUBLIC_COUNTRY_DATA = {
         "refugees": 115794,
         "asylumSeekers": 15251
       },
-      "gdacs": [
-        {
-          "type": "DR",
-          "eventId": 1027450,
-          "episodeId": 13,
-          "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-          "alertLevel": "Orange",
-          "date": "2026-05-21T00:00:00",
-          "toDate": "2026-11-12T08:29:24",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=13&eventtype=DR",
-          "country": "Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-          "iso3": "BDI"
-        }
-      ],
+      "gdacs": [],
       "inform": {
         "overallRisk": 4.3,
         "riskClass": 3,
@@ -1044,20 +1040,7 @@ window.PUBLIC_COUNTRY_DATA = {
         "refugees": 110800,
         "asylumSeekers": 1466
       },
-      "gdacs": [
-        {
-          "type": "DR",
-          "eventId": 1027450,
-          "episodeId": 13,
-          "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-          "alertLevel": "Orange",
-          "date": "2026-05-21T00:00:00",
-          "toDate": "2026-11-12T08:29:24",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=13&eventtype=DR",
-          "country": "Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-          "iso3": "BDI"
-        }
-      ],
+      "gdacs": [],
       "inform": {
         "overallRisk": 5.9,
         "riskClass": 4,
@@ -1099,7 +1082,7 @@ window.PUBLIC_COUNTRY_DATA = {
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Dépressions du nord",
+            "name": "Crête congo Nil",
             "phase3Plus": 3040874
           },
           {
@@ -1224,20 +1207,7 @@ window.PUBLIC_COUNTRY_DATA = {
         "refugees": 1010466,
         "asylumSeekers": 112987
       },
-      "gdacs": [
-        {
-          "type": "DR",
-          "eventId": 1027450,
-          "episodeId": 13,
-          "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-          "alertLevel": "Orange",
-          "date": "2026-05-21T00:00:00",
-          "toDate": "2026-11-12T08:29:24",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=13&eventtype=DR",
-          "country": "Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-          "iso3": "BDI"
-        }
-      ],
+      "gdacs": [],
       "inform": {
         "overallRisk": 7.1,
         "riskClass": 5,
