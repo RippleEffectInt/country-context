@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-11-15T12:46:31.269Z",
+  "generatedAt": "2026-11-16T13:41:26.550Z",
   "previous": {
-    "generatedAt": "2026-11-14T12:13:35.732Z",
+    "generatedAt": "2026-11-15T12:46:31.269Z",
     "global": {
       "enso": {
         "latest": {
@@ -235,11 +235,11 @@ window.PUBLIC_COUNTRY_DATA = {
           "level": 0
         },
         "conflict": {
-          "events3m": 492,
-          "previous3m": 500,
-          "changePct": -1.6,
-          "periodStart": "2026-08",
-          "periodEnd": "2026-10"
+          "events3m": 350,
+          "previous3m": 529,
+          "changePct": -33.83742911153119,
+          "periodStart": "2026-09",
+          "periodEnd": "2026-11"
         },
         "funding": {
           "requirementsUsd": null,
@@ -285,11 +285,11 @@ window.PUBLIC_COUNTRY_DATA = {
           "level": 0
         },
         "conflict": {
-          "events3m": 110,
-          "previous3m": 112,
-          "changePct": -1.7857142857142856,
-          "periodStart": "2026-08",
-          "periodEnd": "2026-10"
+          "events3m": 93,
+          "previous3m": 116,
+          "changePct": -19.82758620689655,
+          "periodStart": "2026-09",
+          "periodEnd": "2026-11"
         },
         "funding": {
           "requirementsUsd": null,
@@ -372,11 +372,11 @@ window.PUBLIC_COUNTRY_DATA = {
         },
         "idps": null,
         "conflict": {
-          "events3m": 5,
+          "events3m": 3,
           "previous3m": 5,
-          "changePct": 0,
-          "periodStart": "2026-08",
-          "periodEnd": "2026-10"
+          "changePct": -40,
+          "periodStart": "2026-09",
+          "periodEnd": "2026-11"
         },
         "funding": {
           "requirementsUsd": null,
@@ -472,11 +472,11 @@ window.PUBLIC_COUNTRY_DATA = {
           "level": 0
         },
         "conflict": {
-          "events3m": 17,
-          "previous3m": 20,
-          "changePct": -15,
-          "periodStart": "2026-08",
-          "periodEnd": "2026-10"
+          "events3m": 4,
+          "previous3m": 27,
+          "changePct": -85.18518518518519,
+          "periodStart": "2026-09",
+          "periodEnd": "2026-11"
         },
         "funding": {
           "requirementsUsd": null,
@@ -500,78 +500,60 @@ window.PUBLIC_COUNTRY_DATA = {
       "metric": "ENSO",
       "text": "Niño 3.4 rose 27.39°C to 29.69°C.",
       "severity": "medium"
-    },
-    {
-      "scope": "Kenya",
-      "metric": "Conflict",
-      "text": "Political-violence events changed 29% over the latest 3 months.",
-      "severity": "medium"
-    },
-    {
-      "scope": "Burundi",
-      "metric": "Conflict",
-      "text": "Political-violence events changed 40% over the latest 3 months.",
-      "severity": "medium"
-    },
-    {
-      "scope": "Zambia",
-      "metric": "Conflict",
-      "text": "Political-violence events changed 76% over the latest 3 months.",
-      "severity": "medium"
     }
   ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-11-15T12:51:44.008Z"
+      "updatedAt": "2026-11-16T13:47:45.446Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-11-15T12:51:44.976Z"
+      "updatedAt": "2026-11-16T13:47:46.462Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-11-15T12:52:34.587Z",
+      "updatedAt": "2026-11-16T13:48:11.875Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-11-15T12:53:14.952Z",
+      "updatedAt": "2026-11-16T13:48:58.963Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-11-15T12:51:48.841Z"
+      "updatedAt": "2026-11-16T13:47:49.873Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-11-15T12:51:49.382Z"
+      "updatedAt": "2026-11-16T13:47:50.493Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-11-15T12:51:54.346Z"
+      "updatedAt": "2026-11-16T13:47:55.022Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-11-15T12:51:56.771Z"
+      "updatedAt": "2026-11-16T13:47:58.078Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-11-15T12:52:08.032Z"
+      "updatedAt": "2026-11-16T13:48:09.695Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-11-15T12:52:34.234Z"
+      "updatedAt": "2026-11-16T13:48:11.592Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-11-15T12:52:34.437Z",
+      "lastAttempt": "2026-11-16T13:48:11.633Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-11-15T12:53:14.223Z",
+      "updatedAt": "2026-11-16T13:48:58.389Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }

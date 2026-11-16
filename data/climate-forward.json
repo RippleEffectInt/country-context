@@ -1,50 +1,51 @@
 {
-  "generatedAt": "2026-11-15T12:54:57.353Z",
+  "generatedAt": "2026-11-16T13:49:43.926Z",
   "sources": {
     "ICPAC weekly forecast": {
       "status": "ok",
       "period": "10- 17 November 2026",
       "url": "https://www.icpac.net/weekly-forecast/",
-      "updatedAt": "2026-11-15T12:53:15.889Z"
+      "updatedAt": "2026-11-16T13:48:59.587Z"
     },
     "ICPAC seasonal forecast": {
       "status": "ok",
       "period": "Latest seasonal forecast",
       "url": "https://www.icpac.net/seasonal-forecast/",
-      "updatedAt": "2026-11-15T12:53:17.823Z"
+      "updatedAt": "2026-11-16T13:49:01.862Z"
     },
     "East Africa Drought Watch": {
       "status": "stale",
       "period": "11 August 2026",
       "url": "https://droughtwatch.icpac.net/report-v2/",
-      "updatedAt": "2026-11-15T12:53:30.235Z",
-      "error": "502 Bad Gateway"
+      "updatedAt": "2026-11-16T13:49:02.064Z",
+      "error": "Drought Watch page loaded but CDI percentages were not parseable"
     },
     "SADC / SARCOF-33": {
       "status": "ok",
       "period": "August 27, 2026",
       "url": "https://www.sadc.int/latest-news/sadc-outlook-favours-drier-conditions-across-much-southern-africa-during-202627-rainy",
-      "updatedAt": "2026-11-15T12:53:31.688Z",
+      "updatedAt": "2026-11-16T13:49:03.221Z",
       "error": "fetch failed"
     },
     "NOAA GFS spatial forecast": {
-      "status": "ok",
+      "status": "stale",
       "url": "https://open-meteo.com/en/docs/gfs-api",
       "period": "2026-11-15 to 2026-11-21",
-      "updatedAt": "2026-11-15T12:54:57.353Z"
+      "updatedAt": "2026-11-16T13:49:43.926Z",
+      "error": "Updated 0/6 countries"
     },
     "ECMWF EC46 subseasonal outlook": {
-      "status": "ok",
+      "status": "stale",
       "url": "https://open-meteo.com/en/docs/seasonal-forecast-api",
       "period": "2026-11-23 to 2026-12-13",
-      "updatedAt": "2026-11-15T12:54:57.353Z"
+      "updatedAt": "2026-11-16T13:49:43.926Z",
+      "error": "Updated 0/6 countries"
     },
     "Country boundary geometry": {
-      "status": "cached",
-      "url": "https://github.com/johan/world.geo.json",
+      "status": "ok",
+      "url": "https://geoportal.icpac.net/layers/data0:geonode:afr_g2014_2013_0",
       "period": "current",
-      "updatedAt": "2026-11-15T12:54:53.420Z",
-      "error": "fetch failed"
+      "updatedAt": "2026-11-16T13:49:43.925Z"
     }
   },
   "countries": {
