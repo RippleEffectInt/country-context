@@ -1,51 +1,50 @@
 {
-  "generatedAt": "2026-11-16T13:49:43.926Z",
+  "generatedAt": "2026-11-17T14:35:40.888Z",
   "sources": {
     "ICPAC weekly forecast": {
       "status": "ok",
       "period": "10- 17 November 2026",
       "url": "https://www.icpac.net/weekly-forecast/",
-      "updatedAt": "2026-11-16T13:48:59.587Z"
+      "updatedAt": "2026-11-17T14:33:55.831Z"
     },
     "ICPAC seasonal forecast": {
       "status": "ok",
       "period": "Latest seasonal forecast",
       "url": "https://www.icpac.net/seasonal-forecast/",
-      "updatedAt": "2026-11-16T13:49:01.862Z"
+      "updatedAt": "2026-11-17T14:33:57.883Z"
     },
     "East Africa Drought Watch": {
       "status": "stale",
       "period": "11 August 2026",
       "url": "https://droughtwatch.icpac.net/report-v2/",
-      "updatedAt": "2026-11-16T13:49:02.064Z",
+      "updatedAt": "2026-11-17T14:33:58.369Z",
       "error": "Drought Watch page loaded but CDI percentages were not parseable"
     },
     "SADC / SARCOF-33": {
       "status": "ok",
       "period": "August 27, 2026",
       "url": "https://www.sadc.int/latest-news/sadc-outlook-favours-drier-conditions-across-much-southern-africa-during-202627-rainy",
-      "updatedAt": "2026-11-16T13:49:03.221Z",
+      "updatedAt": "2026-11-17T14:33:59.439Z",
       "error": "fetch failed"
     },
     "NOAA GFS spatial forecast": {
-      "status": "stale",
+      "status": "ok",
       "url": "https://open-meteo.com/en/docs/gfs-api",
-      "period": "2026-11-15 to 2026-11-21",
-      "updatedAt": "2026-11-16T13:49:43.926Z",
-      "error": "Updated 0/6 countries"
+      "period": "2026-11-17 to 2026-11-23",
+      "updatedAt": "2026-11-17T14:35:40.888Z"
     },
     "ECMWF EC46 subseasonal outlook": {
-      "status": "stale",
+      "status": "ok",
       "url": "https://open-meteo.com/en/docs/seasonal-forecast-api",
-      "period": "2026-11-23 to 2026-12-13",
-      "updatedAt": "2026-11-16T13:49:43.926Z",
-      "error": "Updated 0/6 countries"
+      "period": "2026-11-30 to 2026-12-20",
+      "updatedAt": "2026-11-17T14:35:40.888Z"
     },
     "Country boundary geometry": {
-      "status": "ok",
-      "url": "https://geoportal.icpac.net/layers/data0:geonode:afr_g2014_2013_0",
+      "status": "cached",
+      "url": "https://github.com/johan/world.geo.json",
       "period": "current",
-      "updatedAt": "2026-11-16T13:49:43.925Z"
+      "updatedAt": "2026-11-17T14:35:37.876Z",
+      "error": "fetch failed"
     }
   },
   "countries": {
@@ -82,44 +81,44 @@
         "url": "https://droughtwatch.icpac.net/report-v2/"
       },
       "spatial7d": {
-        "periodStart": "2026-11-15",
-        "periodEnd": "2026-11-21",
+        "periodStart": "2026-11-17",
+        "periodEnd": "2026-11-23",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
         "sampleCount": 22,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianMm": 9.6,
-          "meanMm": 14.4,
+          "medianMm": 3.5,
+          "meanMm": 12.3,
           "minMm": 0,
-          "maxMm": 56,
-          "drySharePct": 45,
+          "maxMm": 51.1,
+          "drySharePct": 55,
           "heavySharePct": 5,
           "veryHeavySharePct": 0,
           "wettestZone": "western"
         },
         "temperature": {
-          "meanDailyMaxC": 31.9,
+          "meanDailyMaxC": 31.7,
           "hotSharePct": 14,
           "hottestZone": "northern-western"
         },
         "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
       },
       "subseasonal": {
-        "periodStart": "2026-11-23",
-        "periodEnd": "2026-12-13",
+        "periodStart": "2026-11-30",
+        "periodEnd": "2026-12-20",
         "model": "ECMWF EC46 ensemble mean",
         "resolution": "about 36 km",
         "sampleCount": 11,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianAnomalyMm": -7.7,
-          "wetterSharePct": 18,
-          "drierSharePct": 73,
+          "medianAnomalyMm": 1.4,
+          "wetterSharePct": 27,
+          "drierSharePct": 36,
           "wettestZone": "central"
         },
         "temperature": {
-          "medianAnomalyC": 1.5,
+          "medianAnomalyC": 1.6,
           "warmerSharePct": 100,
           "coolerSharePct": 0
         },
@@ -159,44 +158,44 @@
         "url": "https://droughtwatch.icpac.net/report-v2/"
       },
       "spatial7d": {
-        "periodStart": "2026-11-15",
-        "periodEnd": "2026-11-21",
+        "periodStart": "2026-11-17",
+        "periodEnd": "2026-11-23",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
         "sampleCount": 26,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianMm": 13.6,
-          "meanMm": 19.3,
+          "medianMm": 6.7,
+          "meanMm": 14.4,
           "minMm": 0,
-          "maxMm": 79.8,
-          "drySharePct": 38,
-          "heavySharePct": 4,
+          "maxMm": 61.7,
+          "drySharePct": 42,
+          "heavySharePct": 12,
           "veryHeavySharePct": 0,
           "wettestZone": "southern"
         },
         "temperature": {
-          "meanDailyMaxC": 28.8,
+          "meanDailyMaxC": 29.2,
           "hotSharePct": 4,
           "hottestZone": "northern"
         },
         "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
       },
       "subseasonal": {
-        "periodStart": "2026-11-23",
-        "periodEnd": "2026-12-13",
+        "periodStart": "2026-11-30",
+        "periodEnd": "2026-12-20",
         "model": "ECMWF EC46 ensemble mean",
         "resolution": "about 36 km",
         "sampleCount": 13,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianAnomalyMm": -3.7,
-          "wetterSharePct": 15,
-          "drierSharePct": 38,
+          "medianAnomalyMm": 8.8,
+          "wetterSharePct": 69,
+          "drierSharePct": 0,
           "wettestZone": "western"
         },
         "temperature": {
-          "medianAnomalyC": 1.7,
+          "medianAnomalyC": 1.5,
           "warmerSharePct": 100,
           "coolerSharePct": 0
         },
@@ -236,44 +235,44 @@
         "url": "https://droughtwatch.icpac.net/report-v2/"
       },
       "spatial7d": {
-        "periodStart": "2026-11-15",
-        "periodEnd": "2026-11-21",
+        "periodStart": "2026-11-17",
+        "periodEnd": "2026-11-23",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
         "sampleCount": 21,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianMm": 57.5,
-          "meanMm": 61.4,
-          "minMm": 29.4,
-          "maxMm": 111.6,
+          "medianMm": 63.8,
+          "meanMm": 67.9,
+          "minMm": 19.5,
+          "maxMm": 158,
           "drySharePct": 0,
-          "heavySharePct": 71,
-          "veryHeavySharePct": 5,
+          "heavySharePct": 76,
+          "veryHeavySharePct": 19,
           "wettestZone": "southern-western"
         },
         "temperature": {
-          "meanDailyMaxC": 22.7,
+          "meanDailyMaxC": 23.4,
           "hotSharePct": 0,
           "hottestZone": "northern-eastern"
         },
         "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
       },
       "subseasonal": {
-        "periodStart": "2026-11-23",
-        "periodEnd": "2026-12-13",
+        "periodStart": "2026-11-30",
+        "periodEnd": "2026-12-20",
         "model": "ECMWF EC46 ensemble mean",
         "resolution": "about 36 km",
         "sampleCount": 11,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianAnomalyMm": -11.6,
+          "medianAnomalyMm": -9.5,
           "wetterSharePct": 0,
-          "drierSharePct": 64,
+          "drierSharePct": 73,
           "wettestZone": "eastern"
         },
         "temperature": {
-          "medianAnomalyC": 1.4,
+          "medianAnomalyC": 1.3,
           "warmerSharePct": 100,
           "coolerSharePct": 0
         },
@@ -313,41 +312,41 @@
         "url": "https://droughtwatch.icpac.net/report-v2/"
       },
       "spatial7d": {
-        "periodStart": "2026-11-15",
-        "periodEnd": "2026-11-21",
+        "periodStart": "2026-11-17",
+        "periodEnd": "2026-11-23",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
         "sampleCount": 21,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianMm": 96.2,
-          "meanMm": 85.5,
-          "minMm": 26,
-          "maxMm": 136.1,
+          "medianMm": 84.7,
+          "meanMm": 84.9,
+          "minMm": 45.8,
+          "maxMm": 126.1,
           "drySharePct": 0,
-          "heavySharePct": 81,
-          "veryHeavySharePct": 38,
+          "heavySharePct": 95,
+          "veryHeavySharePct": 19,
           "wettestZone": "western"
         },
         "temperature": {
-          "meanDailyMaxC": 24.1,
+          "meanDailyMaxC": 24,
           "hotSharePct": 0,
           "hottestZone": "southern-western"
         },
         "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
       },
       "subseasonal": {
-        "periodStart": "2026-11-23",
-        "periodEnd": "2026-12-13",
+        "periodStart": "2026-11-30",
+        "periodEnd": "2026-12-20",
         "model": "ECMWF EC46 ensemble mean",
         "resolution": "about 36 km",
         "sampleCount": 11,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianAnomalyMm": -14.9,
+          "medianAnomalyMm": -8,
           "wetterSharePct": 0,
-          "drierSharePct": 100,
-          "wettestZone": "western"
+          "drierSharePct": 91,
+          "wettestZone": "southern-western"
         },
         "temperature": {
           "medianAnomalyC": 1.3,
@@ -390,44 +389,44 @@
         "url": "https://droughtwatch.icpac.net/report-v2/"
       },
       "spatial7d": {
-        "periodStart": "2026-11-15",
-        "periodEnd": "2026-11-21",
+        "periodStart": "2026-11-17",
+        "periodEnd": "2026-11-23",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
         "sampleCount": 20,
         "boundaryMode": "cached country polygons",
         "rainfall": {
           "medianMm": 0.1,
-          "meanMm": 7.5,
+          "meanMm": 11.1,
           "minMm": 0,
-          "maxMm": 93.7,
+          "maxMm": 97.4,
           "drySharePct": 75,
-          "heavySharePct": 5,
+          "heavySharePct": 10,
           "veryHeavySharePct": 0,
           "wettestZone": "northern"
         },
         "temperature": {
-          "meanDailyMaxC": 29.8,
-          "hotSharePct": 20,
+          "meanDailyMaxC": 29.7,
+          "hotSharePct": 25,
           "hottestZone": "northern-western"
         },
         "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
       },
       "subseasonal": {
-        "periodStart": "2026-11-23",
-        "periodEnd": "2026-12-13",
+        "periodStart": "2026-11-30",
+        "periodEnd": "2026-12-20",
         "model": "ECMWF EC46 ensemble mean",
         "resolution": "about 36 km",
         "sampleCount": 10,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianAnomalyMm": 4.9,
+          "medianAnomalyMm": 5.8,
           "wetterSharePct": 50,
-          "drierSharePct": 20,
+          "drierSharePct": 0,
           "wettestZone": "central"
         },
         "temperature": {
-          "medianAnomalyC": 1.8,
+          "medianAnomalyC": 1.5,
           "warmerSharePct": 90,
           "coolerSharePct": 0
         },
@@ -464,21 +463,21 @@
         "url": "https://www.sadc.int/latest-news/sadc-outlook-favours-drier-conditions-across-much-southern-africa-during-202627-rainy"
       },
       "spatial7d": {
-        "periodStart": "2026-11-15",
-        "periodEnd": "2026-11-21",
+        "periodStart": "2026-11-17",
+        "periodEnd": "2026-11-23",
         "model": "NOAA GFS global",
         "resolution": "about 0.11° to 0.25°",
         "sampleCount": 19,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianMm": 28,
-          "meanMm": 29.9,
-          "minMm": 10.4,
-          "maxMm": 64.7,
-          "drySharePct": 0,
+          "medianMm": 16.8,
+          "meanMm": 27.7,
+          "minMm": 3.3,
+          "maxMm": 104.2,
+          "drySharePct": 11,
           "heavySharePct": 11,
-          "veryHeavySharePct": 0,
-          "wettestZone": "western"
+          "veryHeavySharePct": 5,
+          "wettestZone": "northern-eastern"
         },
         "temperature": {
           "meanDailyMaxC": 32.1,
@@ -488,20 +487,20 @@
         "method": "GFS forecast sampled at land-grid points inside a real country polygon (cached country polygons); statistics describe sampled area, not population."
       },
       "subseasonal": {
-        "periodStart": "2026-11-23",
-        "periodEnd": "2026-12-13",
+        "periodStart": "2026-11-30",
+        "periodEnd": "2026-12-20",
         "model": "ECMWF EC46 ensemble mean",
         "resolution": "about 36 km",
         "sampleCount": 10,
         "boundaryMode": "cached country polygons",
         "rainfall": {
-          "medianAnomalyMm": -3.2,
-          "wetterSharePct": 20,
+          "medianAnomalyMm": 4.7,
+          "wetterSharePct": 50,
           "drierSharePct": 40,
-          "wettestZone": "southern"
+          "wettestZone": "eastern"
         },
         "temperature": {
-          "medianAnomalyC": 1.2,
+          "medianAnomalyC": 1,
           "warmerSharePct": 100,
           "coolerSharePct": 0
         },
