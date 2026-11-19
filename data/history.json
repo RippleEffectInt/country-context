@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startedAt": "2026-09-05T19:40:00.000Z",
-  "generatedAt": "2026-11-18T14:05:33.346Z",
+  "generatedAt": "2026-11-19T14:34:43.370Z",
   "global": {
     "enso": [
       {
@@ -16,182 +16,182 @@
       },
       {
         "date": "2023-11",
-        "value": 1.86,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2023-12",
-        "value": 1.76,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2024-01",
-        "value": 1.64,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2024-02",
-        "value": 1.39,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2024-03",
-        "value": 1.04,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2024-04",
-        "value": 0.98,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2024-05",
-        "value": 0.5,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2024-06",
-        "value": 0.37,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2024-07",
-        "value": 0.4,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2024-08",
-        "value": 0.19,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2024-09",
-        "value": -0.1,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2024-10",
-        "value": -0.01,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2024-11",
-        "value": -0.03,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2024-12",
-        "value": -0.52,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2025-01",
-        "value": -0.64,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2025-02",
-        "value": -0.42,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2025-03",
-        "value": 0.04,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2025-04",
-        "value": -0.05,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2025-05",
-        "value": 0.07,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2025-06",
-        "value": 0.15,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2025-07",
-        "value": 0.14,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2025-08",
-        "value": -0.15,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2025-09",
-        "value": -0.32,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2025-10",
-        "value": -0.42,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2025-11",
-        "value": -0.54,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2025-12",
-        "value": -0.39,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2026-01",
-        "value": -0.4,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2026-02",
-        "value": -0.02,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2026-03",
-        "value": 0.22,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2026-04",
-        "value": 0.74,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2026-05",
-        "value": 1.09,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2026-06",
-        "value": 1.58,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2026-07",
-        "value": 1.73,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2026-08",
-        "value": 1.89,
-        "source": "NOAA Niño 3.4 anomaly"
-      },
-      {
-        "date": "2026-09",
         "value": 2.09,
         "source": "NOAA Niño 3.4 anomaly"
       },
       {
+        "date": "2023-12",
+        "value": 1.99,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2024-01",
+        "value": 1.82,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2024-02",
+        "value": 1.47,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2024-03",
+        "value": 1.08,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2024-04",
+        "value": 0.96,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2024-05",
+        "value": 0.38,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2024-06",
+        "value": 0.18,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2024-07",
+        "value": 0.25,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2024-08",
+        "value": 0.03,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2024-09",
+        "value": -0.24,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2024-10",
+        "value": -0.09,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2024-11",
+        "value": -0.14,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2024-12",
+        "value": -0.57,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2025-01",
+        "value": -0.65,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2025-02",
+        "value": -0.4,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2025-03",
+        "value": 0.16,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2025-04",
+        "value": -0.04,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2025-05",
+        "value": 0.02,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2025-06",
+        "value": 0.11,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2025-07",
+        "value": 0.08,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2025-08",
+        "value": -0.27,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2025-09",
+        "value": -0.45,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2025-10",
+        "value": -0.52,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2025-11",
+        "value": -0.65,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2025-12",
+        "value": -0.58,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2026-01",
+        "value": -0.64,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2026-02",
+        "value": -0.21,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2026-03",
+        "value": 0.01,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2026-04",
+        "value": 0.5,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2026-05",
+        "value": 0.96,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2026-06",
+        "value": 1.56,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2026-07",
+        "value": 1.89,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2026-08",
+        "value": 2.21,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
+        "date": "2026-09",
+        "value": 2.54,
+        "source": "NOAA Niño 3.4 anomaly"
+      },
+      {
         "date": "2026-10",
-        "value": 2.3,
+        "value": 2.72,
         "source": "NOAA Niño 3.4 anomaly"
       }
     ]

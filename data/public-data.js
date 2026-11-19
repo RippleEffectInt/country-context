@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-11-18T14:03:34.311Z",
+  "generatedAt": "2026-11-19T14:27:41.618Z",
   "previous": {
-    "generatedAt": "2026-11-17T14:28:25.741Z",
+    "generatedAt": "2026-11-18T14:03:34.311Z",
     "global": {
       "enso": {
         "latest": {
@@ -253,20 +253,7 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 630939,
           "asylumSeekers": 226106
         },
-        "gdacs": [
-          {
-            "type": "DR",
-            "eventId": 1027450,
-            "episodeId": 14,
-            "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Kenya, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-            "alertLevel": "Orange",
-            "date": "2026-05-21T00:00:00",
-            "toDate": "2026-11-17T10:56:18",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=14&eventtype=DR",
-            "country": "Burundi, Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Kenya, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-            "iso3": "BDI"
-          }
-        ]
+        "gdacs": []
       },
       "UGA": {
         "rainfall": {
@@ -316,20 +303,7 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 1957555,
           "asylumSeekers": 74121
         },
-        "gdacs": [
-          {
-            "type": "DR",
-            "eventId": 1027450,
-            "episodeId": 14,
-            "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Kenya, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-            "alertLevel": "Orange",
-            "date": "2026-05-21T00:00:00",
-            "toDate": "2026-11-17T10:56:18",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=14&eventtype=DR",
-            "country": "Burundi, Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Kenya, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-            "iso3": "BDI"
-          }
-        ]
+        "gdacs": []
       },
       "RWA": {
         "rainfall": {
@@ -370,20 +344,7 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 117457,
           "asylumSeekers": 15745
         },
-        "gdacs": [
-          {
-            "type": "DR",
-            "eventId": 1027450,
-            "episodeId": 14,
-            "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Kenya, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-            "alertLevel": "Orange",
-            "date": "2026-05-21T00:00:00",
-            "toDate": "2026-11-17T10:56:18",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=14&eventtype=DR",
-            "country": "Burundi, Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Kenya, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-            "iso3": "BDI"
-          }
-        ]
+        "gdacs": []
       },
       "BDI": {
         "rainfall": {
@@ -429,20 +390,7 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 157929,
           "asylumSeekers": 1458
         },
-        "gdacs": [
-          {
-            "type": "DR",
-            "eventId": 1027450,
-            "episodeId": 14,
-            "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Kenya, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-            "alertLevel": "Orange",
-            "date": "2026-05-21T00:00:00",
-            "toDate": "2026-11-17T10:56:18",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=14&eventtype=DR",
-            "country": "Burundi, Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Kenya, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-            "iso3": "BDI"
-          }
-        ]
+        "gdacs": []
       },
       "ETH": {
         "rainfall": {
@@ -492,20 +440,7 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 1014654,
           "asylumSeekers": 110877
         },
-        "gdacs": [
-          {
-            "type": "DR",
-            "eventId": 1027450,
-            "episodeId": 14,
-            "name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Kenya, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-            "alertLevel": "Orange",
-            "date": "2026-05-21T00:00:00",
-            "toDate": "2026-11-17T10:56:18",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=14&eventtype=DR",
-            "country": "Burundi, Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Kenya, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-            "iso3": "BDI"
-          }
-        ]
+        "gdacs": []
       },
       "ZMB": {
         "rainfall": {
@@ -563,62 +498,68 @@ window.PUBLIC_COUNTRY_DATA = {
     {
       "scope": "Global",
       "metric": "ENSO",
-      "text": "Niño 3.4 rose 27.39°C to 29.69°C.",
+      "text": "Niño 3.4 rose 27.09°C to 29.39°C.",
       "severity": "medium"
+    },
+    {
+      "scope": "Ethiopia",
+      "metric": "Disaster alert",
+      "text": "New GDACS alert: Forest fires in Ethiopia, Sudan.",
+      "severity": "high"
     }
   ],
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-11-18T14:04:21.520Z"
+      "updatedAt": "2026-11-19T14:33:10.123Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-11-18T14:04:22.428Z"
+      "updatedAt": "2026-11-19T14:33:11.494Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-11-18T14:04:42.825Z",
+      "updatedAt": "2026-11-19T14:33:38.557Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-11-18T14:05:14.711Z",
+      "updatedAt": "2026-11-19T14:34:16.244Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-11-18T14:04:24.655Z"
+      "updatedAt": "2026-11-19T14:33:14.719Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-11-18T14:04:24.817Z"
+      "updatedAt": "2026-11-19T14:33:15.412Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-11-18T14:04:28.385Z"
+      "updatedAt": "2026-11-19T14:33:20.343Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-11-18T14:04:30.775Z"
+      "updatedAt": "2026-11-19T14:33:23.348Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-11-18T14:04:40.966Z"
+      "updatedAt": "2026-11-19T14:33:36.267Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-11-18T14:04:42.613Z"
+      "updatedAt": "2026-11-19T14:33:38.246Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-11-18T14:04:42.627Z",
+      "lastAttempt": "2026-11-19T14:33:38.323Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-11-18T14:05:13.982Z",
+      "updatedAt": "2026-11-19T14:34:15.530Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -1207,7 +1148,20 @@ window.PUBLIC_COUNTRY_DATA = {
         "refugees": 1014654,
         "asylumSeekers": 110877
       },
-      "gdacs": [],
+      "gdacs": [
+        {
+          "type": "WF",
+          "eventId": 1033887,
+          "episodeId": 5,
+          "name": "Forest fires in Ethiopia, Sudan",
+          "alertLevel": "Green",
+          "date": "2026-11-10T00:00:00",
+          "toDate": "2026-11-18T00:00:00",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033887&episodeid=5&eventtype=WF",
+          "country": "Ethiopia, Sudan",
+          "iso3": "ETH"
+        }
+      ],
       "inform": {
         "overallRisk": 7.1,
         "riskClass": 5,
@@ -1511,12 +1465,12 @@ window.PUBLIC_COUNTRY_DATA = {
       "latest": {
         "year": 2026,
         "month": 10,
-        "value": 2.3
+        "value": 2.72
       },
       "previous": {
         "year": 2026,
         "month": 9,
-        "value": 2.09
+        "value": 2.54
       },
       "signal": "Warm / El Niño signal",
       "trend": "Strengthening",
@@ -1524,182 +1478,182 @@ window.PUBLIC_COUNTRY_DATA = {
         {
           "year": 2023,
           "month": 11,
-          "value": 1.86
+          "value": 2.09
         },
         {
           "year": 2023,
           "month": 12,
-          "value": 1.76
+          "value": 1.99
         },
         {
           "year": 2024,
           "month": 1,
-          "value": 1.64
+          "value": 1.82
         },
         {
           "year": 2024,
           "month": 2,
-          "value": 1.39
+          "value": 1.47
         },
         {
           "year": 2024,
           "month": 3,
-          "value": 1.04
+          "value": 1.08
         },
         {
           "year": 2024,
           "month": 4,
-          "value": 0.98
+          "value": 0.96
         },
         {
           "year": 2024,
           "month": 5,
-          "value": 0.5
+          "value": 0.38
         },
         {
           "year": 2024,
           "month": 6,
-          "value": 0.37
+          "value": 0.18
         },
         {
           "year": 2024,
           "month": 7,
-          "value": 0.4
+          "value": 0.25
         },
         {
           "year": 2024,
           "month": 8,
-          "value": 0.19
+          "value": 0.03
         },
         {
           "year": 2024,
           "month": 9,
-          "value": -0.1
+          "value": -0.24
         },
         {
           "year": 2024,
           "month": 10,
-          "value": -0.01
+          "value": -0.09
         },
         {
           "year": 2024,
           "month": 11,
-          "value": -0.03
+          "value": -0.14
         },
         {
           "year": 2024,
           "month": 12,
+          "value": -0.57
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "value": -0.65
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "value": -0.4
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "value": 0.16
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "value": -0.04
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "value": 0.02
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "value": 0.11
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "value": 0.08
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "value": -0.27
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "value": -0.45
+        },
+        {
+          "year": 2025,
+          "month": 10,
           "value": -0.52
         },
         {
           "year": 2025,
-          "month": 1,
-          "value": -0.64
-        },
-        {
-          "year": 2025,
-          "month": 2,
-          "value": -0.42
-        },
-        {
-          "year": 2025,
-          "month": 3,
-          "value": 0.04
-        },
-        {
-          "year": 2025,
-          "month": 4,
-          "value": -0.05
-        },
-        {
-          "year": 2025,
-          "month": 5,
-          "value": 0.07
-        },
-        {
-          "year": 2025,
-          "month": 6,
-          "value": 0.15
-        },
-        {
-          "year": 2025,
-          "month": 7,
-          "value": 0.14
-        },
-        {
-          "year": 2025,
-          "month": 8,
-          "value": -0.15
-        },
-        {
-          "year": 2025,
-          "month": 9,
-          "value": -0.32
-        },
-        {
-          "year": 2025,
-          "month": 10,
-          "value": -0.42
-        },
-        {
-          "year": 2025,
           "month": 11,
-          "value": -0.54
+          "value": -0.65
         },
         {
           "year": 2025,
           "month": 12,
-          "value": -0.39
+          "value": -0.58
         },
         {
           "year": 2026,
           "month": 1,
-          "value": -0.4
+          "value": -0.64
         },
         {
           "year": 2026,
           "month": 2,
-          "value": -0.02
+          "value": -0.21
         },
         {
           "year": 2026,
           "month": 3,
-          "value": 0.22
+          "value": 0.01
         },
         {
           "year": 2026,
           "month": 4,
-          "value": 0.74
+          "value": 0.5
         },
         {
           "year": 2026,
           "month": 5,
-          "value": 1.09
+          "value": 0.96
         },
         {
           "year": 2026,
           "month": 6,
-          "value": 1.58
+          "value": 1.56
         },
         {
           "year": 2026,
           "month": 7,
-          "value": 1.73
-        },
-        {
-          "year": 2026,
-          "month": 8,
           "value": 1.89
         },
         {
           "year": 2026,
+          "month": 8,
+          "value": 2.21
+        },
+        {
+          "year": 2026,
           "month": 9,
-          "value": 2.09
+          "value": 2.54
         },
         {
           "year": 2026,
           "month": 10,
-          "value": 2.3
+          "value": 2.72
         }
       ],
       "metric": "Niño 3.4 SST anomaly",
