@@ -1,7 +1,7 @@
 window.PUBLIC_COUNTRY_DATA = {
-  "generatedAt": "2026-11-23T16:01:16.609Z",
+  "generatedAt": "2026-11-24T15:55:13.606Z",
   "previous": {
-    "generatedAt": "2026-11-22T13:23:03.369Z",
+    "generatedAt": "2026-11-23T16:01:16.609Z",
     "global": {
       "enso": {
         "latest": {
@@ -440,20 +440,7 @@ window.PUBLIC_COUNTRY_DATA = {
           "refugees": 1014654,
           "asylumSeekers": 110877
         },
-        "gdacs": [
-          {
-            "type": "WF",
-            "eventId": 1033961,
-            "episodeId": 3,
-            "name": "Forest fires in Ethiopia, Sudan",
-            "alertLevel": "Green",
-            "date": "2026-11-09T00:00:00",
-            "toDate": "2026-11-21T00:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033961&episodeid=3&eventtype=WF",
-            "country": "Ethiopia, Sudan",
-            "iso3": "ETH"
-          }
-        ]
+        "gdacs": []
       },
       "ZMB": {
         "rainfall": {
@@ -518,55 +505,55 @@ window.PUBLIC_COUNTRY_DATA = {
   "sources": {
     "World Bank": {
       "status": "ok",
-      "updatedAt": "2026-11-23T16:09:46.415Z"
+      "updatedAt": "2026-11-24T15:56:21.839Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-11-23T16:09:47.643Z"
+      "updatedAt": "2026-11-24T15:56:23.071Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-11-23T16:10:29.801Z",
+      "updatedAt": "2026-11-24T15:57:02.408Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-11-23T16:11:16.325Z",
+      "updatedAt": "2026-11-24T15:58:31.682Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-11-23T16:09:52.687Z"
+      "updatedAt": "2026-11-24T15:56:27.093Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-11-23T16:09:53.223Z"
+      "updatedAt": "2026-11-24T15:56:27.502Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-11-23T16:09:59.063Z"
+      "updatedAt": "2026-11-24T15:56:34.477Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-11-23T16:10:02.083Z"
+      "updatedAt": "2026-11-24T15:56:37.821Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-11-23T16:10:26.682Z"
+      "updatedAt": "2026-11-24T15:56:59.790Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-11-23T16:10:29.543Z"
+      "updatedAt": "2026-11-24T15:57:02.001Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-11-23T16:10:29.592Z",
+      "lastAttempt": "2026-11-24T15:57:02.035Z",
       "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
       "status": "ok",
-      "updatedAt": "2026-11-23T16:11:13.972Z",
+      "updatedAt": "2026-11-24T15:58:30.947Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
@@ -606,9 +593,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
       "rainfall": {
-        "anomalyPct": 81.34895952124218,
+        "anomalyPct": 111.04755657159802,
         "referencePeriodStart": null,
-        "referencePeriodEnd": "2026-11-01",
+        "referencePeriodEnd": "2026-11-11",
         "aggregationPeriod": "one_month",
         "adminUnits": 8,
         "source": "WFP CHIRPS via HDX"
@@ -745,42 +732,42 @@ window.PUBLIC_COUNTRY_DATA = {
           {
             "name": null,
             "code": "KE047",
-            "anomalyPct": 64.13749
-          },
-          {
-            "name": null,
-            "code": "KE008",
-            "anomalyPct": 72.69775
-          },
-          {
-            "name": null,
-            "code": "KE010",
-            "anomalyPct": 74.44201
-          },
-          {
-            "name": null,
-            "code": "KE004",
-            "anomalyPct": 81.48655
+            "anomalyPct": 59.737057
           },
           {
             "name": null,
             "code": "KE019",
-            "anomalyPct": 82.79611000000001
-          },
-          {
-            "name": null,
-            "code": "KE023",
-            "anomalyPct": 89.21338
+            "anomalyPct": 71.12995
           },
           {
             "name": null,
             "code": "KE037",
-            "anomalyPct": 110.25405
+            "anomalyPct": 103.61962
+          },
+          {
+            "name": null,
+            "code": "KE010",
+            "anomalyPct": 103.839874
+          },
+          {
+            "name": null,
+            "code": "KE023",
+            "anomalyPct": 109.14226500000001
+          },
+          {
+            "name": null,
+            "code": "KE008",
+            "anomalyPct": 110.401665
           },
           {
             "name": null,
             "code": "KE043",
-            "anomalyPct": 124.77355
+            "anomalyPct": 124.672005
+          },
+          {
+            "name": null,
+            "code": "KE004",
+            "anomalyPct": 134.89325
           }
         ]
       }
@@ -819,9 +806,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
       "rainfall": {
-        "anomalyPct": 99.90425412818604,
+        "anomalyPct": 94.31965087419887,
         "referencePeriodStart": null,
-        "referencePeriodEnd": "2026-11-01",
+        "referencePeriodEnd": "2026-11-11",
         "aggregationPeriod": "one_month",
         "adminUnits": 4,
         "source": "WFP CHIRPS via HDX"
@@ -857,22 +844,22 @@ window.PUBLIC_COUNTRY_DATA = {
           {
             "name": null,
             "code": "UG4",
-            "anomalyPct": 89.95489916797109
+            "anomalyPct": 79.93880245996388
           },
           {
             "name": null,
             "code": "UG1",
-            "anomalyPct": 98.76775008593155
-          },
-          {
-            "name": null,
-            "code": "UG3",
-            "anomalyPct": 101.52984637878238
+            "anomalyPct": 82.70590709961976
           },
           {
             "name": null,
             "code": "UG2",
-            "anomalyPct": 113.60261964444445
+            "anomalyPct": 96.53940943232323
+          },
+          {
+            "name": null,
+            "code": "UG3",
+            "anomalyPct": 107.79435058512578
           }
         ]
       }
@@ -911,9 +898,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
       "rainfall": {
-        "anomalyPct": 96.51943457614213,
+        "anomalyPct": 94.74249763324873,
         "referencePeriodStart": null,
-        "referencePeriodEnd": "2026-11-01",
+        "referencePeriodEnd": "2026-11-11",
         "aggregationPeriod": "one_month",
         "adminUnits": 5,
         "source": "WFP CHIRPS via HDX"
@@ -939,28 +926,28 @@ window.PUBLIC_COUNTRY_DATA = {
         "rainfall": [
           {
             "name": null,
-            "code": "RW1",
-            "anomalyPct": 84.88463
-          },
-          {
-            "name": null,
             "code": "RW5",
-            "anomalyPct": 92.52956
-          },
-          {
-            "name": null,
-            "code": "RW2",
-            "anomalyPct": 97.50542
+            "anomalyPct": 91.14474
           },
           {
             "name": null,
             "code": "RW4",
-            "anomalyPct": 99.468346
+            "anomalyPct": 93.55406
+          },
+          {
+            "name": null,
+            "code": "RW1",
+            "anomalyPct": 94.84859500000002
           },
           {
             "name": null,
             "code": "RW3",
-            "anomalyPct": 102.81438
+            "anomalyPct": 96.78862
+          },
+          {
+            "name": null,
+            "code": "RW2",
+            "anomalyPct": 99.28371
           }
         ]
       }
@@ -999,9 +986,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
       "rainfall": {
-        "anomalyPct": 102.76254412686566,
+        "anomalyPct": 115.9500252823383,
         "referencePeriodStart": null,
-        "referencePeriodEnd": "2026-11-01",
+        "referencePeriodEnd": "2026-11-11",
         "aggregationPeriod": "one_month",
         "adminUnits": 18,
         "source": "WFP CHIRPS via HDX"
@@ -1030,7 +1017,7 @@ window.PUBLIC_COUNTRY_DATA = {
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Plateaux secs de l'est",
+            "name": "Crête congo Nil",
             "phase3Plus": 3040874
           },
           {
@@ -1041,93 +1028,93 @@ window.PUBLIC_COUNTRY_DATA = {
         "rainfall": [
           {
             "name": null,
-            "code": "BDI005",
-            "anomalyPct": 86.00098
-          },
-          {
-            "name": null,
-            "code": "BDI001",
-            "anomalyPct": 88.62277
-          },
-          {
-            "name": null,
-            "code": "BDI008",
-            "anomalyPct": 91.191475
-          },
-          {
-            "name": null,
-            "code": "BDI002",
-            "anomalyPct": 91.772896
-          },
-          {
-            "name": null,
-            "code": "BDI011",
-            "anomalyPct": 93.37132
-          },
-          {
-            "name": null,
-            "code": "BDI017",
-            "anomalyPct": 93.83006
-          },
-          {
-            "name": null,
-            "code": "BDI014",
-            "anomalyPct": 94.74131
-          },
-          {
-            "name": null,
-            "code": "BDI013",
-            "anomalyPct": 94.75629
-          },
-          {
-            "name": null,
-            "code": "BDI006",
-            "anomalyPct": 95.71254
-          },
-          {
-            "name": null,
             "code": "BDI009",
-            "anomalyPct": 97.347206
-          },
-          {
-            "name": null,
-            "code": "BDI003",
-            "anomalyPct": 100.713005
-          },
-          {
-            "name": null,
-            "code": "BDI018",
-            "anomalyPct": 103.784645
-          },
-          {
-            "name": null,
-            "code": "BDI010",
-            "anomalyPct": 105.428024
-          },
-          {
-            "name": null,
-            "code": "BDI007",
-            "anomalyPct": 108.002304
-          },
-          {
-            "name": null,
-            "code": "BDI016",
-            "anomalyPct": 109.65071
-          },
-          {
-            "name": null,
-            "code": "BDI015",
-            "anomalyPct": 111.37655
+            "anomalyPct": 90.55178
           },
           {
             "name": null,
             "code": "BDI012",
-            "anomalyPct": 114.7526
+            "anomalyPct": 91.22436
+          },
+          {
+            "name": null,
+            "code": "BDI007",
+            "anomalyPct": 91.69011
+          },
+          {
+            "name": null,
+            "code": "BDI014",
+            "anomalyPct": 93.312096
+          },
+          {
+            "name": null,
+            "code": "BDI008",
+            "anomalyPct": 98.683685
+          },
+          {
+            "name": null,
+            "code": "BDI001",
+            "anomalyPct": 99.2897
+          },
+          {
+            "name": null,
+            "code": "BDI005",
+            "anomalyPct": 100.112366
+          },
+          {
+            "name": null,
+            "code": "BDI011",
+            "anomalyPct": 100.426445
+          },
+          {
+            "name": null,
+            "code": "BDI016",
+            "anomalyPct": 103.31834
           },
           {
             "name": null,
             "code": "BDI004",
-            "anomalyPct": 131.12785
+            "anomalyPct": 104.43636
+          },
+          {
+            "name": null,
+            "code": "BDI006",
+            "anomalyPct": 116.61659
+          },
+          {
+            "name": null,
+            "code": "BDI017",
+            "anomalyPct": 124.34857
+          },
+          {
+            "name": null,
+            "code": "BDI013",
+            "anomalyPct": 125.92021000000001
+          },
+          {
+            "name": null,
+            "code": "BDI002",
+            "anomalyPct": 132.18697
+          },
+          {
+            "name": null,
+            "code": "BDI003",
+            "anomalyPct": 149.23965
+          },
+          {
+            "name": null,
+            "code": "BDI015",
+            "anomalyPct": 150.90030999999996
+          },
+          {
+            "name": null,
+            "code": "BDI018",
+            "anomalyPct": 155.04398
+          },
+          {
+            "name": null,
+            "code": "BDI010",
+            "anomalyPct": 167.54613
           }
         ]
       }
@@ -1166,9 +1153,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
       "rainfall": {
-        "anomalyPct": 114.28822060885001,
+        "anomalyPct": 94.76978484684587,
         "referencePeriodStart": null,
-        "referencePeriodEnd": "2026-11-01",
+        "referencePeriodEnd": "2026-11-11",
         "aggregationPeriod": "one_month",
         "adminUnits": 11,
         "source": "WFP CHIRPS via HDX"
@@ -1202,58 +1189,58 @@ window.PUBLIC_COUNTRY_DATA = {
         "rainfall": [
           {
             "name": null,
-            "code": "ET12",
-            "anomalyPct": 65.466866
-          },
-          {
-            "name": null,
             "code": "ET06",
-            "anomalyPct": 79.668396
+            "anomalyPct": 56.146397
           },
           {
             "name": null,
-            "code": "ET14",
-            "anomalyPct": 97.656944
-          },
-          {
-            "name": null,
-            "code": "ET04",
-            "anomalyPct": 100.80968500000002
-          },
-          {
-            "name": null,
-            "code": "ET07",
-            "anomalyPct": 101.74245
-          },
-          {
-            "name": null,
-            "code": "ET15",
-            "anomalyPct": 106.25738
-          },
-          {
-            "name": null,
-            "code": "ET02",
-            "anomalyPct": 108.46971
-          },
-          {
-            "name": null,
-            "code": "ET01",
-            "anomalyPct": 111.89102
-          },
-          {
-            "name": null,
-            "code": "ET13",
-            "anomalyPct": 115.57107
-          },
-          {
-            "name": null,
-            "code": "ET03",
-            "anomalyPct": 119.208405
+            "code": "ET12",
+            "anomalyPct": 62.474434
           },
           {
             "name": null,
             "code": "ET05",
-            "anomalyPct": 141.87457
+            "anomalyPct": 80.97622
+          },
+          {
+            "name": null,
+            "code": "ET14",
+            "anomalyPct": 87.080826
+          },
+          {
+            "name": null,
+            "code": "ET04",
+            "anomalyPct": 90.16889
+          },
+          {
+            "name": null,
+            "code": "ET03",
+            "anomalyPct": 92.23992
+          },
+          {
+            "name": null,
+            "code": "ET15",
+            "anomalyPct": 95.50698
+          },
+          {
+            "name": null,
+            "code": "ET13",
+            "anomalyPct": 97.48711000000002
+          },
+          {
+            "name": null,
+            "code": "ET01",
+            "anomalyPct": 118.61933
+          },
+          {
+            "name": null,
+            "code": "ET07",
+            "anomalyPct": 126.99518
+          },
+          {
+            "name": null,
+            "code": "ET02",
+            "anomalyPct": 137.89426
           }
         ],
         "foodSecurity": [
@@ -1323,9 +1310,9 @@ window.PUBLIC_COUNTRY_DATA = {
         "referencePeriodEnd": "2025-12-31T23:59:59.999999"
       },
       "rainfall": {
-        "anomalyPct": 78.75652835312943,
+        "anomalyPct": 95.62082756094796,
         "referencePeriodStart": null,
-        "referencePeriodEnd": "2026-11-01",
+        "referencePeriodEnd": "2026-11-11",
         "aggregationPeriod": "one_month",
         "adminUnits": 10,
         "source": "WFP CHIRPS via HDX"
@@ -1360,52 +1347,52 @@ window.PUBLIC_COUNTRY_DATA = {
           {
             "name": null,
             "code": "ZM102",
-            "anomalyPct": 60.447567
-          },
-          {
-            "name": null,
-            "code": "ZM109",
-            "anomalyPct": 65.17324
-          },
-          {
-            "name": null,
-            "code": "ZM103",
-            "anomalyPct": 65.71489
-          },
-          {
-            "name": null,
-            "code": "ZM101",
-            "anomalyPct": 69.881134
+            "anomalyPct": 70.448326
           },
           {
             "name": null,
             "code": "ZM108",
-            "anomalyPct": 73.13856
+            "anomalyPct": 72.116455
           },
           {
             "name": null,
             "code": "ZM110",
-            "anomalyPct": 74.45762
+            "anomalyPct": 72.62203
           },
           {
             "name": null,
             "code": "ZM105",
-            "anomalyPct": 76.567505
+            "anomalyPct": 72.920815
+          },
+          {
+            "name": null,
+            "code": "ZM109",
+            "anomalyPct": 74.21666
+          },
+          {
+            "name": null,
+            "code": "ZM101",
+            "anomalyPct": 74.99169
           },
           {
             "name": null,
             "code": "ZM104",
-            "anomalyPct": 89.90075999999999
+            "anomalyPct": 112.68022
           },
           {
             "name": null,
-            "code": "ZM106",
-            "anomalyPct": 97.945816
+            "code": "ZM103",
+            "anomalyPct": 124.28998000000001
           },
           {
             "name": null,
             "code": "ZM107",
-            "anomalyPct": 109.8367
+            "anomalyPct": 143.5094
+          },
+          {
+            "name": null,
+            "code": "ZM106",
+            "anomalyPct": 156.22899
           }
         ],
         "foodSecurity": [
