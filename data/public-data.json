@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-25T15:38:47.059Z",
+  "generatedAt": "2026-11-26T15:20:54.369Z",
   "previous": {
-    "generatedAt": "2026-11-24T15:55:13.606Z",
+    "generatedAt": "2026-11-25T15:38:47.059Z",
     "global": {
       "enso": {
         "latest": {
@@ -303,7 +303,20 @@
           "refugees": 1957555,
           "asylumSeekers": 74121
         },
-        "gdacs": []
+        "gdacs": [
+          {
+            "type": "FL",
+            "eventId": 1104299,
+            "episodeId": 1,
+            "name": "Flood in Uganda",
+            "alertLevel": "Green",
+            "date": "2026-11-22T01:00:00",
+            "toDate": "2026-11-24T01:00:00",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1104299&episodeid=1&eventtype=FL",
+            "country": "Uganda",
+            "iso3": "UGA"
+          }
+        ]
       },
       "RWA": {
         "rainfall": {
@@ -500,61 +513,57 @@
       "metric": "ENSO",
       "text": "Niño 3.4 rose 26.67°C to 29.39°C.",
       "severity": "medium"
-    },
-    {
-      "scope": "Uganda",
-      "metric": "Disaster alert",
-      "text": "New GDACS alert: Flood in Uganda.",
-      "severity": "high"
     }
   ],
   "sources": {
     "World Bank": {
-      "status": "ok",
-      "updatedAt": "2026-11-25T15:38:48.629Z"
+      "status": "stale",
+      "updatedAt": "2026-11-25T15:38:48.629Z",
+      "lastAttempt": "2026-11-26T15:20:54.879Z",
+      "error": "400 Bad Request"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-11-25T15:38:49.815Z"
+      "updatedAt": "2026-11-26T15:20:57.042Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-11-25T15:38:56.207Z",
+      "updatedAt": "2026-11-26T15:21:03.854Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-11-25T15:39:11.853Z",
+      "updatedAt": "2026-11-26T15:21:19.009Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-11-25T15:38:53.723Z"
+      "updatedAt": "2026-11-26T15:21:01.247Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-11-25T15:38:54.295Z"
+      "updatedAt": "2026-11-26T15:21:01.635Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-11-25T15:38:54.700Z"
+      "updatedAt": "2026-11-26T15:21:02.886Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-11-25T15:38:55.103Z"
+      "updatedAt": "2026-11-26T15:21:03.117Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-11-25T15:38:55.507Z"
+      "updatedAt": "2026-11-26T15:21:03.349Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-11-25T15:38:55.910Z"
+      "updatedAt": "2026-11-26T15:21:03.581Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-11-25T15:38:55.978Z",
+      "lastAttempt": "2026-11-26T15:21:03.620Z",
       "error": "Unexpected end of JSON input"
     },
     "WFP CHIRPS via HDX": {
@@ -562,7 +571,7 @@
       "updatedAt": "2026-11-24T15:58:30.947Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
       "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational",
-      "lastAttempt": "2026-11-25T15:39:10.857Z",
+      "lastAttempt": "2026-11-26T15:21:17.940Z",
       "error": "No country direct CHIRPS refresh succeeded; previous data preserved."
     }
   },
@@ -803,20 +812,7 @@
         "refugees": 1957555,
         "asylumSeekers": 74121
       },
-      "gdacs": [
-        {
-          "type": "FL",
-          "eventId": 1104299,
-          "episodeId": 1,
-          "name": "Flood in Uganda",
-          "alertLevel": "Green",
-          "date": "2026-11-22T01:00:00",
-          "toDate": "2026-11-24T01:00:00",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104299&episodeid=1&eventtype=FL",
-          "country": "Uganda",
-          "iso3": "UGA"
-        }
-      ],
+      "gdacs": [],
       "inform": {
         "overallRisk": 5.7,
         "riskClass": 4,
