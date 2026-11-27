@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-26T15:20:54.369Z",
+  "generatedAt": "2026-11-27T15:08:49.275Z",
   "previous": {
-    "generatedAt": "2026-11-25T15:38:47.059Z",
+    "generatedAt": "2026-11-26T15:20:54.369Z",
     "global": {
       "enso": {
         "latest": {
@@ -303,20 +303,7 @@
           "refugees": 1957555,
           "asylumSeekers": 74121
         },
-        "gdacs": [
-          {
-            "type": "FL",
-            "eventId": 1104299,
-            "episodeId": 1,
-            "name": "Flood in Uganda",
-            "alertLevel": "Green",
-            "date": "2026-11-22T01:00:00",
-            "toDate": "2026-11-24T01:00:00",
-            "url": "https://www.gdacs.org/report.aspx?eventid=1104299&episodeid=1&eventtype=FL",
-            "country": "Uganda",
-            "iso3": "UGA"
-          }
-        ]
+        "gdacs": []
       },
       "RWA": {
         "rainfall": {
@@ -517,62 +504,58 @@
   ],
   "sources": {
     "World Bank": {
-      "status": "stale",
-      "updatedAt": "2026-11-25T15:38:48.629Z",
-      "lastAttempt": "2026-11-26T15:20:54.879Z",
-      "error": "400 Bad Request"
+      "status": "ok",
+      "updatedAt": "2026-11-27T15:08:50.128Z"
     },
     "UNHCR": {
       "status": "ok",
-      "updatedAt": "2026-11-26T15:20:57.042Z"
+      "updatedAt": "2026-11-27T15:08:51.043Z"
     },
     "NOAA Niño 3.4": {
       "status": "ok",
-      "updatedAt": "2026-11-26T15:21:03.854Z",
+      "updatedAt": "2026-11-27T15:09:32.139Z",
       "note": "Monthly Niño 3.4 sea-surface-temperature anomaly (not absolute SST)"
     },
     "GDACS": {
       "status": "ok",
-      "updatedAt": "2026-11-26T15:21:19.009Z",
+      "updatedAt": "2026-11-27T15:10:05.017Z",
       "note": "Current disaster alerts matched using GDACS country/ISO fields"
     },
     "HDX HAPI · INFORM": {
       "status": "ok",
-      "updatedAt": "2026-11-26T15:21:01.247Z"
+      "updatedAt": "2026-11-27T15:08:55.837Z"
     },
     "HDX HAPI · CHIRPS": {
       "status": "ok",
-      "updatedAt": "2026-11-26T15:21:01.635Z"
+      "updatedAt": "2026-11-27T15:08:56.275Z"
     },
     "HDX HAPI · IPC": {
       "status": "ok",
-      "updatedAt": "2026-11-26T15:21:02.886Z"
+      "updatedAt": "2026-11-27T15:09:05.929Z"
     },
     "HDX HAPI · IDPs": {
       "status": "ok",
-      "updatedAt": "2026-11-26T15:21:03.117Z"
+      "updatedAt": "2026-11-27T15:09:09.109Z"
     },
     "HDX HAPI · ACLED aggregate": {
       "status": "ok",
-      "updatedAt": "2026-11-26T15:21:03.349Z"
+      "updatedAt": "2026-11-27T15:09:30.048Z"
     },
     "HDX HAPI · OCHA FTS": {
       "status": "ok",
-      "updatedAt": "2026-11-26T15:21:03.581Z"
+      "updatedAt": "2026-11-27T15:09:31.767Z"
     },
     "HDX HAPI · subnational": {
       "status": "stale",
       "updatedAt": "2026-09-05T16:58:58.389Z",
-      "lastAttempt": "2026-11-26T15:21:03.620Z",
-      "error": "Unexpected end of JSON input"
+      "lastAttempt": "2026-11-27T15:09:31.779Z",
+      "error": "404 Not Found"
     },
     "WFP CHIRPS via HDX": {
-      "status": "stale",
-      "updatedAt": "2026-11-24T15:58:30.947Z",
+      "status": "ok",
+      "updatedAt": "2026-11-27T15:10:03.282Z",
       "note": "WFP pre-computed CHIRPS 1-month rainfall anomaly (r1q) downloaded directly from HDX.",
-      "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational",
-      "lastAttempt": "2026-11-26T15:21:17.940Z",
-      "error": "No country direct CHIRPS refresh succeeded; previous data preserved."
+      "datasetUrl": "https://data.humdata.org/dataset/zmb-rainfall-subnational"
     }
   },
   "countries": {
@@ -645,7 +628,7 @@
       "subnational": {
         "foodSecurity": [
           {
-            "name": "Kalobeyei",
+            "name": "Dadaab",
             "phase3Plus": 6644772
           },
           {
